@@ -18,26 +18,17 @@
             "validLabel": "c1"
         },
         "y": {
-            "name": "percentage",
-            "validName": "percentage",
+            "name": "ARR_DELAY",
+            "validName": "ARR_DELAY",
             "type": "numeric",
             "isNumeric": true,
             "isDate": false,
-            "func": "sum",
+            "func": "ave",
             "label": "c2",
             "validLabel": "c2"
         },
         "size": "",
-        "color": {
-            "name": "DEST_STATE_ABR",
-            "validName": "DEST_STATE_ABR",
-            "type": "character",
-            "isNumeric": false,
-            "isDate": false,
-            "func": "none",
-            "label": "c3",
-            "validLabel": "c3"
-        },
+        "color": null,
         "text": "",
         "shape": "",
         "facetcolumn": "",
@@ -54,10 +45,82 @@
         "mapmode": "USA-states",
         "columns": [
             {
+                "name": "FL_DATE",
+                "type": "Date",
+                "escapedName": "FL_DATE",
+                "_row": "FL_DATE",
+                "isNumeric": false,
+                "isDate": true
+            },
+            {
                 "name": "CARRIER",
                 "type": "character",
                 "escapedName": "CARRIER",
                 "_row": "CARRIER",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "FL_NUM",
+                "type": "integer",
+                "escapedName": "FL_NUM",
+                "_row": "FL_NUM",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "ORIGIN_CITY_MARKET_ID",
+                "type": "integer",
+                "escapedName": "ORIGIN_CITY_MARKET_ID",
+                "_row": "ORIGIN_CITY_MARKET_ID",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "ORIGIN",
+                "type": "character",
+                "escapedName": "ORIGIN",
+                "_row": "ORIGIN",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "ORIGIN_CITY_NAME",
+                "type": "character",
+                "escapedName": "ORIGIN_CITY_NAME",
+                "_row": "ORIGIN_CITY_NAME",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "ORIGIN_STATE_ABR",
+                "type": "character",
+                "escapedName": "ORIGIN_STATE_ABR",
+                "_row": "ORIGIN_STATE_ABR",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "ORIGIN_STATE_NM",
+                "type": "character",
+                "escapedName": "ORIGIN_STATE_NM",
+                "_row": "ORIGIN_STATE_NM",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "DEST",
+                "type": "character",
+                "escapedName": "DEST",
+                "_row": "DEST",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "DEST_CITY_NAME",
+                "type": "character",
+                "escapedName": "DEST_CITY_NAME",
+                "_row": "DEST_CITY_NAME",
                 "isNumeric": false,
                 "isDate": false
             },
@@ -70,638 +133,184 @@
                 "isDate": false
             },
             {
-                "name": "counts",
-                "type": "integer",
-                "escapedName": "counts",
-                "_row": "counts",
-                "isNumeric": true,
+                "name": "DEST_STATE_NM",
+                "type": "character",
+                "escapedName": "DEST_STATE_NM",
+                "_row": "DEST_STATE_NM",
+                "isNumeric": false,
                 "isDate": false
             },
             {
-                "name": "total",
-                "type": "integer",
-                "escapedName": "total",
-                "_row": "total",
-                "isNumeric": true,
+                "name": "DEP_TIME",
+                "type": "character",
+                "escapedName": "DEP_TIME",
+                "_row": "DEP_TIME",
+                "isNumeric": false,
                 "isDate": false
             },
             {
-                "name": "percentage",
+                "name": "DEP_DELAY",
                 "type": "numeric",
-                "escapedName": "percentage",
-                "_row": "percentage",
+                "escapedName": "DEP_DELAY",
+                "_row": "DEP_DELAY",
                 "isNumeric": true,
                 "isDate": false
             },
             {
-                "name": "rank",
-                "type": "integer",
-                "escapedName": "rank",
-                "_row": "rank",
+                "name": "ARR_TIME",
+                "type": "character",
+                "escapedName": "ARR_TIME",
+                "_row": "ARR_TIME",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "ARR_DELAY",
+                "type": "numeric",
+                "escapedName": "ARR_DELAY",
+                "_row": "ARR_DELAY",
                 "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "CANCELLED",
+                "type": "numeric",
+                "escapedName": "CANCELLED",
+                "_row": "CANCELLED",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "CANCELLATION_CODE",
+                "type": "character",
+                "escapedName": "CANCELLATION_CODE",
+                "_row": "CANCELLATION_CODE",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "AIR_TIME",
+                "type": "numeric",
+                "escapedName": "AIR_TIME",
+                "_row": "AIR_TIME",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "DISTANCE",
+                "type": "numeric",
+                "escapedName": "DISTANCE",
+                "_row": "DISTANCE",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "CARRIER_DELAY",
+                "type": "numeric",
+                "escapedName": "CARRIER_DELAY",
+                "_row": "CARRIER_DELAY",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "WEATHER_DELAY",
+                "type": "numeric",
+                "escapedName": "WEATHER_DELAY",
+                "_row": "WEATHER_DELAY",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "NAS_DELAY",
+                "type": "numeric",
+                "escapedName": "NAS_DELAY",
+                "_row": "NAS_DELAY",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "SECURITY_DELAY",
+                "type": "numeric",
+                "escapedName": "SECURITY_DELAY",
+                "_row": "SECURITY_DELAY",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "LATE_AIRCRAFT_DELAY",
+                "type": "numeric",
+                "escapedName": "LATE_AIRCRAFT_DELAY",
+                "_row": "LATE_AIRCRAFT_DELAY",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "X26",
+                "type": "character",
+                "escapedName": "X26",
+                "_row": "X26",
+                "isNumeric": false,
                 "isDate": false
             }
         ],
         "data": [
             {
-                "c3": "AK",
-                "c1": "AS",
-                "c2": 17.4375
-            },
-            {
-                "c3": "AZ",
                 "c1": "AA",
-                "c2": 6.9648
+                "c2": 1.9343
             },
             {
-                "c3": "AZ",
                 "c1": "AS",
-                "c2": 1.6332
+                "c2": -3.9228
             },
             {
-                "c3": "AZ",
+                "c1": "B6",
+                "c2": 10.1277
+            },
+            {
+                "c1": "DL",
+                "c2": -0.8387
+            },
+            {
+                "c1": "EV",
+                "c2": 1.6281
+            },
+            {
+                "c1": "F9",
+                "c2": -1.8602
+            },
+            {
                 "c1": "HA",
-                "c2": 0.4937
+                "c2": -1.629
             },
             {
-                "c3": "AZ",
-                "c1": "OO",
-                "c2": 4.7838
-            },
-            {
-                "c3": "AZ",
-                "c1": "WN",
-                "c2": 5.0205
-            },
-            {
-                "c3": "CA",
-                "c1": "AA",
-                "c2": 8.9203
-            },
-            {
-                "c3": "CA",
-                "c1": "AS",
-                "c2": 20.2112
-            },
-            {
-                "c3": "CA",
-                "c1": "B6",
-                "c2": 8.2066
-            },
-            {
-                "c3": "CA",
-                "c1": "DL",
-                "c2": 6.9329
-            },
-            {
-                "c3": "CA",
-                "c1": "F9",
-                "c2": 6.1558
-            },
-            {
-                "c3": "CA",
-                "c1": "HA",
-                "c2": 6.2271
-            },
-            {
-                "c3": "CA",
                 "c1": "NK",
-                "c2": 8.6992
+                "c2": 13.1278
             },
             {
-                "c3": "CA",
                 "c1": "OO",
-                "c2": 21.2436
+                "c2": 7.4466
             },
             {
-                "c3": "CA",
                 "c1": "UA",
-                "c2": 17.8265
+                "c2": -2.889
             },
             {
-                "c3": "CA",
                 "c1": "VX",
-                "c2": 53.4733
+                "c2": 7.6158
             },
             {
-                "c3": "CA",
                 "c1": "WN",
-                "c2": 17.2994
-            },
-            {
-                "c3": "CO",
-                "c1": "F9",
-                "c2": 24.6936
-            },
-            {
-                "c3": "CO",
-                "c1": "OO",
-                "c2": 12.1338
-            },
-            {
-                "c3": "CO",
-                "c1": "UA",
-                "c2": 11.6974
-            },
-            {
-                "c3": "CO",
-                "c1": "WN",
-                "c2": 4.8697
-            },
-            {
-                "c3": "CT",
-                "c1": "B6",
-                "c2": 1.5075
-            },
-            {
-                "c3": "FL",
-                "c1": "AA",
-                "c2": 12.4835
-            },
-            {
-                "c3": "FL",
-                "c1": "B6",
-                "c2": 25.2628
-            },
-            {
-                "c3": "FL",
-                "c1": "DL",
-                "c2": 10.0242
-            },
-            {
-                "c3": "FL",
-                "c1": "F9",
-                "c2": 20.5522
-            },
-            {
-                "c3": "FL",
-                "c1": "NK",
-                "c2": 23.6263
-            },
-            {
-                "c3": "FL",
-                "c1": "UA",
-                "c2": 7.7086
-            },
-            {
-                "c3": "FL",
-                "c1": "VX",
-                "c2": 3.659
-            },
-            {
-                "c3": "FL",
-                "c1": "WN",
-                "c2": 8.8801
-            },
-            {
-                "c3": "GA",
-                "c1": "DL",
-                "c2": 27.8579
-            },
-            {
-                "c3": "GA",
-                "c1": "EV",
-                "c2": 12.7472
-            },
-            {
-                "c3": "GA",
-                "c1": "F9",
-                "c2": 3.0286
-            },
-            {
-                "c3": "GA",
-                "c1": "NK",
-                "c2": 5.6124
-            },
-            {
-                "c3": "GA",
-                "c1": "WN",
-                "c2": 3.4055
-            },
-            {
-                "c3": "HI",
-                "c1": "AS",
-                "c2": 5.4558
-            },
-            {
-                "c3": "HI",
-                "c1": "HA",
-                "c2": 89.9666
-            },
-            {
-                "c3": "HI",
-                "c1": "UA",
-                "c2": 2.0623
-            },
-            {
-                "c3": "IL",
-                "c1": "AA",
-                "c2": 6.1709
-            },
-            {
-                "c3": "IL",
-                "c1": "EV",
-                "c2": 10.5385
-            },
-            {
-                "c3": "IL",
-                "c1": "F9",
-                "c2": 5.8318
-            },
-            {
-                "c3": "IL",
-                "c1": "NK",
-                "c2": 8.138
-            },
-            {
-                "c3": "IL",
-                "c1": "OO",
-                "c2": 7.1715
-            },
-            {
-                "c3": "IL",
-                "c1": "UA",
-                "c2": 11.7225
-            },
-            {
-                "c3": "IL",
-                "c1": "VX",
-                "c2": 1.3744
-            },
-            {
-                "c3": "IL",
-                "c1": "WN",
-                "c2": 6.0814
-            },
-            {
-                "c3": "LA",
-                "c1": "EV",
-                "c2": 4.1768
-            },
-            {
-                "c3": "MA",
-                "c1": "AA",
-                "c2": 2.9585
-            },
-            {
-                "c3": "MA",
-                "c1": "B6",
-                "c2": 15.1403
-            },
-            {
-                "c3": "MA",
-                "c1": "UA",
-                "c2": 1.8133
-            },
-            {
-                "c3": "MA",
-                "c1": "VX",
-                "c2": 2.5632
-            },
-            {
-                "c3": "MD",
-                "c1": "NK",
-                "c2": 2.9691
-            },
-            {
-                "c3": "MD",
-                "c1": "WN",
-                "c2": 5.1798
-            },
-            {
-                "c3": "MI",
-                "c1": "DL",
-                "c2": 6.6216
-            },
-            {
-                "c3": "MI",
-                "c1": "EV",
-                "c2": 5.5444
-            },
-            {
-                "c3": "MI",
-                "c1": "NK",
-                "c2": 6.7801
-            },
-            {
-                "c3": "MI",
-                "c1": "OO",
-                "c2": 4.4436
-            },
-            {
-                "c3": "MN",
-                "c1": "DL",
-                "c2": 6.1927
-            },
-            {
-                "c3": "MN",
-                "c1": "NK",
-                "c2": 3.0868
-            },
-            {
-                "c3": "MN",
-                "c1": "OO",
-                "c2": 6.5562
-            },
-            {
-                "c3": "MO",
-                "c1": "F9",
-                "c2": 3.0286
-            },
-            {
-                "c3": "MO",
-                "c1": "WN",
-                "c2": 4.2303
-            },
-            {
-                "c3": "NC",
-                "c1": "AA",
-                "c2": 11.7346
-            },
-            {
-                "c3": "NC",
-                "c1": "B6",
-                "c2": 1.4641
-            },
-            {
-                "c3": "NJ",
-                "c1": "B6",
-                "c2": 2.6631
-            },
-            {
-                "c3": "NJ",
-                "c1": "EV",
-                "c2": 5.9423
-            },
-            {
-                "c3": "NJ",
-                "c1": "F9",
-                "c2": 2.3524
-            },
-            {
-                "c3": "NJ",
-                "c1": "UA",
-                "c2": 9.2805
-            },
-            {
-                "c3": "NJ",
-                "c1": "VX",
-                "c2": 2.6746
-            },
-            {
-                "c3": "NV",
-                "c1": "AS",
-                "c2": 2.6188
-            },
-            {
-                "c3": "NV",
-                "c1": "B6",
-                "c2": 1.6769
-            },
-            {
-                "c3": "NV",
-                "c1": "F9",
-                "c2": 7.4799
-            },
-            {
-                "c3": "NV",
-                "c1": "HA",
-                "c2": 1.2104
-            },
-            {
-                "c3": "NV",
-                "c1": "NK",
-                "c2": 8.4186
-            },
-            {
-                "c3": "NV",
-                "c1": "UA",
-                "c2": 2.6961
-            },
-            {
-                "c3": "NV",
-                "c1": "VX",
-                "c2": 8.0609
-            },
-            {
-                "c3": "NV",
-                "c1": "WN",
-                "c2": 6.3387
-            },
-            {
-                "c3": "NY",
-                "c1": "AA",
-                "c2": 5.3228
-            },
-            {
-                "c3": "NY",
-                "c1": "B6",
-                "c2": 22.8256
-            },
-            {
-                "c3": "NY",
-                "c1": "DL",
-                "c2": 7.2471
-            },
-            {
-                "c3": "NY",
-                "c1": "EV",
-                "c2": 4.4722
-            },
-            {
-                "c3": "NY",
-                "c1": "HA",
-                "c2": 0.4619
-            },
-            {
-                "c3": "NY",
-                "c1": "NK",
-                "c2": 3.648
-            },
-            {
-                "c3": "NY",
-                "c1": "VX",
-                "c2": 9.2125
-            },
-            {
-                "c3": "OH",
-                "c1": "EV",
-                "c2": 3.0975
-            },
-            {
-                "c3": "OR",
-                "c1": "AS",
-                "c2": 8.2647
-            },
-            {
-                "c3": "OR",
-                "c1": "HA",
-                "c2": 0.4937
-            },
-            {
-                "c3": "OR",
-                "c1": "OO",
-                "c2": 2.751
-            },
-            {
-                "c3": "PA",
-                "c1": "AA",
-                "c2": 5.3043
-            },
-            {
-                "c3": "PA",
-                "c1": "F9",
-                "c2": 2.775
-            },
-            {
-                "c3": "PR",
-                "c1": "B6",
-                "c2": 4.9005
-            },
-            {
-                "c3": "TN",
-                "c1": "EV",
-                "c2": 2.9902
-            },
-            {
-                "c3": "TT",
-                "c1": "HA",
-                "c2": 0.1593
-            },
-            {
-                "c3": "TX",
-                "c1": "AA",
-                "c2": 18.6412
-            },
-            {
-                "c3": "TX",
-                "c1": "AS",
-                "c2": 1.3235
-            },
-            {
-                "c3": "TX",
-                "c1": "DL",
-                "c2": 2.0714
-            },
-            {
-                "c3": "TX",
-                "c1": "EV",
-                "c2": 20.1025
-            },
-            {
-                "c3": "TX",
-                "c1": "F9",
-                "c2": 4.0992
-            },
-            {
-                "c3": "TX",
-                "c1": "NK",
-                "c2": 10.917
-            },
-            {
-                "c3": "TX",
-                "c1": "OO",
-                "c2": 4.7334
-            },
-            {
-                "c3": "TX",
-                "c1": "UA",
-                "c2": 14.3432
-            },
-            {
-                "c3": "TX",
-                "c1": "VX",
-                "c2": 9.4911
-            },
-            {
-                "c3": "TX",
-                "c1": "WN",
-                "c2": 13.217
-            },
-            {
-                "c3": "UT",
-                "c1": "AS",
-                "c2": 1.2742
-            },
-            {
-                "c3": "UT",
-                "c1": "DL",
-                "c2": 4.0811
-            },
-            {
-                "c3": "UT",
-                "c1": "OO",
-                "c2": 8.8053
-            },
-            {
-                "c3": "VA",
-                "c1": "AA",
-                "c2": 4.0778
-            },
-            {
-                "c3": "VA",
-                "c1": "AS",
-                "c2": 1.0912
-            },
-            {
-                "c3": "VA",
-                "c1": "B6",
-                "c2": 5.3176
-            },
-            {
-                "c3": "VA",
-                "c1": "DL",
-                "c2": 2.1647
-            },
-            {
-                "c3": "VA",
-                "c1": "EV",
-                "c2": 3.1237
-            },
-            {
-                "c3": "VA",
-                "c1": "UA",
-                "c2": 4.2278
-            },
-            {
-                "c3": "VA",
-                "c1": "VX",
-                "c2": 4.2719
-            },
-            {
-                "c3": "WA",
-                "c1": "AS",
-                "c2": 33.4671
-            },
-            {
-                "c3": "WA",
-                "c1": "DL",
-                "c2": 2.0054
-            },
-            {
-                "c3": "WA",
-                "c1": "HA",
-                "c2": 0.9874
-            },
-            {
-                "c3": "WA",
-                "c1": "OO",
-                "c2": 3.9417
-            },
-            {
-                "c3": "WA",
-                "c1": "VX",
-                "c2": 3.4918
+                "c2": -0.4466
             }
         ],
-        "height": 583,
-        "width": 769,
+        "height": 574,
+        "width": 975,
         "rowh0": null,
         "meas0": null,
         "colh0": null,
         "pivotColor": "row5"
     },
-    "timestamp": "2016-09-25T03:09:30.491Z",
+    "timestamp": "2016-09-25T06:14:45.978Z",
     "updatedBy": "",
     "snapshot": null,
     "publicTitle": "",
