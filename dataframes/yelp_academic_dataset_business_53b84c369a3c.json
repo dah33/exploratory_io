@@ -1,0 +1,41 @@
+{
+    "name": "yelp_academic_dataset_business_53b84c369a3c",
+    "displayName": "Select",
+    "type": "SELECT",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "yelp_academic_dataset_business_Source1"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "yelp_academic_dataset_business"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "select(-starts_with(\"hours\"))",
+        "command": {
+            "name": "select",
+            "columnSelectors": [
+                {
+                    "includeOrExclude": "Exclude",
+                    "columnSelectorType": "function",
+                    "functionType": "starts_with",
+                    "start": {
+                        "name": "business_id",
+                        "type": "character"
+                    },
+                    "end": {
+                        "name": "business_id",
+                        "type": "character"
+                    },
+                    "val": "hours"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-25T08:11:13.501Z"
+}
