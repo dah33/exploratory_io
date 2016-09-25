@@ -6,9 +6,27 @@
     ],
     "transformName": "",
     "options": {
-        "marker": "pivot",
-        "x": "",
-        "y": "",
+        "marker": "bar",
+        "x": {
+            "name": "categories",
+            "validName": "categories",
+            "type": "character",
+            "isNumeric": false,
+            "isDate": false,
+            "func": "none",
+            "label": "c1",
+            "validLabel": "c1"
+        },
+        "y": {
+            "name": "categories",
+            "validName": "categories",
+            "type": "numrows",
+            "isNumeric": false,
+            "isDate": false,
+            "func": "count",
+            "label": "c2",
+            "validLabel": "c2"
+        },
         "size": "",
         "color": "",
         "text": "",
@@ -25,12 +43,1267 @@
         "includeOutlier": "off",
         "treatNAAsZero": "on",
         "mapmode": "USA-states",
-        "columns": [],
-        "data": null,
-        "height": 593,
-        "width": 975
+        "columns": [
+            {
+                "name": "business_id",
+                "type": "character",
+                "escapedName": "business_id",
+                "_row": "business_id",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "full_address",
+                "type": "character",
+                "escapedName": "full_address",
+                "_row": "full_address",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "open",
+                "type": "logical",
+                "escapedName": "open",
+                "_row": "open",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "city",
+                "type": "character",
+                "escapedName": "city",
+                "_row": "city",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "review_count",
+                "type": "integer",
+                "escapedName": "review_count",
+                "_row": "review_count",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "name",
+                "type": "character",
+                "escapedName": "name",
+                "_row": "name",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "neighborhoods",
+                "type": "list",
+                "escapedName": "neighborhoods",
+                "_row": "neighborhoods",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "longitude",
+                "type": "numeric",
+                "escapedName": "longitude",
+                "_row": "longitude",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "state",
+                "type": "character",
+                "escapedName": "state",
+                "_row": "state",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "stars",
+                "type": "numeric",
+                "escapedName": "stars",
+                "_row": "stars",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "latitude",
+                "type": "numeric",
+                "escapedName": "latitude",
+                "_row": "latitude",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "type",
+                "type": "character",
+                "escapedName": "type",
+                "_row": "type",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "neighborhood_counts",
+                "type": "character",
+                "escapedName": "neighborhood_counts",
+                "_row": "neighborhood_counts",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "is_restaurant",
+                "type": "logical",
+                "escapedName": "is_restaurant",
+                "_row": "is_restaurant",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "categories",
+                "type": "character",
+                "escapedName": "categories",
+                "_row": "categories",
+                "isNumeric": false,
+                "isDate": false
+            }
+        ],
+        "data": [
+            {
+                "c1": "Fast Food",
+                "c2": 2383
+            },
+            {
+                "c1": "Pizza",
+                "c2": 2223
+            },
+            {
+                "c1": "Mexican",
+                "c2": 2208
+            },
+            {
+                "c1": "American (Traditional)",
+                "c2": 2113
+            },
+            {
+                "c1": "Nightlife",
+                "c2": 2045
+            },
+            {
+                "c1": "Sandwiches",
+                "c2": 1981
+            },
+            {
+                "c1": "Bars",
+                "c2": 1934
+            },
+            {
+                "c1": "Food",
+                "c2": 1807
+            },
+            {
+                "c1": "Italian",
+                "c2": 1633
+            },
+            {
+                "c1": "Chinese",
+                "c2": 1496
+            },
+            {
+                "c1": "American (New)",
+                "c2": 1494
+            },
+            {
+                "c1": "Burgers",
+                "c2": 1481
+            },
+            {
+                "c1": "Breakfast & Brunch",
+                "c2": 1116
+            },
+            {
+                "c1": "Cafes",
+                "c2": 776
+            },
+            {
+                "c1": "Japanese",
+                "c2": 746
+            },
+            {
+                "c1": "Sushi Bars",
+                "c2": 671
+            },
+            {
+                "c1": "Delis",
+                "c2": 649
+            },
+            {
+                "c1": "Steakhouses",
+                "c2": 554
+            },
+            {
+                "c1": "Seafood",
+                "c2": 554
+            },
+            {
+                "c1": "Chicken Wings",
+                "c2": 516
+            },
+            {
+                "c1": "Coffee & Tea",
+                "c2": 513
+            },
+            {
+                "c1": "Sports Bars",
+                "c2": 512
+            },
+            {
+                "c1": "Mediterranean",
+                "c2": 490
+            },
+            {
+                "c1": "Barbeque",
+                "c2": 477
+            },
+            {
+                "c1": "Thai",
+                "c2": 472
+            },
+            {
+                "c1": "Asian Fusion",
+                "c2": 446
+            },
+            {
+                "c1": "French",
+                "c2": 433
+            },
+            {
+                "c1": "Buffets",
+                "c2": 420
+            },
+            {
+                "c1": "Indian",
+                "c2": 376
+            },
+            {
+                "c1": "Pubs",
+                "c2": 376
+            },
+            {
+                "c1": "Greek",
+                "c2": 363
+            },
+            {
+                "c1": "Diners",
+                "c2": 302
+            },
+            {
+                "c1": "Bakeries",
+                "c2": 284
+            },
+            {
+                "c1": "Vietnamese",
+                "c2": 283
+            },
+            {
+                "c1": "Tex-Mex",
+                "c2": 250
+            },
+            {
+                "c1": "Vegetarian",
+                "c2": 244
+            },
+            {
+                "c1": "Salad",
+                "c2": 228
+            },
+            {
+                "c1": "Hot Dogs",
+                "c2": 223
+            },
+            {
+                "c1": "Middle Eastern",
+                "c2": 209
+            },
+            {
+                "c1": "Event Planning & Services",
+                "c2": 205
+            },
+            {
+                "c1": "Specialty Food",
+                "c2": 194
+            },
+            {
+                "c1": "Lounges",
+                "c2": 190
+            },
+            {
+                "c1": "Korean",
+                "c2": 186
+            },
+            {
+                "c1": "Canadian (New)",
+                "c2": 183
+            },
+            {
+                "c1": "Arts & Entertainment",
+                "c2": 176
+            },
+            {
+                "c1": "Wine Bars",
+                "c2": 167
+            },
+            {
+                "c1": "Gluten-Free",
+                "c2": 156
+            },
+            {
+                "c1": "Latin American",
+                "c2": 151
+            },
+            {
+                "c1": "British",
+                "c2": 143
+            },
+            {
+                "c1": "Gastropubs",
+                "c2": 139
+            },
+            {
+                "c1": "Ice Cream & Frozen Yogurt",
+                "c2": 136
+            },
+            {
+                "c1": "Southern",
+                "c2": 134
+            },
+            {
+                "c1": "Vegan",
+                "c2": 126
+            },
+            {
+                "c1": "Desserts",
+                "c2": 124
+            },
+            {
+                "c1": "Hawaiian",
+                "c2": 122
+            },
+            {
+                "c1": "German",
+                "c2": 120
+            },
+            {
+                "c1": "Bagels",
+                "c2": 114
+            },
+            {
+                "c1": "Caterers",
+                "c2": 111
+            },
+            {
+                "c1": "Juice Bars & Smoothies",
+                "c2": 101
+            },
+            {
+                "c1": "Fish & Chips",
+                "c2": 99
+            },
+            {
+                "c1": "Ethnic Food",
+                "c2": 94
+            },
+            {
+                "c1": "Tapas Bars",
+                "c2": 93
+            },
+            {
+                "c1": "Soup",
+                "c2": 90
+            },
+            {
+                "c1": "Pakistani",
+                "c2": 88
+            },
+            {
+                "c1": "Tapas/Small Plates",
+                "c2": 86
+            },
+            {
+                "c1": "Food Trucks",
+                "c2": 81
+            },
+            {
+                "c1": "Soul Food",
+                "c2": 78
+            },
+            {
+                "c1": "Caribbean",
+                "c2": 78
+            },
+            {
+                "c1": "Music Venues",
+                "c2": 77
+            },
+            {
+                "c1": "Irish",
+                "c2": 77
+            },
+            {
+                "c1": "Beer, Wine & Spirits",
+                "c2": 77
+            },
+            {
+                "c1": "Food Delivery Services",
+                "c2": 75
+            },
+            {
+                "c1": "Grocery",
+                "c2": 74
+            },
+            {
+                "c1": "Food Stands",
+                "c2": 74
+            },
+            {
+                "c1": "Cajun/Creole",
+                "c2": 72
+            },
+            {
+                "c1": "Comfort Food",
+                "c2": 72
+            },
+            {
+                "c1": "Spanish",
+                "c2": 69
+            },
+            {
+                "c1": "Turkish",
+                "c2": 64
+            },
+            {
+                "c1": "Brasseries",
+                "c2": 63
+            },
+            {
+                "c1": "Filipino",
+                "c2": 61
+            },
+            {
+                "c1": "Hotels & Travel",
+                "c2": 60
+            },
+            {
+                "c1": "Portuguese",
+                "c2": 58
+            },
+            {
+                "c1": "Breweries",
+                "c2": 58
+            },
+            {
+                "c1": "Creperies",
+                "c2": 57
+            },
+            {
+                "c1": "Cocktail Bars",
+                "c2": 57
+            },
+            {
+                "c1": "Hotels",
+                "c2": 54
+            },
+            {
+                "c1": "Cheesesteaks",
+                "c2": 53
+            },
+            {
+                "c1": "Dive Bars",
+                "c2": 51
+            },
+            {
+                "c1": "Modern European",
+                "c2": 50
+            },
+            {
+                "c1": "Dim Sum",
+                "c2": 49
+            },
+            {
+                "c1": "Peruvian",
+                "c2": 46
+            },
+            {
+                "c1": "Casinos",
+                "c2": 44
+            },
+            {
+                "c1": "Active Life",
+                "c2": 41
+            },
+            {
+                "c1": "Persian/Iranian",
+                "c2": 39
+            },
+            {
+                "c1": "Venues & Event Spaces",
+                "c2": 37
+            },
+            {
+                "c1": "Taiwanese",
+                "c2": 36
+            },
+            {
+                "c1": "Karaoke",
+                "c2": 34
+            },
+            {
+                "c1": "Cuban",
+                "c2": 34
+            },
+            {
+                "c1": "Dance Clubs",
+                "c2": 33
+            },
+            {
+                "c1": "Kebab",
+                "c2": 32
+            },
+            {
+                "c1": "Street Vendors",
+                "c2": 32
+            },
+            {
+                "c1": "Brazilian",
+                "c2": 31
+            },
+            {
+                "c1": "African",
+                "c2": 30
+            },
+            {
+                "c1": "Scottish",
+                "c2": 30
+            },
+            {
+                "c1": "Halal",
+                "c2": 30
+            },
+            {
+                "c1": "Shopping",
+                "c2": 28
+            },
+            {
+                "c1": "Tea Rooms",
+                "c2": 27
+            },
+            {
+                "c1": "Szechuan",
+                "c2": 26
+            },
+            {
+                "c1": "Mongolian",
+                "c2": 26
+            },
+            {
+                "c1": "Bistros",
+                "c2": 25
+            },
+            {
+                "c1": "Ethiopian",
+                "c2": 25
+            },
+            {
+                "c1": "Kosher",
+                "c2": 24
+            },
+            {
+                "c1": "Lebanese",
+                "c2": 24
+            },
+            {
+                "c1": "Donuts",
+                "c2": 22
+            },
+            {
+                "c1": "Beer Garden",
+                "c2": 22
+            },
+            {
+                "c1": "Hookah Bars",
+                "c2": 21
+            },
+            {
+                "c1": "Polish",
+                "c2": 20
+            },
+            {
+                "c1": "Golf",
+                "c2": 18
+            },
+            {
+                "c1": "Moroccan",
+                "c2": 18
+            },
+            {
+                "c1": "Cantonese",
+                "c2": 18
+            },
+            {
+                "c1": "Ramen",
+                "c2": 18
+            },
+            {
+                "c1": "Fondue",
+                "c2": 18
+            },
+            {
+                "c1": "Basque",
+                "c2": 17
+            },
+            {
+                "c1": "Do-It-Yourself Food",
+                "c2": 17
+            },
+            {
+                "c1": "Russian",
+                "c2": 16
+            },
+            {
+                "c1": "Food Court",
+                "c2": 16
+            },
+            {
+                "c1": "Cheese Shops",
+                "c2": 16
+            },
+            {
+                "c1": "Belgian",
+                "c2": 16
+            },
+            {
+                "c1": "Meat Shops",
+                "c2": 15
+            },
+            {
+                "c1": "Live/Raw Food",
+                "c2": 15
+            },
+            {
+                "c1": "Himalayan/Nepalese",
+                "c2": 14
+            },
+            {
+                "c1": "Salvadoran",
+                "c2": 14
+            },
+            {
+                "c1": "Jazz & Blues",
+                "c2": 14
+            },
+            {
+                "c1": "Arcades",
+                "c2": 14
+            },
+            {
+                "c1": "Afghan",
+                "c2": 13
+            },
+            {
+                "c1": "Convenience Stores",
+                "c2": 13
+            },
+            {
+                "c1": "Seafood Markets",
+                "c2": 13
+            },
+            {
+                "c1": "Poutineries",
+                "c2": 13
+            },
+            {
+                "c1": "Pool Halls",
+                "c2": 11
+            },
+            {
+                "c1": "Malaysian",
+                "c2": 10
+            },
+            {
+                "c1": "Colombian",
+                "c2": 10
+            },
+            {
+                "c1": "Health Markets",
+                "c2": 10
+            },
+            {
+                "c1": "Bubble Tea",
+                "c2": 9
+            },
+            {
+                "c1": "Scandinavian",
+                "c2": 9
+            },
+            {
+                "c1": "Gelato",
+                "c2": 9
+            },
+            {
+                "c1": "Bowling",
+                "c2": 8
+            },
+            {
+                "c1": "Argentine",
+                "c2": 8
+            },
+            {
+                "c1": "Cambodian",
+                "c2": 8
+            },
+            {
+                "c1": "Delicatessen",
+                "c2": 8
+            },
+            {
+                "c1": "Indonesian",
+                "c2": 8
+            },
+            {
+                "c1": "Arabian",
+                "c2": 8
+            },
+            {
+                "c1": "Internet Cafes",
+                "c2": 8
+            },
+            {
+                "c1": "Falafel",
+                "c2": 8
+            },
+            {
+                "c1": "Chocolatiers & Shops",
+                "c2": 7
+            },
+            {
+                "c1": "Automotive",
+                "c2": 7
+            },
+            {
+                "c1": "International",
+                "c2": 7
+            },
+            {
+                "c1": "Baden",
+                "c2": 7
+            },
+            {
+                "c1": "Shaved Ice",
+                "c2": 7
+            },
+            {
+                "c1": "Local Flavor",
+                "c2": 6
+            },
+            {
+                "c1": "Shopping Centers",
+                "c2": 6
+            },
+            {
+                "c1": "Irish Pub",
+                "c2": 6
+            },
+            {
+                "c1": "Beer Gardens",
+                "c2": 5
+            },
+            {
+                "c1": "Cinema",
+                "c2": 5
+            },
+            {
+                "c1": "Gay Bars",
+                "c2": 5
+            },
+            {
+                "c1": "Shanghainese",
+                "c2": 5
+            },
+            {
+                "c1": "Art Galleries",
+                "c2": 5
+            },
+            {
+                "c1": "Butcher",
+                "c2": 5
+            },
+            {
+                "c1": "Hot Pot",
+                "c2": 5
+            },
+            {
+                "c1": "Wineries",
+                "c2": 4
+            },
+            {
+                "c1": "Home & Garden",
+                "c2": 4
+            },
+            {
+                "c1": "Egyptian",
+                "c2": 4
+            },
+            {
+                "c1": "Education",
+                "c2": 4
+            },
+            {
+                "c1": "Swimming Pools",
+                "c2": 4
+            },
+            {
+                "c1": "Party & Event Planning",
+                "c2": 4
+            },
+            {
+                "c1": "Performing Arts",
+                "c2": 4
+            },
+            {
+                "c1": "Bed & Breakfast",
+                "c2": 4
+            },
+            {
+                "c1": "Burmese",
+                "c2": 4
+            },
+            {
+                "c1": "Venezuelan",
+                "c2": 4
+            },
+            {
+                "c1": "Dominican",
+                "c2": 4
+            },
+            {
+                "c1": "Champagne Bars",
+                "c2": 3
+            },
+            {
+                "c1": "Gas & Service Stations",
+                "c2": 3
+            },
+            {
+                "c1": "Social Clubs",
+                "c2": 3
+            },
+            {
+                "c1": "Curry Sausage",
+                "c2": 3
+            },
+            {
+                "c1": "Fruits & Veggies",
+                "c2": 3
+            },
+            {
+                "c1": "Festivals",
+                "c2": 3
+            },
+            {
+                "c1": "Bangladeshi",
+                "c2": 3
+            },
+            {
+                "c1": "Local Services",
+                "c2": 3
+            },
+            {
+                "c1": "Sporting Goods",
+                "c2": 3
+            },
+            {
+                "c1": "Australian",
+                "c2": 3
+            },
+            {
+                "c1": "Laotian",
+                "c2": 3
+            },
+            {
+                "c1": "Colleges & Universities",
+                "c2": 3
+            },
+            {
+                "c1": "Distilleries",
+                "c2": 2
+            },
+            {
+                "c1": "Serbo Croatian",
+                "c2": 2
+            },
+            {
+                "c1": "Adult Entertainment",
+                "c2": 2
+            },
+            {
+                "c1": "Bookstores",
+                "c2": 2
+            },
+            {
+                "c1": "Pub Food",
+                "c2": 2
+            },
+            {
+                "c1": "Singaporean",
+                "c2": 2
+            },
+            {
+                "c1": "Pretzels",
+                "c2": 2
+            },
+            {
+                "c1": "Books, Mags, Music & Video",
+                "c2": 2
+            },
+            {
+                "c1": "Cooking Schools",
+                "c2": 2
+            },
+            {
+                "c1": "Beer Bar",
+                "c2": 2
+            },
+            {
+                "c1": "Personal Chefs",
+                "c2": 2
+            },
+            {
+                "c1": "Specialty Schools",
+                "c2": 2
+            },
+            {
+                "c1": "Couriers & Delivery Services",
+                "c2": 2
+            },
+            {
+                "c1": "Sports Clubs",
+                "c2": 2
+            },
+            {
+                "c1": "Patisserie/Cake Shop",
+                "c2": 2
+            },
+            {
+                "c1": "Nutritionists",
+                "c2": 2
+            },
+            {
+                "c1": "Real Estate",
+                "c2": 2
+            },
+            {
+                "c1": "Drugstores",
+                "c2": 2
+            },
+            {
+                "c1": "Auto Repair",
+                "c2": 2
+            },
+            {
+                "c1": "Austrian",
+                "c2": 2
+            },
+            {
+                "c1": "Farmers Market",
+                "c2": 2
+            },
+            {
+                "c1": "Teppanyaki",
+                "c2": 2
+            },
+            {
+                "c1": "Arts & Crafts",
+                "c2": 2
+            },
+            {
+                "c1": "Hungarian",
+                "c2": 2
+            },
+            {
+                "c1": "Tours",
+                "c2": 2
+            },
+            {
+                "c1": "Trinidadian",
+                "c2": 2
+            },
+            {
+                "c1": "Health & Medical",
+                "c2": 2
+            },
+            {
+                "c1": "Uzbek",
+                "c2": 2
+            },
+            {
+                "c1": "Home Services",
+                "c2": 2
+            },
+            {
+                "c1": "Home Decor",
+                "c2": 2
+            },
+            {
+                "c1": "Amusement Parks",
+                "c2": 2
+            },
+            {
+                "c1": "Wedding Planning",
+                "c2": 2
+            },
+            {
+                "c1": "Piano Bars",
+                "c2": 1
+            },
+            {
+                "c1": "Eastern German",
+                "c2": 1
+            },
+            {
+                "c1": "Resorts",
+                "c2": 1
+            },
+            {
+                "c1": "Candy Stores",
+                "c2": 1
+            },
+            {
+                "c1": "RV Parks",
+                "c2": 1
+            },
+            {
+                "c1": "Eastern European",
+                "c2": 1
+            },
+            {
+                "c1": "Cafeteria",
+                "c2": 1
+            },
+            {
+                "c1": "Dry Cleaning & Laundry",
+                "c2": 1
+            },
+            {
+                "c1": "Flowers & Gifts",
+                "c2": 1
+            },
+            {
+                "c1": "Flea Markets",
+                "c2": 1
+            },
+            {
+                "c1": "Fitness & Instruction",
+                "c2": 1
+            },
+            {
+                "c1": "Financial Services",
+                "c2": 1
+            },
+            {
+                "c1": "Day Spas",
+                "c2": 1
+            },
+            {
+                "c1": "Czech",
+                "c2": 1
+            },
+            {
+                "c1": "Shared Office Spaces",
+                "c2": 1
+            },
+            {
+                "c1": "Herbs & Spices",
+                "c2": 1
+            },
+            {
+                "c1": "Musicians",
+                "c2": 1
+            },
+            {
+                "c1": "Cupcakes",
+                "c2": 1
+            },
+            {
+                "c1": "Kids Activities",
+                "c2": 1
+            },
+            {
+                "c1": "Organic Stores",
+                "c2": 1
+            },
+            {
+                "c1": "Oriental",
+                "c2": 1
+            },
+            {
+                "c1": "Bikes",
+                "c2": 1
+            },
+            {
+                "c1": "Outlet Stores",
+                "c2": 1
+            },
+            {
+                "c1": "Cultural Center",
+                "c2": 1
+            },
+            {
+                "c1": "Parking",
+                "c2": 1
+            },
+            {
+                "c1": "Kitchen & Bath",
+                "c2": 1
+            },
+            {
+                "c1": "Party Supplies",
+                "c2": 1
+            },
+            {
+                "c1": "Beauty & Spas",
+                "c2": 1
+            },
+            {
+                "c1": "Fashion",
+                "c2": 1
+            },
+            {
+                "c1": "Sports Wear",
+                "c2": 1
+            },
+            {
+                "c1": "Bavarian",
+                "c2": 1
+            },
+            {
+                "c1": "Banks & Credit Unions",
+                "c2": 1
+            },
+            {
+                "c1": "Haitian",
+                "c2": 1
+            },
+            {
+                "c1": "Lakes",
+                "c2": 1
+            },
+            {
+                "c1": "Swiss Food",
+                "c2": 1
+            },
+            {
+                "c1": "Landmarks & Historical Buildings",
+                "c2": 1
+            },
+            {
+                "c1": "Personal Shopping",
+                "c2": 1
+            },
+            {
+                "c1": "Country Dance Halls",
+                "c2": 1
+            },
+            {
+                "c1": "Pet Services",
+                "c2": 1
+            },
+            {
+                "c1": "Pets",
+                "c2": 1
+            },
+            {
+                "c1": "Hiking",
+                "c2": 1
+            },
+            {
+                "c1": "Pita",
+                "c2": 1
+            },
+            {
+                "c1": "Hobby Shops",
+                "c2": 1
+            },
+            {
+                "c1": "Ticket Sales",
+                "c2": 1
+            },
+            {
+                "c1": "Horseback Riding",
+                "c2": 1
+            },
+            {
+                "c1": "Travel Services",
+                "c2": 1
+            },
+            {
+                "c1": "Coffee & Tea Supplies",
+                "c2": 1
+            },
+            {
+                "c1": "Furniture Stores",
+                "c2": 1
+            },
+            {
+                "c1": "Ukrainian",
+                "c2": 1
+            },
+            {
+                "c1": "Leisure Centers",
+                "c2": 1
+            },
+            {
+                "c1": "Iberian",
+                "c2": 1
+            },
+            {
+                "c1": "Appliances",
+                "c2": 1
+            },
+            {
+                "c1": "Hardware Stores",
+                "c2": 1
+            },
+            {
+                "c1": "Apartments",
+                "c2": 1
+            },
+            {
+                "c1": "Public Services & Government",
+                "c2": 1
+            },
+            {
+                "c1": "Izakaya",
+                "c2": 1
+            },
+            {
+                "c1": "Airports",
+                "c2": 1
+            },
+            {
+                "c1": "Car Wash",
+                "c2": 1
+            },
+            {
+                "c1": "Wok",
+                "c2": 1
+            },
+            {
+                "c1": "Yoga",
+                "c2": 1
+            }
+        ],
+        "height": 583,
+        "width": 975,
+        "sortTarget": "y"
     },
-    "timestamp": "2016-09-25T08:43:49.551Z",
+    "timestamp": "2016-09-25T08:44:43.191Z",
     "updatedBy": "",
     "snapshot": null,
     "publicTitle": "",
