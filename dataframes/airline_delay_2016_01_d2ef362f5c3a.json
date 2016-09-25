@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(total = sum(counts))",
+        "script": "mutate(total = sum(counts), percentage = counts / total * 100)",
         "command": {
             "name": "mutate",
             "mutations": [
@@ -24,9 +24,15 @@
                     "columnSelectorType": "newColumn",
                     "newColumnName": "total",
                     "expression": "sum(counts)"
+                },
+                {
+                    "columnSelectorType": "newColumn",
+                    "newColumnName": "percentage",
+                    "expression": "counts / total * 100"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-25T00:54:17.163Z"
+    "timestamp": "2016-09-25T02:33:52.386Z",
+    "filename": "airline_delay_2016_01_d2ef362f5c3a.json"
 }
