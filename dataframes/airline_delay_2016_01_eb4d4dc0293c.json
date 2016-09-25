@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(DEP_TIME = str_c(FL_DATE, DEP_TIME, sep=\" \"))",
+        "script": "mutate(DEP_TIME = str_c(FL_DATE, DEP_TIME, sep=\" \"), DEP_TIME = ymd_hm(DEP_TIME))",
         "command": {
             "name": "mutate",
             "mutations": [
@@ -28,9 +28,19 @@
                         "type": "unknown"
                     },
                     "expression": "str_c(FL_DATE, DEP_TIME, sep=\" \")"
+                },
+                {
+                    "columnSelectorType": "overwrite",
+                    "newColumnName": "new_column",
+                    "column": {
+                        "name": "DEP_TIME",
+                        "type": "unknown"
+                    },
+                    "expression": "ymd_hm(DEP_TIME)"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-25T21:13:24.236Z"
+    "timestamp": "2016-09-25T21:14:36.906Z",
+    "filename": "airline_delay_2016_01_eb4d4dc0293c.json"
 }
