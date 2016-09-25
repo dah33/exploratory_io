@@ -1,0 +1,34 @@
+{
+    "name": "carrier_lookup_1408d2eebbc6",
+    "displayName": "Add Row",
+    "type": "ADD_ROW",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "carrier_lookup_b63070ed85f5"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "carrier_lookup"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "add_row(code = \"vx\")",
+        "command": {
+            "name": "add_row",
+            "columns": [
+                {
+                    "column": {
+                        "name": "code",
+                        "type": "character"
+                    },
+                    "expression": "\"vx\""
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-25T05:56:12.314Z"
+}
