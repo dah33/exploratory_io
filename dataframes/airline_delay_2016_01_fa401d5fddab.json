@@ -1,0 +1,34 @@
+{
+    "name": "airline_delay_2016_01_fa401d5fddab",
+    "displayName": "Arrange (Sort)",
+    "type": "ARRANGE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline_delay_2016_01_6d2389b4815e"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline_delay_2016_01"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "arrange(weekday)",
+        "command": {
+            "name": "arrange",
+            "columns": [
+                {
+                    "column": {
+                        "name": "weekday",
+                        "type": "unknown"
+                    },
+                    "order": "Ascending"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-25T00:30:31.075Z"
+}
