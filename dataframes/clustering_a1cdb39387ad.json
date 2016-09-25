@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "build_kmeans(skv = c(\"CARRIER\", \"ORIGIN_STATE_ABR\"), centers = 7, augment = TRUE)",
+        "script": "build_kmeans(skv = c(\"CARRIER\", \"ORIGIN_STATE_ABR\"), centers = 6, augment = TRUE)",
         "command": {
             "name": "build_kmeans",
             "selectType": "skvColumns",
@@ -36,13 +36,13 @@
                 "ARR_DELAY",
                 "DISTANCE"
             ],
-            "centers": "7",
+            "centers": "6",
             "aggregateFunction": "",
             "keepSource": "",
             "trace": "",
             "algorithm": ""
         }
     },
-    "timestamp": "2016-09-25T07:01:05.218Z",
+    "timestamp": "2016-09-25T07:01:54.492Z",
     "filename": "clustering_a1cdb39387ad.json"
 }
