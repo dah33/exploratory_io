@@ -1,0 +1,34 @@
+{
+    "name": "carrier_lookup_b63070ed85f5",
+    "displayName": "Rename",
+    "type": "RENAME",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "carrier_lookup_Source1"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "carrier_lookup"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "rename(code = `IATA Carrier Code`)",
+        "command": {
+            "name": "rename",
+            "renames": [
+                {
+                    "column": {
+                        "name": "`IATA Carrier Code`",
+                        "type": "character"
+                    },
+                    "columnName": "code"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-25T05:29:52.643Z"
+}
