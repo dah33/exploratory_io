@@ -1,0 +1,32 @@
+{
+    "name": "airline_delay_2016_01_d2ef362f5c3a",
+    "displayName": "Mutate",
+    "type": "MUTATE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline_delay_2016_01_21b9209cb44f"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline_delay_2016_01"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "mutate(total = sum(counts))",
+        "command": {
+            "name": "mutate",
+            "mutations": [
+                {
+                    "columnSelectorType": "newColumn",
+                    "newColumnName": "total",
+                    "expression": "sum(counts)"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-25T00:54:17.163Z"
+}
