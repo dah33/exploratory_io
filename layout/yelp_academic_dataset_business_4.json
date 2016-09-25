@@ -1,0 +1,888 @@
+{
+    "name": "yelp_academic_dataset_business_4",
+    "displayName": "Chart 3",
+    "dependencies": [
+        "yelp_academic_dataset_business"
+    ],
+    "transformName": "",
+    "options": {
+        "marker": "bar",
+        "x": {
+            "name": "state",
+            "validName": "state",
+            "type": "character",
+            "isNumeric": false,
+            "isDate": false,
+            "func": "none",
+            "label": "c1",
+            "validLabel": "c1"
+        },
+        "y": {
+            "name": "counts",
+            "validName": "counts",
+            "type": "integer",
+            "isNumeric": true,
+            "isDate": false,
+            "func": "sum",
+            "label": "c2",
+            "validLabel": "c2"
+        },
+        "size": "",
+        "color": {
+            "name": "categories",
+            "validName": "categories",
+            "type": "character",
+            "isNumeric": false,
+            "isDate": false,
+            "func": "none",
+            "label": "c3",
+            "validLabel": "c3"
+        },
+        "text": "",
+        "shape": "",
+        "facetcolumn": "",
+        "facetrow": "",
+        "barstyle": "stack",
+        "barsort": "off",
+        "label": "",
+        "colh": "",
+        "rowh": "",
+        "meas": "",
+        "scatterText": "",
+        "includeOutlier": "off",
+        "treatNAAsZero": "on",
+        "mapmode": "USA-states",
+        "columns": [
+            {
+                "name": "state",
+                "type": "character",
+                "escapedName": "state",
+                "_row": "state",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "categories",
+                "type": "character",
+                "escapedName": "categories",
+                "_row": "categories",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "counts",
+                "type": "integer",
+                "escapedName": "counts",
+                "_row": "counts",
+                "isNumeric": true,
+                "isDate": false
+            }
+        ],
+        "data": [
+            {
+                "c1": "AZ",
+                "c3": "American (New)",
+                "c2": 8.0696
+            },
+            {
+                "c1": "AZ",
+                "c3": "American (Traditional)",
+                "c2": 11.1621
+            },
+            {
+                "c1": "AZ",
+                "c3": "Bars",
+                "c2": 8.287
+            },
+            {
+                "c1": "AZ",
+                "c3": "Burgers",
+                "c2": 7.828
+            },
+            {
+                "c1": "AZ",
+                "c3": "Fast Food",
+                "c2": 12.503
+            },
+            {
+                "c1": "AZ",
+                "c3": "Food",
+                "c2": 7.4535
+            },
+            {
+                "c1": "AZ",
+                "c3": "Mexican",
+                "c2": 14.46
+            },
+            {
+                "c1": "AZ",
+                "c3": "Nightlife",
+                "c2": 8.7582
+            },
+            {
+                "c1": "AZ",
+                "c3": "Pizza",
+                "c2": 11.4037
+            },
+            {
+                "c1": "AZ",
+                "c3": "Sandwiches",
+                "c2": 10.0749
+            },
+            {
+                "c1": "BW",
+                "c3": "Bars",
+                "c2": 7.4733
+            },
+            {
+                "c1": "BW",
+                "c3": "Cafes",
+                "c2": 12.4555
+            },
+            {
+                "c1": "BW",
+                "c3": "Coffee & Tea",
+                "c2": 7.8292
+            },
+            {
+                "c1": "BW",
+                "c3": "Fast Food",
+                "c2": 5.3381
+            },
+            {
+                "c1": "BW",
+                "c3": "Food",
+                "c2": 14.5907
+            },
+            {
+                "c1": "BW",
+                "c3": "German",
+                "c2": 14.2349
+            },
+            {
+                "c1": "BW",
+                "c3": "Italian",
+                "c2": 14.2349
+            },
+            {
+                "c1": "BW",
+                "c3": "Kebab",
+                "c2": 5.694
+            },
+            {
+                "c1": "BW",
+                "c3": "Nightlife",
+                "c2": 9.0747
+            },
+            {
+                "c1": "BW",
+                "c3": "Pizza",
+                "c2": 9.0747
+            },
+            {
+                "c1": "EDH",
+                "c3": "Bars",
+                "c2": 11.047
+            },
+            {
+                "c1": "EDH",
+                "c3": "British",
+                "c2": 9.0684
+            },
+            {
+                "c1": "EDH",
+                "c3": "Chinese",
+                "c2": 6.1006
+            },
+            {
+                "c1": "EDH",
+                "c3": "Coffee & Tea",
+                "c2": 11.6241
+            },
+            {
+                "c1": "EDH",
+                "c3": "Fast Food",
+                "c2": 12.9431
+            },
+            {
+                "c1": "EDH",
+                "c3": "Food",
+                "c2": 15.5812
+            },
+            {
+                "c1": "EDH",
+                "c3": "Indian",
+                "c2": 6.2655
+            },
+            {
+                "c1": "EDH",
+                "c3": "Italian",
+                "c2": 9.2333
+            },
+            {
+                "c1": "EDH",
+                "c3": "Nightlife",
+                "c2": 11.1294
+            },
+            {
+                "c1": "EDH",
+                "c3": "Sandwiches",
+                "c2": 7.0074
+            },
+            {
+                "c1": "ELN",
+                "c3": "British",
+                "c2": 50
+            },
+            {
+                "c1": "ELN",
+                "c3": "Gastropubs",
+                "c2": 16.6667
+            },
+            {
+                "c1": "ELN",
+                "c3": "Italian",
+                "c2": 16.6667
+            },
+            {
+                "c1": "ELN",
+                "c3": "Thai",
+                "c2": 16.6667
+            },
+            {
+                "c1": "FIF",
+                "c3": "Bars",
+                "c2": 20
+            },
+            {
+                "c1": "FIF",
+                "c3": "Cocktail Bars",
+                "c2": 20
+            },
+            {
+                "c1": "FIF",
+                "c3": "Delis",
+                "c2": 20
+            },
+            {
+                "c1": "FIF",
+                "c3": "Fast Food",
+                "c2": 20
+            },
+            {
+                "c1": "FIF",
+                "c3": "Nightlife",
+                "c2": 20
+            },
+            {
+                "c1": "IL",
+                "c3": "American (New)",
+                "c2": 5.7971
+            },
+            {
+                "c1": "IL",
+                "c3": "American (Traditional)",
+                "c2": 9.4203
+            },
+            {
+                "c1": "IL",
+                "c3": "Bars",
+                "c2": 9.4203
+            },
+            {
+                "c1": "IL",
+                "c3": "Breakfast & Brunch",
+                "c2": 5.7971
+            },
+            {
+                "c1": "IL",
+                "c3": "Burgers",
+                "c2": 6.8841
+            },
+            {
+                "c1": "IL",
+                "c3": "Chinese",
+                "c2": 8.3333
+            },
+            {
+                "c1": "IL",
+                "c3": "Fast Food",
+                "c2": 7.971
+            },
+            {
+                "c1": "IL",
+                "c3": "Food",
+                "c2": 5.7971
+            },
+            {
+                "c1": "IL",
+                "c3": "Mexican",
+                "c2": 9.7826
+            },
+            {
+                "c1": "IL",
+                "c3": "Nightlife",
+                "c2": 9.4203
+            },
+            {
+                "c1": "IL",
+                "c3": "Pizza",
+                "c2": 11.2319
+            },
+            {
+                "c1": "IL",
+                "c3": "Sandwiches",
+                "c2": 10.1449
+            },
+            {
+                "c1": "KHL",
+                "c3": "Coffee & Tea",
+                "c2": 25
+            },
+            {
+                "c1": "KHL",
+                "c3": "Food",
+                "c2": 25
+            },
+            {
+                "c1": "KHL",
+                "c3": "Sandwiches",
+                "c2": 25
+            },
+            {
+                "c1": "KHL",
+                "c3": "Soup",
+                "c2": 25
+            },
+            {
+                "c1": "MLN",
+                "c3": "Bars",
+                "c2": 9.589
+            },
+            {
+                "c1": "MLN",
+                "c3": "British",
+                "c2": 4.1096
+            },
+            {
+                "c1": "MLN",
+                "c3": "Cafes",
+                "c2": 15.0685
+            },
+            {
+                "c1": "MLN",
+                "c3": "Chinese",
+                "c2": 4.1096
+            },
+            {
+                "c1": "MLN",
+                "c3": "Event Planning & Services",
+                "c2": 4.1096
+            },
+            {
+                "c1": "MLN",
+                "c3": "Fast Food",
+                "c2": 6.8493
+            },
+            {
+                "c1": "MLN",
+                "c3": "Food",
+                "c2": 5.4795
+            },
+            {
+                "c1": "MLN",
+                "c3": "Indian",
+                "c2": 9.589
+            },
+            {
+                "c1": "MLN",
+                "c3": "Italian",
+                "c2": 6.8493
+            },
+            {
+                "c1": "MLN",
+                "c3": "Nightlife",
+                "c2": 9.589
+            },
+            {
+                "c1": "MLN",
+                "c3": "Pubs",
+                "c2": 6.8493
+            },
+            {
+                "c1": "MLN",
+                "c3": "Sandwiches",
+                "c2": 5.4795
+            },
+            {
+                "c1": "MLN",
+                "c3": "Scottish",
+                "c2": 4.1096
+            },
+            {
+                "c1": "MLN",
+                "c3": "Shopping",
+                "c2": 4.1096
+            },
+            {
+                "c1": "MLN",
+                "c3": "Thai",
+                "c2": 4.1096
+            },
+            {
+                "c1": "NC",
+                "c3": "American (New)",
+                "c2": 10.0716
+            },
+            {
+                "c1": "NC",
+                "c3": "American (Traditional)",
+                "c2": 13.1391
+            },
+            {
+                "c1": "NC",
+                "c3": "Bars",
+                "c2": 10.3783
+            },
+            {
+                "c1": "NC",
+                "c3": "Burgers",
+                "c2": 8.4867
+            },
+            {
+                "c1": "NC",
+                "c3": "Chinese",
+                "c2": 6.7485
+            },
+            {
+                "c1": "NC",
+                "c3": "Fast Food",
+                "c2": 11.2986
+            },
+            {
+                "c1": "NC",
+                "c3": "Mexican",
+                "c2": 7.8221
+            },
+            {
+                "c1": "NC",
+                "c3": "Nightlife",
+                "c2": 10.7362
+            },
+            {
+                "c1": "NC",
+                "c3": "Pizza",
+                "c2": 9.7137
+            },
+            {
+                "c1": "NC",
+                "c3": "Sandwiches",
+                "c2": 11.6053
+            },
+            {
+                "c1": "NV",
+                "c3": "American (New)",
+                "c2": 7.6117
+            },
+            {
+                "c1": "NV",
+                "c3": "American (Traditional)",
+                "c2": 11.161
+            },
+            {
+                "c1": "NV",
+                "c3": "Bars",
+                "c2": 8.638
+            },
+            {
+                "c1": "NV",
+                "c3": "Burgers",
+                "c2": 7.8469
+            },
+            {
+                "c1": "NV",
+                "c3": "Chinese",
+                "c2": 7.9538
+            },
+            {
+                "c1": "NV",
+                "c3": "Fast Food",
+                "c2": 14.86
+            },
+            {
+                "c1": "NV",
+                "c3": "Mexican",
+                "c2": 12.6791
+            },
+            {
+                "c1": "NV",
+                "c3": "Nightlife",
+                "c2": 9.2153
+            },
+            {
+                "c1": "NV",
+                "c3": "Pizza",
+                "c2": 10.4982
+            },
+            {
+                "c1": "NV",
+                "c3": "Sandwiches",
+                "c2": 9.536
+            },
+            {
+                "c1": "NW",
+                "c3": "Sandwiches",
+                "c2": 100
+            },
+            {
+                "c1": "ON",
+                "c3": "American (Traditional)",
+                "c2": 9.633
+            },
+            {
+                "c1": "ON",
+                "c3": "Bars",
+                "c2": 11.0092
+            },
+            {
+                "c1": "ON",
+                "c3": "Breakfast & Brunch",
+                "c2": 7.3394
+            },
+            {
+                "c1": "ON",
+                "c3": "Burgers",
+                "c2": 9.633
+            },
+            {
+                "c1": "ON",
+                "c3": "Canadian (New)",
+                "c2": 9.1743
+            },
+            {
+                "c1": "ON",
+                "c3": "Chinese",
+                "c2": 13.3028
+            },
+            {
+                "c1": "ON",
+                "c3": "Fast Food",
+                "c2": 8.2569
+            },
+            {
+                "c1": "ON",
+                "c3": "Food",
+                "c2": 11.9266
+            },
+            {
+                "c1": "ON",
+                "c3": "Nightlife",
+                "c2": 11.4679
+            },
+            {
+                "c1": "ON",
+                "c3": "Sandwiches",
+                "c2": 8.2569
+            },
+            {
+                "c1": "PA",
+                "c3": "American (New)",
+                "c2": 10.4308
+            },
+            {
+                "c1": "PA",
+                "c3": "American (Traditional)",
+                "c2": 11.4135
+            },
+            {
+                "c1": "PA",
+                "c3": "Bars",
+                "c2": 11.2623
+            },
+            {
+                "c1": "PA",
+                "c3": "Burgers",
+                "c2": 5.4422
+            },
+            {
+                "c1": "PA",
+                "c3": "Chinese",
+                "c2": 7.0295
+            },
+            {
+                "c1": "PA",
+                "c3": "Food",
+                "c2": 8.6168
+            },
+            {
+                "c1": "PA",
+                "c3": "Italian",
+                "c2": 9.7506
+            },
+            {
+                "c1": "PA",
+                "c3": "Nightlife",
+                "c2": 11.489
+            },
+            {
+                "c1": "PA",
+                "c3": "Pizza",
+                "c2": 14.8148
+            },
+            {
+                "c1": "PA",
+                "c3": "Sandwiches",
+                "c2": 9.7506
+            },
+            {
+                "c1": "QC",
+                "c3": "Breakfast & Brunch",
+                "c2": 9.9942
+            },
+            {
+                "c1": "QC",
+                "c3": "Cafes",
+                "c2": 10.459
+            },
+            {
+                "c1": "QC",
+                "c3": "Canadian (New)",
+                "c2": 9.4131
+            },
+            {
+                "c1": "QC",
+                "c3": "Chinese",
+                "c2": 7.7862
+            },
+            {
+                "c1": "QC",
+                "c3": "Food",
+                "c2": 11.1563
+            },
+            {
+                "c1": "QC",
+                "c3": "French",
+                "c2": 15.8048
+            },
+            {
+                "c1": "QC",
+                "c3": "Italian",
+                "c2": 11.3306
+            },
+            {
+                "c1": "QC",
+                "c3": "Nightlife",
+                "c2": 8.1929
+            },
+            {
+                "c1": "QC",
+                "c3": "Pizza",
+                "c2": 8.774
+            },
+            {
+                "c1": "QC",
+                "c3": "Sushi Bars",
+                "c2": 7.0889
+            },
+            {
+                "c1": "RP",
+                "c3": "Arts & Entertainment",
+                "c2": 4.5455
+            },
+            {
+                "c1": "RP",
+                "c3": "Bakeries",
+                "c2": 4.5455
+            },
+            {
+                "c1": "RP",
+                "c3": "Beer Garden",
+                "c2": 9.0909
+            },
+            {
+                "c1": "RP",
+                "c3": "Cafes",
+                "c2": 4.5455
+            },
+            {
+                "c1": "RP",
+                "c3": "Coffee & Tea",
+                "c2": 4.5455
+            },
+            {
+                "c1": "RP",
+                "c3": "Event Planning & Services",
+                "c2": 4.5455
+            },
+            {
+                "c1": "RP",
+                "c3": "Food",
+                "c2": 4.5455
+            },
+            {
+                "c1": "RP",
+                "c3": "German",
+                "c2": 22.7273
+            },
+            {
+                "c1": "RP",
+                "c3": "Hotels",
+                "c2": 4.5455
+            },
+            {
+                "c1": "RP",
+                "c3": "Hotels & Travel",
+                "c2": 4.5455
+            },
+            {
+                "c1": "RP",
+                "c3": "Italian",
+                "c2": 9.0909
+            },
+            {
+                "c1": "RP",
+                "c3": "Music Venues",
+                "c2": 4.5455
+            },
+            {
+                "c1": "RP",
+                "c3": "Nightlife",
+                "c2": 4.5455
+            },
+            {
+                "c1": "RP",
+                "c3": "Pizza",
+                "c2": 9.0909
+            },
+            {
+                "c1": "RP",
+                "c3": "Venues & Event Spaces",
+                "c2": 4.5455
+            },
+            {
+                "c1": "SC",
+                "c3": "American (New)",
+                "c2": 9.5238
+            },
+            {
+                "c1": "SC",
+                "c3": "American (Traditional)",
+                "c2": 12.381
+            },
+            {
+                "c1": "SC",
+                "c3": "Bars",
+                "c2": 9.5238
+            },
+            {
+                "c1": "SC",
+                "c3": "Burgers",
+                "c2": 6.6667
+            },
+            {
+                "c1": "SC",
+                "c3": "Chinese",
+                "c2": 8.5714
+            },
+            {
+                "c1": "SC",
+                "c3": "Fast Food",
+                "c2": 11.4286
+            },
+            {
+                "c1": "SC",
+                "c3": "Food",
+                "c2": 6.6667
+            },
+            {
+                "c1": "SC",
+                "c3": "Mexican",
+                "c2": 9.5238
+            },
+            {
+                "c1": "SC",
+                "c3": "Nightlife",
+                "c2": 9.5238
+            },
+            {
+                "c1": "SC",
+                "c3": "Pizza",
+                "c2": 8.5714
+            },
+            {
+                "c1": "SC",
+                "c3": "Sandwiches",
+                "c2": 7.619
+            },
+            {
+                "c1": "WI",
+                "c3": "American (New)",
+                "c2": 9.4905
+            },
+            {
+                "c1": "WI",
+                "c3": "American (Traditional)",
+                "c2": 12.6873
+            },
+            {
+                "c1": "WI",
+                "c3": "Bars",
+                "c2": 12.6873
+            },
+            {
+                "c1": "WI",
+                "c3": "Chinese",
+                "c2": 7.1928
+            },
+            {
+                "c1": "WI",
+                "c3": "Food",
+                "c2": 11.0889
+            },
+            {
+                "c1": "WI",
+                "c3": "Italian",
+                "c2": 6.2937
+            },
+            {
+                "c1": "WI",
+                "c3": "Mexican",
+                "c2": 8.5914
+            },
+            {
+                "c1": "WI",
+                "c3": "Nightlife",
+                "c2": 12.987
+            },
+            {
+                "c1": "WI",
+                "c3": "Pizza",
+                "c2": 10.2897
+            },
+            {
+                "c1": "WI",
+                "c3": "Sandwiches",
+                "c2": 8.6913
+            },
+            {
+                "c1": "XGL",
+                "c3": "Tapas Bars",
+                "c2": 100
+            }
+        ],
+        "height": 583,
+        "width": 769,
+        "yWindowFuncGroup": "total",
+        "yWindowFunc": "ptotal"
+    },
+    "timestamp": "2016-09-25T19:24:21.879Z",
+    "updatedBy": "",
+    "snapshot": null,
+    "publicTitle": "",
+    "publicDescription": "",
+    "publicDataSourceURL": "",
+    "publicWithData": true,
+    "privateShare": false,
+    "sharedURL": "",
+    "publishSizeOption": null
+}
