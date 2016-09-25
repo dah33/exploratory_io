@@ -1,0 +1,162 @@
+{
+    "name": "yelp_academic_dataset_business_viz_1",
+    "displayName": "Chart 1",
+    "dependencies": [
+        "yelp_academic_dataset_business"
+    ],
+    "transformName": "",
+    "options": {
+        "marker": "pivot",
+        "x": "",
+        "y": "",
+        "size": "",
+        "color": "",
+        "text": "",
+        "shape": "",
+        "facetcolumn": "",
+        "facetrow": "",
+        "barstyle": "stack",
+        "barsort": "off",
+        "label": "",
+        "colh": "",
+        "rowh": "",
+        "meas": "",
+        "scatterText": "",
+        "includeOutlier": "off",
+        "treatNAAsZero": "on",
+        "mapmode": "USA-states",
+        "columns": [
+            {
+                "name": "business_id",
+                "type": "character",
+                "escapedName": "business_id",
+                "_row": "business_id",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "full_address",
+                "type": "character",
+                "escapedName": "full_address",
+                "_row": "full_address",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "open",
+                "type": "logical",
+                "escapedName": "open",
+                "_row": "open",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "city",
+                "type": "character",
+                "escapedName": "city",
+                "_row": "city",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "review_count",
+                "type": "integer",
+                "escapedName": "review_count",
+                "_row": "review_count",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "name",
+                "type": "character",
+                "escapedName": "name",
+                "_row": "name",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "neighborhoods",
+                "type": "list",
+                "escapedName": "neighborhoods",
+                "_row": "neighborhoods",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "longitude",
+                "type": "numeric",
+                "escapedName": "longitude",
+                "_row": "longitude",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "state",
+                "type": "character",
+                "escapedName": "state",
+                "_row": "state",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "stars",
+                "type": "numeric",
+                "escapedName": "stars",
+                "_row": "stars",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "latitude",
+                "type": "numeric",
+                "escapedName": "latitude",
+                "_row": "latitude",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "type",
+                "type": "character",
+                "escapedName": "type",
+                "_row": "type",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "neighborhood_counts",
+                "type": "character",
+                "escapedName": "neighborhood_counts",
+                "_row": "neighborhood_counts",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "is_restaurant",
+                "type": "logical",
+                "escapedName": "is_restaurant",
+                "_row": "is_restaurant",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "categories",
+                "type": "character",
+                "escapedName": "categories",
+                "_row": "categories",
+                "isNumeric": false,
+                "isDate": false
+            }
+        ],
+        "data": null
+    },
+    "timestamp": "2016-09-25T08:43:47.998Z",
+    "updatedBy": "",
+    "snapshot": null,
+    "publicTitle": "",
+    "publicDescription": "",
+    "publicDataSourceURL": "",
+    "publicWithData": true,
+    "privateShare": false,
+    "sharedURL": "",
+    "publishSizeOption": null
+}
