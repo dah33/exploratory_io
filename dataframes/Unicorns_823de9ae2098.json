@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(`Valuation ($B)` = extract_numeric(`Valuation ($B)`), `Select Investors` = str_clean(`Select Investors`), is_sequoia = str_detect(`Select Investors`, \"Sequoia Capital\"))",
+        "script": "mutate(`Valuation ($B)` = extract_numeric(`Valuation ($B)`), `Select Investors` = str_clean(`Select Investors`), is_sequoia = str_detect(`Select Investors`, \"Sequoia Capital\"), `Select Investors` = str_replace(`Select Investors`, \"Andreessen Horowitz\", \"A16Z\"))",
         "command": {
             "name": "mutate",
             "mutations": [
@@ -40,10 +40,19 @@
                     "columnSelectorType": "newColumn",
                     "newColumnName": "is_sequoia",
                     "expression": "str_detect(`Select Investors`, \"Sequoia Capital\")"
+                },
+                {
+                    "columnSelectorType": "overwrite",
+                    "newColumnName": "new_column",
+                    "column": {
+                        "name": "`Select Investors`",
+                        "type": "unknown"
+                    },
+                    "expression": "str_replace(`Select Investors`, \"Andreessen Horowitz\", \"A16Z\")"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-25T20:52:04.649Z",
+    "timestamp": "2016-09-25T20:55:30.006Z",
     "filename": "Unicorns_823de9ae2098.json"
 }
