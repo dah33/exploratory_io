@@ -1,0 +1,98 @@
+{
+    "name": "Unicorns_5",
+    "displayName": "Chart 2",
+    "dependencies": [
+        "Unicorns"
+    ],
+    "transformName": "",
+    "options": {
+        "marker": "pivot",
+        "x": "",
+        "y": "",
+        "size": "",
+        "color": "",
+        "text": "",
+        "shape": "",
+        "facetcolumn": "",
+        "facetrow": "",
+        "barstyle": "stack",
+        "barsort": "off",
+        "label": "",
+        "colh": "",
+        "rowh": "",
+        "meas": "",
+        "scatterText": "",
+        "includeOutlier": "off",
+        "treatNAAsZero": "on",
+        "mapmode": "USA-states",
+        "columns": [
+            {
+                "name": "Company",
+                "type": "character",
+                "escapedName": "Company",
+                "_row": "Company",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "Valuation ($B)",
+                "type": "numeric",
+                "escapedName": "`Valuation ($B)`",
+                "_row": "Valuation ($B)",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "Date Joined",
+                "type": "Date",
+                "escapedName": "`Date Joined`",
+                "_row": "Date Joined",
+                "isNumeric": false,
+                "isDate": true
+            },
+            {
+                "name": "Country",
+                "type": "character",
+                "escapedName": "Country",
+                "_row": "Country",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "Industry",
+                "type": "character",
+                "escapedName": "Industry",
+                "_row": "Industry",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "is_sequoia",
+                "type": "logical",
+                "escapedName": "is_sequoia",
+                "_row": "is_sequoia",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "Select Investors",
+                "type": "character",
+                "escapedName": "`Select Investors`",
+                "_row": "Select Investors",
+                "isNumeric": false,
+                "isDate": false
+            }
+        ],
+        "data": null
+    },
+    "timestamp": "2016-09-25T21:07:27.132Z",
+    "updatedBy": "",
+    "snapshot": null,
+    "publicTitle": "",
+    "publicDescription": "",
+    "publicDataSourceURL": "",
+    "publicWithData": true,
+    "privateShare": false,
+    "sharedURL": "",
+    "publishSizeOption": null
+}
