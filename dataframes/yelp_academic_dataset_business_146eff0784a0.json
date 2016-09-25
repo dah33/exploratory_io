@@ -1,0 +1,29 @@
+{
+    "name": "yelp_academic_dataset_business_146eff0784a0",
+    "displayName": "Unnest",
+    "type": "UNNEST",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "yelp_academic_dataset_business_d41e72dcbce3"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "yelp_academic_dataset_business"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "unnest(categories, .drop = FALSE)",
+        "command": {
+            "name": "unnest",
+            "column": {
+                "name": "categories"
+            },
+            "drop": "FALSE"
+        }
+    },
+    "timestamp": "2016-09-25T08:41:02.814Z"
+}
