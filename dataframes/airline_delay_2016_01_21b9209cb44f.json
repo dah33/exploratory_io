@@ -1,0 +1,31 @@
+{
+    "name": "airline_delay_2016_01_21b9209cb44f",
+    "displayName": "Summarize",
+    "type": "SUMMARIZE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline_delay_2016_01_7a483da32fae"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline_delay_2016_01"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "summarize(counts = n())",
+        "command": {
+            "name": "summarize",
+            "summaries": [
+                {
+                    "newColumnName": "counts",
+                    "aggregateFunction": "n"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-25T00:47:49.151Z"
+}
