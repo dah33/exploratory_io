@@ -1,0 +1,15 @@
+{
+    "name": "carrier_lookup",
+    "displayName": "carrier_lookup",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "carrier_lookup_Source1"
+        }
+    ],
+    "props": {},
+    "columns": [],
+    "rdata": {},
+    "timestamp": "2016-09-25T05:24:13.062Z",
+    "filename": "carrier_lookup.json"
+}
