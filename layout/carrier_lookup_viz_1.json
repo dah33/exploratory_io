@@ -1,0 +1,66 @@
+{
+    "name": "carrier_lookup_viz_1",
+    "displayName": "Chart 1",
+    "dependencies": [
+        "carrier_lookup"
+    ],
+    "transformName": "",
+    "options": {
+        "marker": "pivot",
+        "x": "",
+        "y": "",
+        "size": "",
+        "color": "",
+        "text": "",
+        "shape": "",
+        "facetcolumn": "",
+        "facetrow": "",
+        "barstyle": "stack",
+        "barsort": "off",
+        "label": "",
+        "colh": "",
+        "rowh": "",
+        "meas": "",
+        "scatterText": "",
+        "includeOutlier": "off",
+        "treatNAAsZero": "on",
+        "mapmode": "USA-states",
+        "columns": [
+            {
+                "name": "code",
+                "type": "character",
+                "escapedName": "code",
+                "_row": "code",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "code3",
+                "type": "character",
+                "escapedName": "code3",
+                "_row": "code3",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "name",
+                "type": "character",
+                "escapedName": "name",
+                "_row": "name",
+                "isNumeric": false,
+                "isDate": false
+            }
+        ],
+        "data": null
+    },
+    "timestamp": "2016-09-25T05:51:31.930Z",
+    "updatedBy": "",
+    "snapshot": null,
+    "publicTitle": "",
+    "publicDescription": "",
+    "publicDataSourceURL": "",
+    "publicWithData": true,
+    "privateShare": false,
+    "sharedURL": "",
+    "publishSizeOption": null
+}
