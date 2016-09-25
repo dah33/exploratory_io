@@ -1,0 +1,41 @@
+{
+    "name": "clustering_viz_1",
+    "displayName": "Chart 1",
+    "dependencies": [
+        "clustering"
+    ],
+    "transformName": "",
+    "options": {
+        "marker": "pivot",
+        "x": "",
+        "y": "",
+        "size": "",
+        "color": "",
+        "text": "",
+        "shape": "",
+        "facetcolumn": "",
+        "facetrow": "",
+        "barstyle": "stack",
+        "barsort": "off",
+        "label": "",
+        "colh": "",
+        "rowh": "",
+        "meas": "",
+        "scatterText": "",
+        "includeOutlier": "off",
+        "treatNAAsZero": "on",
+        "mapmode": "USA-states",
+        "columns": [],
+        "data": null
+    },
+    "timestamp": "2016-09-25T06:50:09.187Z",
+    "updatedBy": "",
+    "snapshot": null,
+    "publicTitle": "",
+    "publicDescription": "",
+    "publicDataSourceURL": "",
+    "publicWithData": true,
+    "privateShare": false,
+    "sharedURL": "",
+    "publishSizeOption": null
+}
