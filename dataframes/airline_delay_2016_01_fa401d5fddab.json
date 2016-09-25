@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "arrange(weekday)",
+        "script": "arrange(desc(weekday))",
         "command": {
             "name": "arrange",
             "columns": [
@@ -25,10 +25,11 @@
                         "name": "weekday",
                         "type": "unknown"
                     },
-                    "order": "Ascending"
+                    "order": "Descending"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-25T00:30:31.075Z"
+    "timestamp": "2016-09-25T00:30:54.037Z",
+    "filename": "airline_delay_2016_01_fa401d5fddab.json"
 }
