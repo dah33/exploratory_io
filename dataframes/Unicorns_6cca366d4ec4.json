@@ -1,0 +1,36 @@
+{
+    "name": "Unicorns_6cca366d4ec4",
+    "displayName": "Mutate",
+    "type": "MUTATE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "Unicorns_6324a697fa28"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "Unicorns"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "mutate(`Select Investors` = str_split(`Select Investors`, \", \"))",
+        "command": {
+            "name": "mutate",
+            "mutations": [
+                {
+                    "columnSelectorType": "overwrite",
+                    "newColumnName": "new_column",
+                    "column": {
+                        "name": "`Select Investors`",
+                        "type": "unknown"
+                    },
+                    "expression": "str_split(`Select Investors`, \", \")"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-25T21:04:36.405Z"
+}
