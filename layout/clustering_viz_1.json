@@ -1026,7 +1026,7 @@
         },
         "pivotColor": "row5"
     },
-    "timestamp": "2016-09-25T07:47:57.604Z",
+    "timestamp": "2016-09-25T08:26:50.582Z",
     "updatedBy": "",
     "snapshot": null,
     "publicTitle": "",
@@ -1035,5 +1035,6 @@
     "publicWithData": true,
     "privateShare": false,
     "sharedURL": "",
-    "publishSizeOption": null
+    "publishSizeOption": null,
+    "filename": "clustering_viz_1.json"
 }
