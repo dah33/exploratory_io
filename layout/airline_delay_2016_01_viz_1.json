@@ -18,12 +18,12 @@
             "validLabel": "c1"
         },
         "y": {
-            "name": "correlation",
-            "validName": "correlation",
-            "type": "numeric",
-            "isNumeric": true,
+            "name": "CARRIER",
+            "validName": "CARRIER",
+            "type": "numrows",
+            "isNumeric": false,
             "isDate": false,
-            "func": "sum",
+            "func": "count",
             "label": "c2",
             "validLabel": "c2"
         },
@@ -53,62 +53,70 @@
                 "isDate": false
             },
             {
-                "name": "correlation",
-                "type": "numeric",
-                "escapedName": "correlation",
-                "_row": "correlation",
-                "isNumeric": true,
+                "name": "model",
+                "type": "list,.model,.model.lm",
+                "escapedName": "model",
+                "_row": "model",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "source.data",
+                "type": "list,.source.data",
+                "escapedName": "source.data",
+                "_row": "source.data",
+                "isNumeric": false,
                 "isDate": false
             }
         ],
         "data": [
             {
-                "c1": "OO",
-                "c2": 0.9649
-            },
-            {
-                "c1": "EV",
-                "c2": 0.9536
-            },
-            {
-                "c1": "F9",
-                "c2": 0.9471
-            },
-            {
-                "c1": "NK",
-                "c2": 0.9445
-            },
-            {
-                "c1": "DL",
-                "c2": 0.9434
+                "c1": "HA",
+                "c2": 1
             },
             {
                 "c1": "AA",
-                "c2": 0.9431
+                "c2": 1
             },
             {
                 "c1": "B6",
-                "c2": 0.9403
+                "c2": 1
             },
             {
-                "c1": "VX",
-                "c2": 0.9381
+                "c1": "DL",
+                "c2": 1
             },
             {
-                "c1": "UA",
-                "c2": 0.9302
+                "c1": "EV",
+                "c2": 1
             },
             {
-                "c1": "WN",
-                "c2": 0.9179
-            },
-            {
-                "c1": "HA",
-                "c2": 0.899
+                "c1": "F9",
+                "c2": 1
             },
             {
                 "c1": "AS",
-                "c2": 0.8628
+                "c2": 1
+            },
+            {
+                "c1": "NK",
+                "c2": 1
+            },
+            {
+                "c1": "OO",
+                "c2": 1
+            },
+            {
+                "c1": "UA",
+                "c2": 1
+            },
+            {
+                "c1": "VX",
+                "c2": 1
+            },
+            {
+                "c1": "WN",
+                "c2": 1
             }
         ],
         "height": 574,
@@ -119,7 +127,7 @@
         "pivotColor": "row5",
         "sortTarget": "y"
     },
-    "timestamp": "2016-09-25T06:30:00.174Z",
+    "timestamp": "2016-09-25T06:41:39.766Z",
     "updatedBy": "",
     "snapshot": null,
     "publicTitle": "",
