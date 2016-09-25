@@ -1,0 +1,34 @@
+{
+    "name": "election_tv_ad_campaign_2fb378a64873",
+    "displayName": "Mutate",
+    "type": "MUTATE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "election_tv_ad_campaign_521129488384"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "election_tv_ad_campaign"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "mutate(start_time = ymd_hms(start_time))",
+        "command": {
+            "name": "mutate",
+            "mutations": [
+                {
+                    "columnSelectorType": "overwrite",
+                    "column": {
+                        "name": "start_time"
+                    },
+                    "expression": "ymd_hms(start_time)"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-25T22:05:43.485Z"
+}
