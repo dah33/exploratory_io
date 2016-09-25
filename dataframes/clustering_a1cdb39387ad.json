@@ -16,20 +16,19 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "build_kmeans(DEP_DELAY, ARR_DELAY, DISTANCE, centers = 5, augment = TRUE)",
+        "script": "build_kmeans(skv = c(\"CARRIER\", \"ORIGIN_CITY_NAME\"), centers = 5, augment = TRUE)",
         "command": {
             "name": "build_kmeans",
-            "selectType": "selectColumns",
+            "selectType": "skvColumns",
             "augment": "TRUE",
             "subjectColumn": {
-                "name": "FL_DATE",
-                "type": "Date"
+                "name": "CARRIER",
+                "type": "unknown"
             },
             "keyColumn": {
-                "name": "FL_DATE",
-                "type": "Date"
+                "name": "ORIGIN_CITY_NAME",
+                "type": "unknown"
             },
-            "aggregateFunction": "",
             "columnSelectionType": "Select",
             "includeOrExclude": "Include",
             "columns": [
@@ -38,11 +37,12 @@
                 "DISTANCE"
             ],
             "centers": "5",
+            "aggregateFunction": "",
             "keepSource": "",
             "trace": "",
             "algorithm": ""
         }
     },
-    "timestamp": "2016-09-25T06:56:20.696Z",
+    "timestamp": "2016-09-25T06:59:44.586Z",
     "filename": "clustering_a1cdb39387ad.json"
 }
