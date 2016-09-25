@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "add_row(code = \"VX\")",
+        "script": "add_row(code = \"VX\", name = \"Virgin Airline\")",
         "command": {
             "name": "add_row",
             "columns": [
@@ -26,10 +26,17 @@
                         "type": "character"
                     },
                     "expression": "\"VX\""
+                },
+                {
+                    "column": {
+                        "name": "name",
+                        "type": "unknown"
+                    },
+                    "expression": "\"Virgin Airline\""
                 }
             ]
         }
     },
-    "timestamp": "2016-09-25T05:56:20.963Z",
+    "timestamp": "2016-09-25T05:56:37.222Z",
     "filename": "carrier_lookup_1408d2eebbc6.json"
 }
