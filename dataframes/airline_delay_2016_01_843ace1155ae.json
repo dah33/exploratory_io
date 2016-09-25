@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "select(-FL_NUM, -starts_with(\"ORIGIN\"))",
+        "script": "select(-FL_NUM)",
         "command": {
             "name": "select",
             "columnSelectors": [
@@ -24,24 +24,10 @@
                     "includeOrExclude": "Exclude",
                     "columnSelectorType": "column",
                     "name": "FL_NUM"
-                },
-                {
-                    "includeOrExclude": "Exclude",
-                    "columnSelectorType": "function",
-                    "functionType": "starts_with",
-                    "start": {
-                        "name": "FL_DATE",
-                        "type": "Date"
-                    },
-                    "end": {
-                        "name": "FL_DATE",
-                        "type": "Date"
-                    },
-                    "val": "ORIGIN"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-25T00:25:57.156Z",
+    "timestamp": "2016-09-25T03:39:50.933Z",
     "filename": "airline_delay_2016_01_843ace1155ae.json"
 }
