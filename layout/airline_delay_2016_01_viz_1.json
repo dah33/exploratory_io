@@ -1,0 +1,266 @@
+{
+    "name": "airline_delay_2016_01_viz_1",
+    "displayName": "Chart 1",
+    "dependencies": [
+        "airline_delay_2016_01"
+    ],
+    "transformName": "",
+    "options": {
+        "marker": "pivot",
+        "x": "",
+        "y": "",
+        "size": "",
+        "color": "",
+        "text": "",
+        "shape": "",
+        "facetcolumn": "",
+        "facetrow": "",
+        "barstyle": "stack",
+        "barsort": "off",
+        "label": "",
+        "colh": "",
+        "rowh": "",
+        "meas": "",
+        "scatterText": "",
+        "includeOutlier": "off",
+        "treatNAAsZero": "on",
+        "mapmode": "USA-states",
+        "columns": [
+            {
+                "name": "FL_DATE",
+                "type": "Date",
+                "escapedName": "FL_DATE",
+                "_row": "FL_DATE",
+                "isNumeric": false,
+                "isDate": true
+            },
+            {
+                "name": "CARRIER",
+                "type": "character",
+                "escapedName": "CARRIER",
+                "_row": "CARRIER",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "FL_NUM",
+                "type": "integer",
+                "escapedName": "FL_NUM",
+                "_row": "FL_NUM",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "ORIGIN_CITY_MARKET_ID",
+                "type": "integer",
+                "escapedName": "ORIGIN_CITY_MARKET_ID",
+                "_row": "ORIGIN_CITY_MARKET_ID",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "ORIGIN",
+                "type": "character",
+                "escapedName": "ORIGIN",
+                "_row": "ORIGIN",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "ORIGIN_CITY_NAME",
+                "type": "character",
+                "escapedName": "ORIGIN_CITY_NAME",
+                "_row": "ORIGIN_CITY_NAME",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "ORIGIN_STATE_ABR",
+                "type": "character",
+                "escapedName": "ORIGIN_STATE_ABR",
+                "_row": "ORIGIN_STATE_ABR",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "ORIGIN_STATE_NM",
+                "type": "character",
+                "escapedName": "ORIGIN_STATE_NM",
+                "_row": "ORIGIN_STATE_NM",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "DEST",
+                "type": "character",
+                "escapedName": "DEST",
+                "_row": "DEST",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "DEST_CITY_NAME",
+                "type": "character",
+                "escapedName": "DEST_CITY_NAME",
+                "_row": "DEST_CITY_NAME",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "DEST_STATE_ABR",
+                "type": "character",
+                "escapedName": "DEST_STATE_ABR",
+                "_row": "DEST_STATE_ABR",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "DEST_STATE_NM",
+                "type": "character",
+                "escapedName": "DEST_STATE_NM",
+                "_row": "DEST_STATE_NM",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "DEP_TIME",
+                "type": "POSIXct,POSIXt",
+                "escapedName": "DEP_TIME",
+                "_row": "DEP_TIME",
+                "isNumeric": false,
+                "isDate": true
+            },
+            {
+                "name": "DEP_DELAY",
+                "type": "numeric",
+                "escapedName": "DEP_DELAY",
+                "_row": "DEP_DELAY",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "ARR_TIME",
+                "type": "character",
+                "escapedName": "ARR_TIME",
+                "_row": "ARR_TIME",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "ARR_DELAY",
+                "type": "numeric",
+                "escapedName": "ARR_DELAY",
+                "_row": "ARR_DELAY",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "CANCELLED",
+                "type": "numeric",
+                "escapedName": "CANCELLED",
+                "_row": "CANCELLED",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "CANCELLATION_CODE",
+                "type": "character",
+                "escapedName": "CANCELLATION_CODE",
+                "_row": "CANCELLATION_CODE",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "AIR_TIME",
+                "type": "numeric",
+                "escapedName": "AIR_TIME",
+                "_row": "AIR_TIME",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "DISTANCE",
+                "type": "numeric",
+                "escapedName": "DISTANCE",
+                "_row": "DISTANCE",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "CARRIER_DELAY",
+                "type": "numeric",
+                "escapedName": "CARRIER_DELAY",
+                "_row": "CARRIER_DELAY",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "WEATHER_DELAY",
+                "type": "numeric",
+                "escapedName": "WEATHER_DELAY",
+                "_row": "WEATHER_DELAY",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "NAS_DELAY",
+                "type": "numeric",
+                "escapedName": "NAS_DELAY",
+                "_row": "NAS_DELAY",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "SECURITY_DELAY",
+                "type": "numeric",
+                "escapedName": "SECURITY_DELAY",
+                "_row": "SECURITY_DELAY",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "LATE_AIRCRAFT_DELAY",
+                "type": "numeric",
+                "escapedName": "LATE_AIRCRAFT_DELAY",
+                "_row": "LATE_AIRCRAFT_DELAY",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "X26",
+                "type": "character",
+                "escapedName": "X26",
+                "_row": "X26",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "hour",
+                "type": "integer",
+                "escapedName": "hour",
+                "_row": "hour",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "weekday",
+                "type": "ordered,factor",
+                "escapedName": "weekday",
+                "_row": "weekday",
+                "isNumeric": false,
+                "isDate": false
+            }
+        ],
+        "data": null
+    },
+    "timestamp": "2016-09-25T21:16:35.372Z",
+    "updatedBy": "",
+    "snapshot": null,
+    "publicTitle": "",
+    "publicDescription": "",
+    "publicDataSourceURL": "",
+    "publicWithData": true,
+    "privateShare": false,
+    "sharedURL": "",
+    "publishSizeOption": null
+}
