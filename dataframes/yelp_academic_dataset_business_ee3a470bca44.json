@@ -1,0 +1,31 @@
+{
+    "name": "yelp_academic_dataset_business_ee3a470bca44",
+    "displayName": "Summarize",
+    "type": "SUMMARIZE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "yelp_academic_dataset_business_202d35778bfc"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "yelp_academic_dataset_business"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "summarize(counts = n())",
+        "command": {
+            "name": "summarize",
+            "summaries": [
+                {
+                    "newColumnName": "counts",
+                    "aggregateFunction": "n"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-25T18:57:03.999Z"
+}
