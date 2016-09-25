@@ -16,17 +16,17 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "top_n(10, percentage)",
+        "script": "top_n(10, counts)",
         "command": {
             "name": "top_n",
             "order": "Top",
             "n": 10,
             "column": {
-                "name": "percentage",
+                "name": "counts",
                 "type": "unknown"
             }
         }
     },
-    "timestamp": "2016-09-25T03:10:09.877Z",
+    "timestamp": "2016-09-25T03:10:18.913Z",
     "filename": "airline_delay_2016_01_03c2c1cfe1fa.json"
 }
