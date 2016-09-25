@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "build_kmeans(DEP_DELAY, ARR_DELAY, centers = 5, augment = TRUE)",
+        "script": "build_kmeans(DEP_DELAY, ARR_DELAY, DISTANCE, centers = 5, augment = TRUE)",
         "command": {
             "name": "build_kmeans",
             "selectType": "selectColumns",
@@ -34,7 +34,8 @@
             "includeOrExclude": "Include",
             "columns": [
                 "DEP_DELAY",
-                "ARR_DELAY"
+                "ARR_DELAY",
+                "DISTANCE"
             ],
             "centers": "5",
             "keepSource": "",
@@ -42,6 +43,6 @@
             "algorithm": ""
         }
     },
-    "timestamp": "2016-09-25T06:55:35.552Z",
+    "timestamp": "2016-09-25T06:56:20.696Z",
     "filename": "clustering_a1cdb39387ad.json"
 }
