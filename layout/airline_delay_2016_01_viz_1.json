@@ -92,6 +92,14 @@
                 "_row": "percentage",
                 "isNumeric": true,
                 "isDate": false
+            },
+            {
+                "name": "rank",
+                "type": "integer",
+                "escapedName": "rank",
+                "_row": "rank",
+                "isNumeric": true,
+                "isDate": false
             }
         ],
         "data": [
@@ -693,7 +701,7 @@
         "colh0": null,
         "pivotColor": "row5"
     },
-    "timestamp": "2016-09-25T03:08:06.775Z",
+    "timestamp": "2016-09-25T03:09:30.491Z",
     "updatedBy": "",
     "snapshot": null,
     "publicTitle": "",
