@@ -1,0 +1,34 @@
+{
+    "name": "Unicorns_6324a697fa28",
+    "displayName": "Mutate",
+    "type": "MUTATE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "Unicorns_823de9ae2098"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "Unicorns"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "mutate(`Date Joined` = mdy(`Date Joined`))",
+        "command": {
+            "name": "mutate",
+            "mutations": [
+                {
+                    "columnSelectorType": "overwrite",
+                    "column": {
+                        "name": "`Date Joined`"
+                    },
+                    "expression": "mdy(`Date Joined`)"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-25T20:57:23.592Z"
+}
