@@ -1,0 +1,32 @@
+{
+    "name": "yelp_academic_dataset_business_024d348cdcca",
+    "displayName": "Mutate",
+    "type": "MUTATE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "yelp_academic_dataset_business_53b84c369a3c"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "yelp_academic_dataset_business"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "mutate(neighborhood_counts = list_n(neighborhoods))",
+        "command": {
+            "name": "mutate",
+            "mutations": [
+                {
+                    "columnSelectorType": "newColumn",
+                    "newColumnName": "neighborhood_counts",
+                    "expression": "list_n(neighborhoods)"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-25T08:19:32.574Z"
+}
