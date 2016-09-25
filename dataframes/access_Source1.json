@@ -1,0 +1,23 @@
+{
+    "name": "access_Source1",
+    "displayName": "Source",
+    "type": "SOURCE",
+    "dependencies": [],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "access"
+    },
+    "props": {},
+    "transform": {
+        "type": "log",
+        "props": {
+            "data": "/Users/kannishida/Dropbox/Data/demo/access.log",
+            "timestamp": "2016-09-25T22:06:58.845Z",
+            "heading": "FALSE",
+            "skip": "0",
+            "maxrow": "50"
+        },
+        "script": "read_log( \"/Users/kannishida/Dropbox/Data/demo/access.log\", skip=0, col_names=FALSE )"
+    },
+    "timestamp": "2016-09-25T22:06:58.750Z"
+}
