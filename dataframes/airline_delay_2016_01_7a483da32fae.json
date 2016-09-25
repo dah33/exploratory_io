@@ -16,15 +16,19 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "group_by(CARRIER)",
+        "script": "group_by(CARRIER, DEST_STATE_ABR)",
         "command": {
             "name": "group_by",
             "columns": [
                 {
                     "columnName": "CARRIER"
+                },
+                {
+                    "columnName": "DEST_STATE_ABR"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-25T00:42:01.231Z"
+    "timestamp": "2016-09-25T02:48:36.871Z",
+    "filename": "airline_delay_2016_01_7a483da32fae.json"
 }
