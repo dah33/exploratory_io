@@ -4,7 +4,7 @@
     "dependencies": [
         {
             "type": "dataframe",
-            "id": "yelp_academic_dataset_business_02e91a9bd167"
+            "id": "yelp_academic_dataset_business_202d35778bfc"
         }
     ],
     "props": {},

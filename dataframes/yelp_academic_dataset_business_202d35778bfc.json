@@ -1,0 +1,30 @@
+{
+    "name": "yelp_academic_dataset_business_202d35778bfc",
+    "displayName": "Grouping",
+    "type": "GROUP_BY",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "yelp_academic_dataset_business_02e91a9bd167"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "yelp_academic_dataset_business"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "group_by(state)",
+        "command": {
+            "name": "group_by",
+            "columns": [
+                {
+                    "columnName": "state"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-25T18:55:16.290Z"
+}
