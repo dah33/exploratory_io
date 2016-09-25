@@ -1,0 +1,36 @@
+{
+    "name": "yelp_academic_dataset_business_2fb24bc43357",
+    "displayName": "Filter",
+    "type": "FILTER",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "yelp_academic_dataset_business_202d35778bfc"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "yelp_academic_dataset_business"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "filter(n() > 100)",
+        "command": {
+            "name": "filter",
+            "conditions": [
+                {
+                    "formType": "custom",
+                    "column": {
+                        "name": "business_id",
+                        "type": "character"
+                    },
+                    "operator": "equalTo",
+                    "condition": "n() > 100"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-25T18:56:14.704Z"
+}
