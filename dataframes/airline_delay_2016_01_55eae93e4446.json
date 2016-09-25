@@ -1,0 +1,34 @@
+{
+    "name": "airline_delay_2016_01_55eae93e4446",
+    "displayName": "Predict",
+    "type": "PREDICT",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline_delay_2016_01_1953cd9934b5"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline_delay_2016_01"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "predict(model, data = source.data)",
+        "command": {
+            "name": "predict",
+            "model": {
+                "name": "model",
+                "type": ".model.lm"
+            },
+            "dataType": "sourceSelect",
+            "dataColumn": {
+                "name": "source.data",
+                "type": "unknown"
+            }
+        }
+    },
+    "timestamp": "2016-09-25T06:45:34.328Z"
+}
