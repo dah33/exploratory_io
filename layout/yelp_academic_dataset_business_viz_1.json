@@ -1303,7 +1303,7 @@
         "width": 975,
         "sortTarget": "y"
     },
-    "timestamp": "2016-09-25T08:44:43.191Z",
+    "timestamp": "2016-09-25T19:39:32.472Z",
     "updatedBy": "",
     "snapshot": null,
     "publicTitle": "",
@@ -1312,5 +1312,6 @@
     "publicWithData": true,
     "privateShare": false,
     "sharedURL": "",
-    "publishSizeOption": null
+    "publishSizeOption": null,
+    "filename": "yelp_academic_dataset_business_viz_1.json"
 }
