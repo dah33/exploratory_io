@@ -1,0 +1,28 @@
+{
+    "name": "airline_delay_2016_01_6db615efe4e1",
+    "displayName": "Model Info",
+    "type": "GLANCE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline_delay_2016_01_1953cd9934b5"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline_delay_2016_01"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "glance(model)",
+        "command": {
+            "name": "glance",
+            "model": {
+                "name": "model"
+            }
+        }
+    },
+    "timestamp": "2016-09-25T06:39:41.826Z"
+}
