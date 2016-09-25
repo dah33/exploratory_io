@@ -16,15 +16,19 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "group_by(state)",
+        "script": "group_by(state, categories)",
         "command": {
             "name": "group_by",
             "columns": [
                 {
                     "columnName": "state"
+                },
+                {
+                    "columnName": "categories"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-25T18:55:16.290Z"
+    "timestamp": "2016-09-25T18:55:21.703Z",
+    "filename": "yelp_academic_dataset_business_202d35778bfc.json"
 }
