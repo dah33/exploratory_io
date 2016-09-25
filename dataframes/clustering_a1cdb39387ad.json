@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "build_kmeans(DEP_DELAY, ARR_DELAY, augment = TRUE)",
+        "script": "build_kmeans(DEP_DELAY, ARR_DELAY, centers = 5, augment = TRUE)",
         "command": {
             "name": "build_kmeans",
             "selectType": "selectColumns",
@@ -36,10 +36,12 @@
                 "DEP_DELAY",
                 "ARR_DELAY"
             ],
+            "centers": "5",
             "keepSource": "",
             "trace": "",
             "algorithm": ""
         }
     },
-    "timestamp": "2016-09-25T06:53:28.611Z"
+    "timestamp": "2016-09-25T06:55:35.552Z",
+    "filename": "clustering_a1cdb39387ad.json"
 }
