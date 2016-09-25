@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(`Date Joined` = mdy(`Date Joined`))",
+        "script": "mutate(`Date Joined` = mdy(`Date Joined`), Country = recode(Country,\n\"United Arab Emirates\"=\"UAE\",\n\"United Kingdom\"=\"UK\",\n\"United States\"=\"USA\"))",
         "command": {
             "name": "mutate",
             "mutations": [
@@ -26,9 +26,19 @@
                         "name": "`Date Joined`"
                     },
                     "expression": "mdy(`Date Joined`)"
+                },
+                {
+                    "columnSelectorType": "overwrite",
+                    "newColumnName": "new_column",
+                    "column": {
+                        "name": "Country",
+                        "type": "unknown"
+                    },
+                    "expression": "recode(Country,\n\"United Arab Emirates\"=\"UAE\",\n\"United Kingdom\"=\"UK\",\n\"United States\"=\"USA\")"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-25T20:57:23.592Z"
+    "timestamp": "2016-09-25T21:01:21.425Z",
+    "filename": "Unicorns_6324a697fa28.json"
 }
