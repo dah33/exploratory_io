@@ -195,9 +195,72 @@
                 "isDate": false
             }
         ],
-        "data": null
+        "data": [
+            [
+                [
+                    "Sun",
+                    "70654"
+                ],
+                [
+                    "Mon",
+                    "61028"
+                ],
+                [
+                    "Tues",
+                    "58273"
+                ],
+                [
+                    "Wed",
+                    "59036"
+                ],
+                [
+                    "Thurs",
+                    "61044"
+                ],
+                [
+                    "Fri",
+                    "74138"
+                ],
+                [
+                    "Sat",
+                    "61654"
+                ]
+            ],
+            [
+                "r0",
+                ".pivot.measure.cell"
+            ],
+            [
+                7
+            ],
+            [
+                2
+            ]
+        ],
+        "height": 593,
+        "width": 769,
+        "rowh0": {
+            "name": "weekday",
+            "validName": "weekday",
+            "type": "ordered,factor",
+            "isNumeric": false,
+            "isDate": false,
+            "func": "none",
+            "label": "c1",
+            "validLabel": "c1"
+        },
+        "meas0": {
+            "name": "weekday",
+            "validName": "weekday",
+            "type": "numrows",
+            "isNumeric": false,
+            "isDate": false,
+            "func": "count",
+            "label": "c2",
+            "validLabel": "c2"
+        }
     },
-    "timestamp": "2016-09-25T00:30:42.241Z",
+    "timestamp": "2016-09-25T00:30:56.338Z",
     "updatedBy": "",
     "snapshot": null,
     "publicTitle": "",
