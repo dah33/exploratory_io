@@ -1,0 +1,36 @@
+{
+    "name": "yelp_academic_dataset_business_d41e72dcbce3",
+    "displayName": "Filter",
+    "type": "FILTER",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "yelp_academic_dataset_business_024d348cdcca"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "yelp_academic_dataset_business"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "filter(str_detect(categories, \"Restaurant\"))",
+        "command": {
+            "name": "filter",
+            "conditions": [
+                {
+                    "formType": "column",
+                    "column": {
+                        "name": "categories",
+                        "type": "list"
+                    },
+                    "operator": "withPattern",
+                    "pattern": "Restaurant"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-25T08:37:59.512Z"
+}
