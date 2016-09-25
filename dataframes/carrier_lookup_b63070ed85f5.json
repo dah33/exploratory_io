@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "rename(code = `IATA Carrier Code`, code3 = `ICAO Carrier Code`, name = `IATA Carrier Code`)",
+        "script": "rename(code = `IATA Carrier Code`, code3 = `ICAO Carrier Code`, name = `Carrier Name`)",
         "command": {
             "name": "rename",
             "renames": [
@@ -36,14 +36,14 @@
                 },
                 {
                     "column": {
-                        "name": "`IATA Carrier Code`",
-                        "type": "character"
+                        "name": "`Carrier Name`",
+                        "type": "unknown"
                     },
                     "columnName": "name"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-25T05:30:06.782Z",
+    "timestamp": "2016-09-25T05:30:13.802Z",
     "filename": "carrier_lookup_b63070ed85f5.json"
 }
