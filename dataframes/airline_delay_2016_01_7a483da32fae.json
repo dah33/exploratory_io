@@ -1,0 +1,30 @@
+{
+    "name": "airline_delay_2016_01_7a483da32fae",
+    "displayName": "Grouping",
+    "type": "GROUP_BY",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline_delay_2016_01_6d2389b4815e"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline_delay_2016_01"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "group_by(CARRIER)",
+        "command": {
+            "name": "group_by",
+            "columns": [
+                {
+                    "columnName": "CARRIER"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-25T00:42:01.231Z"
+}
