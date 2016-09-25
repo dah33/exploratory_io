@@ -1,0 +1,35 @@
+{
+    "name": "Unicorns_d19a3523a0b4",
+    "displayName": "Filter",
+    "type": "FILTER",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "Unicorns_Source1"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "Unicorns"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "filter(!is.na(Company))",
+        "command": {
+            "name": "filter",
+            "conditions": [
+                {
+                    "formType": "column",
+                    "column": {
+                        "name": "Company",
+                        "type": "character"
+                    },
+                    "operator": "isNotNA"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-25T20:44:22.821Z"
+}

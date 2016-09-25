@@ -5,7 +5,7 @@
     "dependencies": [
         {
             "type": "dataframe",
-            "id": "Unicorns_Source1"
+            "id": "Unicorns_d19a3523a0b4"
         }
     ],
     "belongsTo": {
@@ -30,5 +30,6 @@
             ]
         }
     },
-    "timestamp": "2016-09-25T20:42:15.813Z"
+    "timestamp": "2016-09-25T20:42:15.813Z",
+    "filename": "Unicorns_823de9ae2098.json"
 }
