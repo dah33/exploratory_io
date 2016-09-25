@@ -25,67 +25,12 @@
         "includeOutlier": "off",
         "treatNAAsZero": "on",
         "mapmode": "USA-states",
-        "columns": [
-            {
-                "name": "Company",
-                "type": "character",
-                "escapedName": "Company",
-                "_row": "Company",
-                "isNumeric": false,
-                "isDate": false
-            },
-            {
-                "name": "Valuation ($B)",
-                "type": "numeric",
-                "escapedName": "`Valuation ($B)`",
-                "_row": "Valuation ($B)",
-                "isNumeric": true,
-                "isDate": false
-            },
-            {
-                "name": "Date Joined",
-                "type": "character",
-                "escapedName": "`Date Joined`",
-                "_row": "Date Joined",
-                "isNumeric": false,
-                "isDate": false
-            },
-            {
-                "name": "Country",
-                "type": "character",
-                "escapedName": "Country",
-                "_row": "Country",
-                "isNumeric": false,
-                "isDate": false
-            },
-            {
-                "name": "Industry",
-                "type": "character",
-                "escapedName": "Industry",
-                "_row": "Industry",
-                "isNumeric": false,
-                "isDate": false
-            },
-            {
-                "name": "Select Investors",
-                "type": "character",
-                "escapedName": "`Select Investors`",
-                "_row": "Select Investors",
-                "isNumeric": false,
-                "isDate": false
-            },
-            {
-                "name": "is_sequoia",
-                "type": "logical",
-                "escapedName": "is_sequoia",
-                "_row": "is_sequoia",
-                "isNumeric": false,
-                "isDate": false
-            }
-        ],
-        "data": null
+        "columns": [],
+        "data": null,
+        "height": 593,
+        "width": 761
     },
-    "timestamp": "2016-09-25T20:56:56.670Z",
+    "timestamp": "2016-09-25T20:57:00.055Z",
     "updatedBy": "",
     "snapshot": null,
     "publicTitle": "",
