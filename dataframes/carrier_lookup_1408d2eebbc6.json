@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "add_row(code = \"vx\")",
+        "script": "add_row(code = \"VX\")",
         "command": {
             "name": "add_row",
             "columns": [
@@ -25,10 +25,11 @@
                         "name": "code",
                         "type": "character"
                     },
-                    "expression": "\"vx\""
+                    "expression": "\"VX\""
                 }
             ]
         }
     },
-    "timestamp": "2016-09-25T05:56:12.314Z"
+    "timestamp": "2016-09-25T05:56:20.963Z",
+    "filename": "carrier_lookup_1408d2eebbc6.json"
 }
