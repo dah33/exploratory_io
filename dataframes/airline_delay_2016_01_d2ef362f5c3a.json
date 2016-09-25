@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(total = sum(counts), percentage = counts / total * 100, rank = min_rank(desc(counts)))",
+        "script": "mutate(total = sum(counts), percentage = counts / total * 100)",
         "command": {
             "name": "mutate",
             "mutations": [
@@ -29,15 +29,10 @@
                     "columnSelectorType": "newColumn",
                     "newColumnName": "percentage",
                     "expression": "counts / total * 100"
-                },
-                {
-                    "columnSelectorType": "newColumn",
-                    "newColumnName": "rank",
-                    "expression": "min_rank(desc(counts))"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-25T03:18:09.940Z",
+    "timestamp": "2016-09-25T04:06:28.273Z",
     "filename": "airline_delay_2016_01_d2ef362f5c3a.json"
 }
