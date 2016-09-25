@@ -16,17 +16,18 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(neighborhood_counts = list_n(neighborhoods))",
+        "script": "mutate(neighborhood_counts = as.character(list_n(neighborhoods)))",
         "command": {
             "name": "mutate",
             "mutations": [
                 {
                     "columnSelectorType": "newColumn",
                     "newColumnName": "neighborhood_counts",
-                    "expression": "list_n(neighborhoods)"
+                    "expression": "as.character(list_n(neighborhoods))"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-25T08:19:32.574Z"
+    "timestamp": "2016-09-25T08:23:59.724Z",
+    "filename": "yelp_academic_dataset_business_024d348cdcca.json"
 }
