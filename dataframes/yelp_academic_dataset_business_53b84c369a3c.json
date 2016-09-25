@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "select(-starts_with(\"hours\"))",
+        "script": "select(-starts_with(\"hours\"), -starts_with(\"attribute\"))",
         "command": {
             "name": "select",
             "columnSelectors": [
@@ -33,9 +33,24 @@
                         "type": "character"
                     },
                     "val": "hours"
+                },
+                {
+                    "includeOrExclude": "Exclude",
+                    "columnSelectorType": "function",
+                    "functionType": "starts_with",
+                    "start": {
+                        "name": "business_id",
+                        "type": "character"
+                    },
+                    "end": {
+                        "name": "business_id",
+                        "type": "character"
+                    },
+                    "val": "attribute"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-25T08:11:13.501Z"
+    "timestamp": "2016-09-25T08:15:08.009Z",
+    "filename": "yelp_academic_dataset_business_53b84c369a3c.json"
 }
