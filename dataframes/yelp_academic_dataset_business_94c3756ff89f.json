@@ -1,0 +1,31 @@
+{
+    "name": "yelp_academic_dataset_business_94c3756ff89f",
+    "displayName": "Top N / Bottom N",
+    "type": "TOP_N",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "yelp_academic_dataset_business_ee3a470bca44"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "yelp_academic_dataset_business"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "top_n(10, counts)",
+        "command": {
+            "name": "top_n",
+            "order": "Top",
+            "n": 10,
+            "column": {
+                "name": "counts",
+                "type": "numeric"
+            }
+        }
+    },
+    "timestamp": "2016-09-25T18:57:29.210Z"
+}
