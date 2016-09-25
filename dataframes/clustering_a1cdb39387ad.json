@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "build_kmeans(skv = c(\"CARRIER\", \"ORIGIN_CITY_NAME\"), centers = 5, augment = TRUE)",
+        "script": "build_kmeans(skv = c(\"CARRIER\", \"ORIGIN_STATE_ABR\"), centers = 5, augment = TRUE)",
         "command": {
             "name": "build_kmeans",
             "selectType": "skvColumns",
@@ -26,7 +26,7 @@
                 "type": "unknown"
             },
             "keyColumn": {
-                "name": "ORIGIN_CITY_NAME",
+                "name": "ORIGIN_STATE_ABR",
                 "type": "unknown"
             },
             "columnSelectionType": "Select",
@@ -43,6 +43,6 @@
             "algorithm": ""
         }
     },
-    "timestamp": "2016-09-25T06:59:44.586Z",
+    "timestamp": "2016-09-25T07:00:30.909Z",
     "filename": "clustering_a1cdb39387ad.json"
 }
