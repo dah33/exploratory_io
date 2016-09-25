@@ -1,12 +1,15 @@
 {
     "name": "My 1st Project",
     "description": "",
-    "timestamp": "2016-09-25T07:47:57.870Z",
+    "timestamp": "2016-09-25T07:59:32.029Z",
     "createdBy": "kanaugust",
     "creatorName": "",
     "readme": {
         "displayName": "Introduction",
         "timestamp": "2016-09-24T22:31:19.845Z",
         "updatedBy": ""
-    }
+    },
+    "updatedBy": null,
+    "scripts": [],
+    "packages": []
 }
