@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(neighborhood_counts = list_extract(neighborhoods, 1))",
+        "script": "mutate(neighborhood_counts = list_extract(neighborhoods, 1), is_restaurant = str_detect(categories, \"Restaurant\"))",
         "command": {
             "name": "mutate",
             "mutations": [
@@ -24,10 +24,15 @@
                     "columnSelectorType": "newColumn",
                     "newColumnName": "neighborhood_counts",
                     "expression": "list_extract(neighborhoods, 1)"
+                },
+                {
+                    "columnSelectorType": "newColumn",
+                    "newColumnName": "is_restaurant",
+                    "expression": "str_detect(categories, \"Restaurant\")"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-25T08:25:02.633Z",
+    "timestamp": "2016-09-25T08:33:39.795Z",
     "filename": "yelp_academic_dataset_business_024d348cdcca.json"
 }
