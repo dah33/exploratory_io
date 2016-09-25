@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(`Valuation ($B)` = extract_numeric(`Valuation ($B)`))",
+        "script": "mutate(`Valuation ($B)` = extract_numeric(`Valuation ($B)`), `Select Investors` = str_clean(`Select Investors`))",
         "command": {
             "name": "mutate",
             "mutations": [
@@ -26,10 +26,19 @@
                         "name": "`Valuation ($B)`"
                     },
                     "expression": "extract_numeric(`Valuation ($B)`)"
+                },
+                {
+                    "columnSelectorType": "overwrite",
+                    "newColumnName": "new_column",
+                    "column": {
+                        "name": "`Select Investors`",
+                        "type": "unknown"
+                    },
+                    "expression": "str_clean(`Select Investors`)"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-25T20:42:15.813Z",
+    "timestamp": "2016-09-25T20:47:21.310Z",
     "filename": "Unicorns_823de9ae2098.json"
 }
