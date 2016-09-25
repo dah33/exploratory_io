@@ -1,0 +1,29 @@
+{
+    "name": "Unicorns_7f3122b9a47c",
+    "displayName": "Unnest",
+    "type": "UNNEST",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "Unicorns_6cca366d4ec4"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "Unicorns"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "unnest(`Select Investors`)",
+        "command": {
+            "name": "unnest",
+            "column": {
+                "name": "`Select Investors`"
+            },
+            "drop": ""
+        }
+    },
+    "timestamp": "2016-09-25T21:06:27.028Z"
+}
