@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(`Valuation ($B)` = extract_numeric(`Valuation ($B)`), `Select Investors` = str_clean(`Select Investors`))",
+        "script": "mutate(`Valuation ($B)` = extract_numeric(`Valuation ($B)`), `Select Investors` = str_clean(`Select Investors`), is_sequoia = str_detect(`Select Investors`, \"Sequoia Capital\"))",
         "command": {
             "name": "mutate",
             "mutations": [
@@ -35,10 +35,15 @@
                         "type": "unknown"
                     },
                     "expression": "str_clean(`Select Investors`)"
+                },
+                {
+                    "columnSelectorType": "newColumn",
+                    "newColumnName": "is_sequoia",
+                    "expression": "str_detect(`Select Investors`, \"Sequoia Capital\")"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-25T20:47:21.310Z",
+    "timestamp": "2016-09-25T20:52:04.649Z",
     "filename": "Unicorns_823de9ae2098.json"
 }
