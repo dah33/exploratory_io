@@ -1,0 +1,15 @@
+{
+    "name": "election_tv_ad_campaign",
+    "displayName": "election_tv_ad_campaign",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "election_tv_ad_campaign_Source1"
+        }
+    ],
+    "props": {},
+    "columns": [],
+    "rdata": {},
+    "timestamp": "2016-09-25T21:59:38.726Z",
+    "filename": "election_tv_ad_campaign.json"
+}

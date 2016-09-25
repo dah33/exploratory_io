@@ -1,0 +1,32 @@
+{
+    "name": "election_tv_ad_campaign_Source1",
+    "displayName": "Source",
+    "type": "SOURCE",
+    "dependencies": [],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "election_tv_ad_campaign"
+    },
+    "props": {},
+    "transform": {
+        "type": "local_csv",
+        "props": {
+            "data": "/Users/kannishida/Dropbox/Data/demo/election_tv_ad_campaign.csv",
+            "timestamp": "2016-09-25T21:59:40.486Z",
+            "heading": "TRUE",
+            "sep": ",",
+            "customSep": "",
+            "decimal": ".",
+            "group": "",
+            "quote": "\"",
+            "skipNrows": "0",
+            "comment": "",
+            "nastring": "NA",
+            "numOfPreviewRows": "50",
+            "encoding": "ASCII",
+            "trimWs": "FALSE"
+        },
+        "script": "read_delim(\"/Users/kannishida/Dropbox/Data/demo/election_tv_ad_campaign.csv\" , \",\", quote = \"\\\"\", skip = 0 , col_names = TRUE , na = c(\"\",\"NA\") , locale=locale(encoding = \"ASCII\", decimal_mark = \".\"), trim_ws = FALSE , progress = FALSE)"
+    },
+    "timestamp": "2016-09-25T21:59:38.726Z"
+}
