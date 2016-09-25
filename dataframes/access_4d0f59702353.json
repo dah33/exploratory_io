@@ -1,0 +1,37 @@
+{
+    "name": "access_4d0f59702353",
+    "displayName": "Select",
+    "type": "SELECT",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "access_Source1"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "access"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "select(-X2, X3)",
+        "command": {
+            "name": "select",
+            "columnSelectors": [
+                {
+                    "includeOrExclude": "Exclude",
+                    "columnSelectorType": "column",
+                    "name": "X2"
+                },
+                {
+                    "includeOrExclude": "Include",
+                    "columnSelectorType": "column",
+                    "name": "X3"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-25T22:07:15.646Z"
+}
