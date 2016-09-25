@@ -6,9 +6,27 @@
     ],
     "transformName": "",
     "options": {
-        "marker": "pivot",
-        "x": "",
-        "y": "",
+        "marker": "bar",
+        "x": {
+            "name": "weekday",
+            "validName": "weekday",
+            "type": "ordered,factor",
+            "isNumeric": false,
+            "isDate": false,
+            "func": "none",
+            "label": "c1",
+            "validLabel": "c1"
+        },
+        "y": {
+            "name": "weekday",
+            "validName": "weekday",
+            "type": "numrows",
+            "isNumeric": false,
+            "isDate": false,
+            "func": "count",
+            "label": "c2",
+            "validLabel": "c2"
+        },
         "size": "",
         "color": "",
         "text": "",
@@ -195,9 +213,42 @@
                 "isDate": false
             }
         ],
-        "data": null
+        "data": [
+            {
+                "c1": "Sun",
+                "c2": 70654
+            },
+            {
+                "c1": "Mon",
+                "c2": 61028
+            },
+            {
+                "c1": "Tues",
+                "c2": 58273
+            },
+            {
+                "c1": "Wed",
+                "c2": 59036
+            },
+            {
+                "c1": "Thurs",
+                "c2": 61044
+            },
+            {
+                "c1": "Fri",
+                "c2": 74138
+            },
+            {
+                "c1": "Sat",
+                "c2": 61654
+            }
+        ],
+        "height": 583,
+        "width": 769,
+        "sortTarget": "",
+        "sortOrder": "asc"
     },
-    "timestamp": "2016-09-25T00:33:08.634Z",
+    "timestamp": "2016-09-25T00:35:16.075Z",
     "updatedBy": "",
     "snapshot": null,
     "publicTitle": "",
