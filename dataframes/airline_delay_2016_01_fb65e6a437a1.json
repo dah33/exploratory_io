@@ -2,12 +2,7 @@
     "name": "airline_delay_2016_01_fb65e6a437a1",
     "displayName": "Grouping",
     "type": "GROUP_BY",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "airline_delay_2016_01_929e3f25683c"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "airline_delay_2016_01"
@@ -26,5 +21,6 @@
             ]
         }
     },
-    "timestamp": "2016-09-25T06:26:21.148Z"
+    "timestamp": "2016-09-25T06:26:21.148Z",
+    "filename": "airline_delay_2016_01_fb65e6a437a1.json"
 }
