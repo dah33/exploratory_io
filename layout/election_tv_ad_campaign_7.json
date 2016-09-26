@@ -1,0 +1,250 @@
+{
+    "name": "election_tv_ad_campaign_7",
+    "displayName": "Chart 3",
+    "dependencies": [
+        "election_tv_ad_campaign"
+    ],
+    "transformName": "",
+    "options": {
+        "marker": "pivot",
+        "x": "",
+        "y": "",
+        "size": "",
+        "color": "",
+        "text": "",
+        "shape": "",
+        "facetcolumn": "",
+        "facetrow": "",
+        "barstyle": "stack",
+        "barsort": "off",
+        "label": "",
+        "colh": "",
+        "rowh": "",
+        "meas": "",
+        "scatterText": "",
+        "includeOutlier": "off",
+        "treatNAAsZero": "on",
+        "mapmode": "USA-states",
+        "columns": [
+            {
+                "name": "start_time",
+                "type": "POSIXct,POSIXt",
+                "escapedName": "start_time",
+                "_row": "start_time",
+                "isNumeric": false,
+                "isDate": true
+            },
+            {
+                "name": "end_time",
+                "type": "POSIXct,POSIXt",
+                "escapedName": "end_time",
+                "_row": "end_time",
+                "isNumeric": false,
+                "isDate": true
+            },
+            {
+                "name": "network",
+                "type": "character",
+                "escapedName": "network",
+                "_row": "network",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "location",
+                "type": "character",
+                "escapedName": "location",
+                "_row": "location",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "program",
+                "type": "character",
+                "escapedName": "program",
+                "_row": "program",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "program_type",
+                "type": "character",
+                "escapedName": "program_type",
+                "_row": "program_type",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "archive_id",
+                "type": "character",
+                "escapedName": "archive_id",
+                "_row": "archive_id",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "embed_url",
+                "type": "character",
+                "escapedName": "embed_url",
+                "_row": "embed_url",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "sponsor",
+                "type": "character",
+                "escapedName": "sponsor",
+                "_row": "sponsor",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "sponsor_type",
+                "type": "character",
+                "escapedName": "sponsor_type",
+                "_row": "sponsor_type",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "sponsor_affiliation",
+                "type": "character",
+                "escapedName": "sponsor_affiliation",
+                "_row": "sponsor_affiliation",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "sponsor_affiliation_type",
+                "type": "character",
+                "escapedName": "sponsor_affiliation_type",
+                "_row": "sponsor_affiliation_type",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "race",
+                "type": "character",
+                "escapedName": "race",
+                "_row": "race",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "cycle",
+                "type": "integer",
+                "escapedName": "cycle",
+                "_row": "cycle",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "subject",
+                "type": "character",
+                "escapedName": "subject",
+                "_row": "subject",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "candidate",
+                "type": "character",
+                "escapedName": "candidate",
+                "_row": "candidate",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "type",
+                "type": "character",
+                "escapedName": "type",
+                "_row": "type",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "message",
+                "type": "character",
+                "escapedName": "message",
+                "_row": "message",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "market_count",
+                "type": "integer",
+                "escapedName": "market_count",
+                "_row": "market_count",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "date_created",
+                "type": "POSIXct,POSIXt",
+                "escapedName": "date_created",
+                "_row": "date_created",
+                "isNumeric": false,
+                "isDate": true
+            },
+            {
+                "name": "start_time_in_local_tz",
+                "type": "POSIXct,POSIXt",
+                "escapedName": "start_time_in_local_tz",
+                "_row": "start_time_in_local_tz",
+                "isNumeric": false,
+                "isDate": true
+            },
+            {
+                "name": "month",
+                "type": "ordered,factor",
+                "escapedName": "month",
+                "_row": "month",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "day_week",
+                "type": "ordered,factor",
+                "escapedName": "day_week",
+                "_row": "day_week",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "air_time",
+                "type": "difftime",
+                "escapedName": "air_time",
+                "_row": "air_time",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "air_time2",
+                "type": "numeric",
+                "escapedName": "air_time2",
+                "_row": "air_time2",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "day_by_week",
+                "type": "POSIXct,POSIXt",
+                "escapedName": "day_by_week",
+                "_row": "day_by_week",
+                "isNumeric": false,
+                "isDate": true
+            }
+        ],
+        "data": null
+    },
+    "timestamp": "2016-09-26T07:57:55.142Z",
+    "updatedBy": "",
+    "snapshot": null,
+    "publicTitle": "",
+    "publicDescription": "",
+    "publicDataSourceURL": "",
+    "publicWithData": true,
+    "privateShare": false,
+    "sharedURL": "",
+    "publishSizeOption": null
+}
