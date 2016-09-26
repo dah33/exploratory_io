@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(start_time = ymd_hms(start_time), start_time_in_local_tz = with_tz(start_time), month = month(start_time, label=TRUE))",
+        "script": "mutate(start_time = ymd_hms(start_time), start_time_in_local_tz = with_tz(start_time), month = month(start_time, label=TRUE), day_week = wday(start_time, label=TRUE))",
         "command": {
             "name": "mutate",
             "mutations": [
@@ -36,10 +36,15 @@
                     "columnSelectorType": "newColumn",
                     "newColumnName": "month",
                     "expression": "month(start_time, label=TRUE)"
+                },
+                {
+                    "columnSelectorType": "newColumn",
+                    "newColumnName": "day_week",
+                    "expression": "wday(start_time, label=TRUE)"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-26T06:01:02.979Z",
+    "timestamp": "2016-09-26T06:04:58.973Z",
     "filename": "election_tv_ad_campaign_2fb378a64873.json"
 }
