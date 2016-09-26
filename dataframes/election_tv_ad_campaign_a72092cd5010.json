@@ -1,0 +1,30 @@
+{
+    "name": "election_tv_ad_campaign_a72092cd5010",
+    "displayName": "Count",
+    "type": "COUNT",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "election_tv_ad_campaign_85744b34ad0f"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "election_tv_ad_campaign"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "count(day_by_week, wt = n())",
+        "command": {
+            "name": "count",
+            "aggregateFunction": "n",
+            "columns": [
+                "day_by_week"
+            ],
+            "sort": ""
+        }
+    },
+    "timestamp": "2016-09-26T07:54:24.680Z"
+}
