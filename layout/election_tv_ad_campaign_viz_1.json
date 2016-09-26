@@ -185,11 +185,208 @@
                 "_row": "date_created",
                 "isNumeric": false,
                 "isDate": true
+            },
+            {
+                "name": "start_time_in_local_tz",
+                "type": "POSIXct,POSIXt",
+                "escapedName": "start_time_in_local_tz",
+                "_row": "start_time_in_local_tz",
+                "isNumeric": false,
+                "isDate": true
+            },
+            {
+                "name": "month",
+                "type": "ordered,factor",
+                "escapedName": "month",
+                "_row": "month",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "day_week",
+                "type": "ordered,factor",
+                "escapedName": "day_week",
+                "_row": "day_week",
+                "isNumeric": false,
+                "isDate": false
             }
         ],
-        "data": null
+        "data": [
+            [
+                [
+                    "Jan",
+                    "6545,5",
+                    "7062,5",
+                    "8440,5",
+                    "9179,5",
+                    "9869,5",
+                    "11067,5",
+                    "6443,5"
+                ],
+                [
+                    "Feb",
+                    "3534,4",
+                    "9773,5",
+                    "6989,5",
+                    "6644,5",
+                    "7512,5",
+                    "8353,5",
+                    "4961,4"
+                ],
+                [
+                    "Mar",
+                    "2505,4",
+                    "5422,5",
+                    "6200,5",
+                    "3235,4",
+                    "3556,4",
+                    "3881,4",
+                    "2373,3"
+                ],
+                [
+                    "Apr",
+                    "1319,3",
+                    "3283,4",
+                    "2909,4",
+                    "2154,3",
+                    "2229,3",
+                    "2944,4",
+                    "1248,3"
+                ],
+                [
+                    "May",
+                    "327,2",
+                    "500,3",
+                    "562,3",
+                    "348,2",
+                    "298,2",
+                    "365,2",
+                    "296,2"
+                ],
+                [
+                    "Jun",
+                    "306,2",
+                    "405,2",
+                    "415,2",
+                    "495,2",
+                    "553,3",
+                    "430,2",
+                    "233,1"
+                ],
+                [
+                    "Jul",
+                    "354,2",
+                    "332,2",
+                    "497,2",
+                    "621,3",
+                    "608,3",
+                    "564,3",
+                    "330,2"
+                ],
+                [
+                    "Aug",
+                    "1994,3",
+                    "4841,4",
+                    "5439,5",
+                    "5297,5",
+                    "3882,4",
+                    "4178,4",
+                    "2156,3"
+                ],
+                [
+                    "Sep",
+                    "4,1",
+                    "1,1",
+                    "2,1",
+                    "1,1",
+                    "1026,3",
+                    "920,3",
+                    "21,1"
+                ],
+                [
+                    "Oct",
+                    "3,1",
+                    "4,1",
+                    "4,1",
+                    "4,1",
+                    "5,1",
+                    "1,1",
+                    "1,1"
+                ],
+                [
+                    "Nov",
+                    "326,2",
+                    "408,2",
+                    "237,1",
+                    "241,1",
+                    "185,1",
+                    "343,2",
+                    "258,1"
+                ],
+                [
+                    "Dec",
+                    "1804,3",
+                    "2558,4",
+                    "3987,4",
+                    "4056,4",
+                    "4112,4",
+                    "2825,4",
+                    "1491,3"
+                ]
+            ],
+            [
+                "r0",
+                "Sun",
+                "Mon",
+                "Tues",
+                "Wed",
+                "Thurs",
+                "Fri",
+                "Sat"
+            ],
+            [
+                12
+            ],
+            [
+                8
+            ]
+        ],
+        "height": 593,
+        "width": 761,
+        "rowh0": {
+            "name": "month",
+            "validName": "month",
+            "type": "ordered,factor",
+            "isNumeric": false,
+            "isDate": false,
+            "func": "none",
+            "label": "c1",
+            "validLabel": "c1"
+        },
+        "meas0": {
+            "name": "month",
+            "validName": "month",
+            "type": "numrows",
+            "isNumeric": false,
+            "isDate": false,
+            "func": "count",
+            "label": "c3",
+            "validLabel": "c3"
+        },
+        "colh0": {
+            "name": "day_week",
+            "validName": "day_week",
+            "type": "ordered,factor",
+            "isNumeric": false,
+            "isDate": false,
+            "func": "none",
+            "label": "c2",
+            "validLabel": "c2"
+        },
+        "pivotColor": "table5",
+        "colorPallete": "YlOrRd"
     },
-    "timestamp": "2016-09-26T05:43:51.906Z",
+    "timestamp": "2016-09-26T06:07:39.090Z",
     "updatedBy": "",
     "snapshot": null,
     "publicTitle": "",
