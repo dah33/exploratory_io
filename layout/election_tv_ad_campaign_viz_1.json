@@ -507,7 +507,7 @@
         "pivotColor": "table5",
         "colorPallete": "YlOrRd"
     },
-    "timestamp": "2016-09-26T23:01:43.863Z",
+    "timestamp": "2016-09-26T23:01:51.255Z",
     "updatedBy": "",
     "snapshot": null,
     "publicTitle": "Chart 1",
@@ -515,6 +515,7 @@
     "publicDataSourceURL": "",
     "publicWithData": true,
     "privateShare": true,
+    "sharedURL": "https://exploratory.io/viz/kanaugust/5077940884684418?cb=1474930910476",
     "publishSizeOption": "responsive",
     "filename": "election_tv_ad_campaign_viz_1.json"
 }
