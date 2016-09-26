@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(air_time = end_time - start_time)",
+        "script": "mutate(air_time = end_time - start_time, air_time2 = as.numeric(air_time, units=\"mins\"))",
         "command": {
             "name": "mutate",
             "mutations": [
@@ -24,9 +24,15 @@
                     "columnSelectorType": "newColumn",
                     "newColumnName": "air_time",
                     "expression": "end_time - start_time"
+                },
+                {
+                    "columnSelectorType": "newColumn",
+                    "newColumnName": "air_time2",
+                    "expression": "as.numeric(air_time, units=\"mins\")"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-26T07:46:38.711Z"
+    "timestamp": "2016-09-26T07:48:29.975Z",
+    "filename": "election_tv_ad_campaign_85744b34ad0f.json"
 }
