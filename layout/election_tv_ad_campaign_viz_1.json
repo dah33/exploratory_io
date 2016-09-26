@@ -507,7 +507,7 @@
         "pivotColor": "table5",
         "colorPallete": "YlOrRd"
     },
-    "timestamp": "2016-09-26T22:54:56.386Z",
+    "timestamp": "2016-09-26T22:55:01.128Z",
     "updatedBy": "",
     "snapshot": null,
     "publicTitle": "Chart 1",
@@ -515,7 +515,6 @@
     "publicDataSourceURL": "",
     "publicWithData": true,
     "privateShare": true,
-    "sharedURL": "",
     "publishSizeOption": null,
     "filename": "election_tv_ad_campaign_viz_1.json"
 }
