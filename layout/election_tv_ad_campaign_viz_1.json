@@ -253,16 +253,7 @@
         ],
         "height": 593,
         "width": 761,
-        "rowh0": {
-            "name": "month",
-            "validName": "month",
-            "type": "ordered,factor",
-            "isNumeric": false,
-            "isDate": false,
-            "func": "none",
-            "label": "c1",
-            "validLabel": "c1"
-        },
+        "rowh0": null,
         "meas0": {
             "name": "month",
             "validName": "month",
@@ -270,23 +261,14 @@
             "isNumeric": false,
             "isDate": false,
             "func": "count",
-            "label": "c3",
-            "validLabel": "c3"
+            "label": "c1",
+            "validLabel": "c1"
         },
-        "colh0": {
-            "name": "day_week",
-            "validName": "day_week",
-            "type": "ordered,factor",
-            "isNumeric": false,
-            "isDate": false,
-            "func": "none",
-            "label": "c2",
-            "validLabel": "c2"
-        },
+        "colh0": null,
         "pivotColor": "table5",
         "colorPallete": "YlOrRd"
     },
-    "timestamp": "2016-09-26T07:41:54.121Z",
+    "timestamp": "2016-09-26T22:53:20.769Z",
     "updatedBy": "",
     "snapshot": null,
     "publicTitle": "",
