@@ -1,0 +1,50 @@
+{
+    "name": "election_tv_ad_campaign_793dd427f41c",
+    "displayName": "Select",
+    "type": "SELECT",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "election_tv_ad_campaign_2fb378a64873"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "election_tv_ad_campaign"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "select(start_time, start_time_in_local_tz, everything())",
+        "command": {
+            "name": "select",
+            "columnSelectors": [
+                {
+                    "includeOrExclude": "Include",
+                    "columnSelectorType": "column",
+                    "name": "start_time"
+                },
+                {
+                    "includeOrExclude": "Include",
+                    "columnSelectorType": "column",
+                    "name": "start_time_in_local_tz"
+                },
+                {
+                    "includeOrExclude": "Include",
+                    "columnSelectorType": "function",
+                    "functionType": "everything",
+                    "start": {
+                        "name": "start_time",
+                        "type": "POSIXct"
+                    },
+                    "end": {
+                        "name": "start_time",
+                        "type": "POSIXct"
+                    }
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-26T05:46:08.840Z"
+}
