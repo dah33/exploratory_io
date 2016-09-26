@@ -93,7 +93,7 @@
         ],
         "data": null
     },
-    "timestamp": "2016-09-26T03:20:34.165Z",
+    "timestamp": "2016-09-26T22:53:13.057Z",
     "updatedBy": "",
     "snapshot": null,
     "publicTitle": "",
@@ -102,5 +102,6 @@
     "publicWithData": true,
     "privateShare": false,
     "sharedURL": "",
-    "publishSizeOption": null
+    "publishSizeOption": null,
+    "filename": "access_viz_1.json"
 }
