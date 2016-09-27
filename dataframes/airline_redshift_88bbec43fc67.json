@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(arr_time = str_pad(arr_time, side=\"left\", pad=\"0\", width=4), arr_date_time = ymd_hm(str_c(fl_date, arr_time)), hour = hour(arr_date_time), day_of_week = wday(arr_date_time, label=TRUE))",
+        "script": "mutate(arr_time = str_pad(arr_time, side=\"left\", pad=\"0\", width=4), arr_date_time = ymd_hm(str_c(fl_date, arr_time)), hour = hour(arr_date_time), day_of_week = wday(arr_date_time, label=TRUE), is_weekend = day_of_week  %in% c(\"Sat\", \"Sun\"))",
         "command": {
             "name": "mutate",
             "mutations": [
@@ -39,10 +39,15 @@
                     "columnSelectorType": "newColumn",
                     "newColumnName": "day_of_week",
                     "expression": "wday(arr_date_time, label=TRUE)"
+                },
+                {
+                    "columnSelectorType": "newColumn",
+                    "newColumnName": "is_weekend",
+                    "expression": "day_of_week  %in% c(\"Sat\", \"Sun\")"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-27T20:40:19.295Z",
+    "timestamp": "2016-09-27T20:47:03.521Z",
     "filename": "airline_redshift_88bbec43fc67.json"
 }
