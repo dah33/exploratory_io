@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(arr_time = str_pad(arr_time, side=\"left\", pad=\"0\", width=4), arr_date_time = ymd_hm(str_c(fl_date, arr_time, sep=\" \")))",
+        "script": "mutate(arr_time = str_pad(arr_time, side=\"left\", pad=\"0\", width=4), arr_date_time = ymd_hm(str_c(fl_date, arr_time)))",
         "command": {
             "name": "mutate",
             "mutations": [
@@ -32,12 +32,11 @@
                 {
                     "columnSelectorType": "newColumn",
                     "newColumnName": "arr_date_time",
-                    "expression": "ymd_hm(str_c(fl_date, arr_time, sep=\" \"))",
-                    "isDirty": true
+                    "expression": "ymd_hm(str_c(fl_date, arr_time))"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-27T20:23:30.654Z",
+    "timestamp": "2016-09-27T20:23:48.766Z",
     "filename": "airline_redshift_88bbec43fc67.json"
 }
