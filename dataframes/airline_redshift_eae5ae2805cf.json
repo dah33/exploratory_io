@@ -1,0 +1,38 @@
+{
+    "name": "airline_redshift_eae5ae2805cf",
+    "displayName": "Filter",
+    "type": "FILTER",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline_redshift_1d6130c4944d"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline_redshift"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "filter(arr_delay > mean(arr_delay, na.rm=TRUE))",
+        "command": {
+            "name": "filter",
+            "conditions": [
+                {
+                    "formType": "custom",
+                    "column": {
+                        "name": "arr_delay",
+                        "type": "numeric"
+                    },
+                    "valueType": "specificDate",
+                    "operator": "greaterThan",
+                    "val": "mean(arr_delay)",
+                    "condition": "arr_delay > mean(arr_delay, na.rm=TRUE)"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-27T21:24:13.367Z"
+}
