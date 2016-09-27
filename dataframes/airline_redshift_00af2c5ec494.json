@@ -5,7 +5,7 @@
     "dependencies": [
         {
             "type": "dataframe",
-            "id": "airline_redshift_88bbec43fc67"
+            "id": "airline_redshift_1528112b284c"
         }
     ],
     "belongsTo": {
@@ -56,5 +56,6 @@
             ]
         }
     },
-    "timestamp": "2016-09-27T20:20:41.637Z"
+    "timestamp": "2016-09-27T20:20:41.637Z",
+    "filename": "airline_redshift_00af2c5ec494.json"
 }

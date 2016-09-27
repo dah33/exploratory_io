@@ -1,0 +1,31 @@
+{
+    "name": "airline_redshift_1528112b284c",
+    "displayName": "Top N / Bottom N",
+    "type": "TOP_N",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline_redshift_88bbec43fc67"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline_redshift"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "top_n(10, arr_delay)",
+        "command": {
+            "name": "top_n",
+            "order": "Top",
+            "n": 10,
+            "column": {
+                "name": "arr_delay",
+                "type": "unknown"
+            }
+        }
+    },
+    "timestamp": "2016-09-27T20:50:31.438Z"
+}
