@@ -5,7 +5,7 @@
     "dependencies": [
         {
             "type": "dataframe",
-            "id": "airline_redshift_bce75e944f90"
+            "id": "airline_redshift_08050ac99a93"
         }
     ],
     "belongsTo": {

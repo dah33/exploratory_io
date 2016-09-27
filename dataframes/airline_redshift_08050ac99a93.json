@@ -1,0 +1,39 @@
+{
+    "name": "airline_redshift_08050ac99a93",
+    "displayName": "Correlation",
+    "type": "DO_COR",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline_redshift_bce75e944f90"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline_redshift"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "do_cor(skv = c(\"dest_state_abr\", \"fl_date\"))",
+        "command": {
+            "name": "do_cor",
+            "selectType": "skvColumns",
+            "subjectColumn": {
+                "name": "dest_state_abr",
+                "type": "unknown"
+            },
+            "keyColumn": {
+                "name": "fl_date",
+                "type": "unknown"
+            },
+            "aggregateFunction": "",
+            "use": "",
+            "method": "",
+            "distinct": "",
+            "diag": ""
+        }
+    },
+    "timestamp": "2016-09-27T21:38:01.102Z"
+}
