@@ -1,0 +1,274 @@
+{
+    "name": "airline_redshift_8",
+    "displayName": "Chart 2",
+    "dependencies": [
+        "airline_redshift"
+    ],
+    "transformName": "",
+    "options": {
+        "marker": "pivot",
+        "x": "",
+        "y": "",
+        "size": "",
+        "color": "",
+        "text": "",
+        "shape": "",
+        "facetcolumn": "",
+        "facetrow": "",
+        "barstyle": "stack",
+        "barsort": "off",
+        "label": "",
+        "colh": "",
+        "rowh": "",
+        "meas": "",
+        "scatterText": "",
+        "includeOutlier": "off",
+        "treatNAAsZero": "on",
+        "mapmode": "USA-states",
+        "columns": [
+            {
+                "name": "fl_date",
+                "type": "Date",
+                "escapedName": "fl_date",
+                "_row": "fl_date",
+                "isNumeric": false,
+                "isDate": true
+            },
+            {
+                "name": "arr_time",
+                "type": "character",
+                "escapedName": "arr_time",
+                "_row": "arr_time",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "arr_delay",
+                "type": "numeric",
+                "escapedName": "arr_delay",
+                "_row": "arr_delay",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "carrier",
+                "type": "character",
+                "escapedName": "carrier",
+                "_row": "carrier",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "fl_num",
+                "type": "integer",
+                "escapedName": "fl_num",
+                "_row": "fl_num",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "origin_city_market_id",
+                "type": "integer",
+                "escapedName": "origin_city_market_id",
+                "_row": "origin_city_market_id",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "origin",
+                "type": "character",
+                "escapedName": "origin",
+                "_row": "origin",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "origin_city_name",
+                "type": "character",
+                "escapedName": "origin_city_name",
+                "_row": "origin_city_name",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "origin_state_abr",
+                "type": "character",
+                "escapedName": "origin_state_abr",
+                "_row": "origin_state_abr",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "origin_state_nm",
+                "type": "character",
+                "escapedName": "origin_state_nm",
+                "_row": "origin_state_nm",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "dest",
+                "type": "character",
+                "escapedName": "dest",
+                "_row": "dest",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "dest_city_name",
+                "type": "character",
+                "escapedName": "dest_city_name",
+                "_row": "dest_city_name",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "dest_state_abr",
+                "type": "character",
+                "escapedName": "dest_state_abr",
+                "_row": "dest_state_abr",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "dest_state_nm",
+                "type": "character",
+                "escapedName": "dest_state_nm",
+                "_row": "dest_state_nm",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "dep_time",
+                "type": "integer",
+                "escapedName": "dep_time",
+                "_row": "dep_time",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "dep_delay",
+                "type": "numeric",
+                "escapedName": "dep_delay",
+                "_row": "dep_delay",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "cancelled",
+                "type": "numeric",
+                "escapedName": "cancelled",
+                "_row": "cancelled",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "cancellation_code",
+                "type": "character",
+                "escapedName": "cancellation_code",
+                "_row": "cancellation_code",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "air_time",
+                "type": "numeric",
+                "escapedName": "air_time",
+                "_row": "air_time",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "distance",
+                "type": "numeric",
+                "escapedName": "distance",
+                "_row": "distance",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "carrier_delay",
+                "type": "numeric",
+                "escapedName": "carrier_delay",
+                "_row": "carrier_delay",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "weather_delay",
+                "type": "numeric",
+                "escapedName": "weather_delay",
+                "_row": "weather_delay",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "nas_delay",
+                "type": "numeric",
+                "escapedName": "nas_delay",
+                "_row": "nas_delay",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "security_delay",
+                "type": "numeric",
+                "escapedName": "security_delay",
+                "_row": "security_delay",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "late_aircraft_delay",
+                "type": "numeric",
+                "escapedName": "late_aircraft_delay",
+                "_row": "late_aircraft_delay",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "v1",
+                "type": "character",
+                "escapedName": "v1",
+                "_row": "v1",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "arr_date_time",
+                "type": "POSIXct,POSIXt",
+                "escapedName": "arr_date_time",
+                "_row": "arr_date_time",
+                "isNumeric": false,
+                "isDate": true
+            },
+            {
+                "name": "hour",
+                "type": "integer",
+                "escapedName": "hour",
+                "_row": "hour",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "day_of_week",
+                "type": "ordered,factor",
+                "escapedName": "day_of_week",
+                "_row": "day_of_week",
+                "isNumeric": false,
+                "isDate": false
+            }
+        ],
+        "data": null
+    },
+    "timestamp": "2016-09-27T20:41:05.844Z",
+    "updatedBy": "",
+    "snapshot": null,
+    "publicTitle": "",
+    "publicDescription": "",
+    "publicDataSourceURL": "",
+    "publicWithData": true,
+    "privateShare": false,
+    "sharedURL": "",
+    "publishSizeOption": null
+}
