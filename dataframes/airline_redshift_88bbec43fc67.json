@@ -16,17 +16,18 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(arr_date_time = ymd_hm(str_c(fl_date, arr_time)))",
+        "script": "mutate(arr_date_time = ymd_hm(str_c(fl_date, arr_time, sep=\" \")))",
         "command": {
             "name": "mutate",
             "mutations": [
                 {
                     "columnSelectorType": "newColumn",
                     "newColumnName": "arr_date_time",
-                    "expression": "ymd_hm(str_c(fl_date, arr_time))"
+                    "expression": "ymd_hm(str_c(fl_date, arr_time, sep=\" \"))"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-27T20:19:05.876Z"
+    "timestamp": "2016-09-27T20:21:11.040Z",
+    "filename": "airline_redshift_88bbec43fc67.json"
 }
