@@ -1,0 +1,32 @@
+{
+    "name": "airline_redshift_88bbec43fc67",
+    "displayName": "Mutate",
+    "type": "MUTATE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline_redshift_87b9fd2e831a"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline_redshift"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "mutate(arr_date_time = ymd_hm(str_c(fl_date, arr_time)))",
+        "command": {
+            "name": "mutate",
+            "mutations": [
+                {
+                    "columnSelectorType": "newColumn",
+                    "newColumnName": "arr_date_time",
+                    "expression": "ymd_hm(str_c(fl_date, arr_time))"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-27T20:19:05.876Z"
+}
