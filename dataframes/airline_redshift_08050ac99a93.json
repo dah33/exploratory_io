@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "do_cor(skv = c(\"dest_state_abr\", \"fl_date\"))",
+        "script": "do_cor(skv = c(\"dest_state_abr\", \"fl_date\"), distinct = TRUE)",
         "command": {
             "name": "do_cor",
             "selectType": "skvColumns",
@@ -28,12 +28,13 @@
                 "name": "fl_date",
                 "type": "unknown"
             },
+            "distinct": "TRUE",
             "aggregateFunction": "",
             "use": "",
             "method": "",
-            "distinct": "",
             "diag": ""
         }
     },
-    "timestamp": "2016-09-27T21:38:01.102Z"
+    "timestamp": "2016-09-27T21:41:58.308Z",
+    "filename": "airline_redshift_08050ac99a93.json"
 }
