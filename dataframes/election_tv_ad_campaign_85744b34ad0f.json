@@ -5,7 +5,7 @@
     "dependencies": [
         {
             "type": "dataframe",
-            "id": "election_tv_ad_campaign_2fb378a64873"
+            "id": "election_tv_ad_campaign_92db0dd971a5"
         }
     ],
     "belongsTo": {

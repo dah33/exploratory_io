@@ -1,0 +1,37 @@
+{
+    "name": "election_tv_ad_campaign_92db0dd971a5",
+    "displayName": "Filter",
+    "type": "FILTER",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "election_tv_ad_campaign_2fb378a64873"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "election_tv_ad_campaign"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "filter(start_time > now() - months(8))",
+        "command": {
+            "name": "filter",
+            "conditions": [
+                {
+                    "formType": "column",
+                    "column": {
+                        "name": "start_time",
+                        "type": "POSIXct"
+                    },
+                    "operator": "greaterThan",
+                    "valueType": "nMonthsAgo",
+                    "val": "8"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-27T05:57:06.062Z"
+}
