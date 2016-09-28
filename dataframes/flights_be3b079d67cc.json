@@ -1,0 +1,36 @@
+{
+    "name": "flights_be3b079d67cc",
+    "displayName": "Filter",
+    "type": "FILTER",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "flights_691ce708925a"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "flights"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "filter(carrier == \"AS\")",
+        "command": {
+            "name": "filter",
+            "conditions": [
+                {
+                    "formType": "column",
+                    "column": {
+                        "name": "carrier",
+                        "type": "character"
+                    },
+                    "operator": "equalTo",
+                    "val": "AS"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-28T21:41:27.288Z"
+}
