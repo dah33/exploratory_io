@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "filter(carrier == \"AA\")",
+        "script": "filter(carrier == \"AA\" & dep_delay > 0)",
         "command": {
             "name": "filter",
             "conditions": [
@@ -29,9 +29,21 @@
                     "valueType": "specificDate",
                     "operator": "equalTo",
                     "val": "AA"
+                },
+                {
+                    "formType": "column",
+                    "column": {
+                        "name": "dep_delay",
+                        "type": "numeric"
+                    },
+                    "valueType": "specificDate",
+                    "operator": "greaterThan",
+                    "val": "0"
                 }
-            ]
+            ],
+            "logicalOperation": "and"
         }
     },
-    "timestamp": "2016-09-28T21:37:13.215Z"
+    "timestamp": "2016-09-28T21:37:26.268Z",
+    "filename": "flights_113388d8e18b.json"
 }
