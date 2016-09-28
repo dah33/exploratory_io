@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "select(fl_date, origin)",
+        "script": "select(fl_date)",
         "command": {
             "name": "select",
             "columnSelectors": [
@@ -24,15 +24,10 @@
                     "includeOrExclude": "Include",
                     "columnSelectorType": "column",
                     "name": "fl_date"
-                },
-                {
-                    "includeOrExclude": "Include",
-                    "columnSelectorType": "column",
-                    "name": "origin"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-28T21:36:51.889Z",
+    "timestamp": "2016-09-28T21:36:53.915Z",
     "filename": "flights_2ffcb5a11e61.json"
 }
