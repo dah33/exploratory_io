@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "select(fl_date, origin, origin_city_market_id)",
+        "script": "select(fl_date, origin)",
         "command": {
             "name": "select",
             "columnSelectors": [
@@ -29,15 +29,10 @@
                     "includeOrExclude": "Include",
                     "columnSelectorType": "column",
                     "name": "origin"
-                },
-                {
-                    "includeOrExclude": "Include",
-                    "columnSelectorType": "column",
-                    "name": "origin_city_market_id"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-28T21:36:21.915Z",
+    "timestamp": "2016-09-28T21:36:51.889Z",
     "filename": "flights_2ffcb5a11e61.json"
 }
