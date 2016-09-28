@@ -241,7 +241,7 @@
                     "2016-03-01",
                     "2016-03-27",
                     null,
-                    "50,1",
+                    "17,1",
                     "313,4",
                     "386,4",
                     "410,4",
@@ -614,7 +614,7 @@
         "rowh0WindowFuncSize": null,
         "rowh0WindowFuncAlign": null
     },
-    "timestamp": "2016-09-28T21:53:21.278Z",
+    "timestamp": "2016-09-28T23:22:37.992Z",
     "updatedBy": "",
     "snapshot": null,
     "publicTitle": "Chart 1",
