@@ -16,15 +16,10 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "select(-fl_date, carrier)",
+        "script": "select(carrier)",
         "command": {
             "name": "select",
             "columnSelectors": [
-                {
-                    "includeOrExclude": "Exclude",
-                    "columnSelectorType": "column",
-                    "name": "fl_date"
-                },
                 {
                     "includeOrExclude": "Include",
                     "columnSelectorType": "column",
@@ -33,6 +28,6 @@
             ]
         }
     },
-    "timestamp": "2016-09-28T21:47:17.731Z",
+    "timestamp": "2016-09-28T21:47:20.622Z",
     "filename": "flights_691ce708925a.json"
 }
