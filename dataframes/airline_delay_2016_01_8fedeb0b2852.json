@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "build_kmeans(DEP_DELAY, ARR_DELAY, augment = TRUE)",
+        "script": "build_kmeans(DEP_DELAY, ARR_DELAY, centers = 5, augment = TRUE)",
         "command": {
             "name": "build_kmeans",
             "augment": "TRUE",
@@ -36,10 +36,12 @@
                 "DEP_DELAY",
                 "ARR_DELAY"
             ],
+            "centers": "5",
             "keepSource": "",
             "trace": "",
             "algorithm": ""
         }
     },
-    "timestamp": "2016-09-28T20:47:04.707Z"
+    "timestamp": "2016-09-28T20:47:33.874Z",
+    "filename": "airline_delay_2016_01_8fedeb0b2852.json"
 }
