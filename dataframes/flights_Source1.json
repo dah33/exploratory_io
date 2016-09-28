@@ -1,0 +1,64 @@
+{
+    "name": "flights_Source1",
+    "displayName": "Source",
+    "type": "SOURCE",
+    "dependencies": [],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "flights"
+    },
+    "props": {},
+    "transform": {
+        "type": "PLUGIN",
+        "props": {
+            "udf": "exploratory::queryPostgres",
+            "connection": {
+                "id": "b5d97c0e540b",
+                "name": "Redshift"
+            },
+            "escapedUDF": "exploratory::queryPostgres",
+            "pluginName": "redshift",
+            "pluginDisplayName": "Amazon Redshift",
+            "params": [
+                {
+                    "name": "host",
+                    "type": "text",
+                    "value": ""
+                },
+                {
+                    "name": "port",
+                    "type": "number",
+                    "value": ""
+                },
+                {
+                    "name": "database",
+                    "type": "text",
+                    "value": ""
+                },
+                {
+                    "name": "username",
+                    "type": "text",
+                    "value": ""
+                },
+                {
+                    "name": "password",
+                    "type": "password",
+                    "value": ""
+                },
+                {
+                    "name": "numOfRows",
+                    "type": "number",
+                    "value": -1
+                },
+                {
+                    "name": "query",
+                    "type": "text",
+                    "value": "SELECT *\nFROM airline_2016_01\nORDER BY md5('randomSeed' || fl_num || fl_date)\nLIMIT 100000"
+                }
+            ],
+            "timestamp": "2016-09-28T21:27:46.728Z"
+        },
+        "script": "exploratory::queryPostgres('',,'','','',-1,'SELECT *\\nFROM airline_2016_01\\nORDER BY md5(\\'randomSeed\\' || fl_num || fl_date)\\nLIMIT 100000')"
+    },
+    "timestamp": "2016-09-28T21:27:46.727Z"
+}

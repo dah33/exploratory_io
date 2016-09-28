@@ -1,0 +1,15 @@
+{
+    "name": "flights",
+    "displayName": "flights",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "flights_Source1"
+        }
+    ],
+    "props": {},
+    "columns": [],
+    "rdata": {},
+    "timestamp": "2016-09-28T21:27:46.727Z",
+    "filename": "flights.json"
+}
