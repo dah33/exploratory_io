@@ -1,0 +1,37 @@
+{
+    "name": "flights_2ffcb5a11e61",
+    "displayName": "Select",
+    "type": "SELECT",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "flights_Source1"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "flights"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "select(fl_date, carrier)",
+        "command": {
+            "name": "select",
+            "columnSelectors": [
+                {
+                    "includeOrExclude": "Include",
+                    "columnSelectorType": "column",
+                    "name": "fl_date"
+                },
+                {
+                    "includeOrExclude": "Include",
+                    "columnSelectorType": "column",
+                    "name": "carrier"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-09-28T21:35:25.052Z"
+}
