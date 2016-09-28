@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "select(fl_date, dest_state_nm)",
+        "script": "select(fl_date, dest_state_nm, everything())",
         "command": {
             "name": "select",
             "columnSelectors": [
@@ -29,10 +29,23 @@
                     "includeOrExclude": "Include",
                     "columnSelectorType": "column",
                     "name": "dest_state_nm"
+                },
+                {
+                    "includeOrExclude": "Include",
+                    "columnSelectorType": "function",
+                    "functionType": "everything",
+                    "start": {
+                        "name": "fl_date",
+                        "type": "Date"
+                    },
+                    "end": {
+                        "name": "fl_date",
+                        "type": "Date"
+                    }
                 }
             ]
         }
     },
-    "timestamp": "2016-09-28T21:35:38.411Z",
+    "timestamp": "2016-09-28T21:35:47.462Z",
     "filename": "flights_2ffcb5a11e61.json"
 }
