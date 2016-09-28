@@ -1,0 +1,45 @@
+{
+    "name": "airline_delay_2016_01_8fedeb0b2852",
+    "displayName": "K-means",
+    "type": "BUILD_KMEANS",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline_delay_2016_01_eb4d4dc0293c"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline_delay_2016_01"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "build_kmeans(DEP_DELAY, ARR_DELAY, augment = TRUE)",
+        "command": {
+            "name": "build_kmeans",
+            "augment": "TRUE",
+            "selectType": "selectColumns",
+            "subjectColumn": {
+                "name": "FL_DATE",
+                "type": "Date"
+            },
+            "keyColumn": {
+                "name": "FL_DATE",
+                "type": "Date"
+            },
+            "aggregateFunction": "",
+            "includeOrExclude": "Include",
+            "columnSelectionType": "Select",
+            "columns": [
+                "DEP_DELAY",
+                "ARR_DELAY"
+            ],
+            "keepSource": "",
+            "trace": "",
+            "algorithm": ""
+        }
+    },
+    "timestamp": "2016-09-28T20:47:04.707Z"
+}
