@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "select(carrier, origin)",
+        "script": "select(carrier)",
         "command": {
             "name": "select",
             "columnSelectors": [
@@ -24,15 +24,10 @@
                     "includeOrExclude": "Include",
                     "columnSelectorType": "column",
                     "name": "carrier"
-                },
-                {
-                    "includeOrExclude": "Include",
-                    "columnSelectorType": "column",
-                    "name": "origin"
                 }
             ]
         }
     },
-    "timestamp": "2016-09-28T21:47:35.762Z",
+    "timestamp": "2016-09-28T21:47:47.615Z",
     "filename": "flights_691ce708925a.json"
 }
