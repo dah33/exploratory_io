@@ -5572,12 +5572,12 @@
                 "c2": 281
             }
         ],
-        "height": 583,
-        "width": 967,
+        "height": 584,
+        "width": 769,
         "yWindowFuncGroup": "cum",
         "yWindowFunc": "cumsum"
     },
-    "timestamp": "2016-09-25T21:25:49.552Z",
+    "timestamp": "2016-09-29T06:28:13.982Z",
     "updatedBy": "",
     "snapshot": null,
     "publicTitle": "",
@@ -5586,5 +5586,6 @@
     "publicWithData": true,
     "privateShare": false,
     "sharedURL": "",
-    "publishSizeOption": null
+    "publishSizeOption": null,
+    "filename": "Unicorns_viz_1.json"
 }
