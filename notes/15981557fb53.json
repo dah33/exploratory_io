@@ -1,11 +1,13 @@
 {
     "name": "15981557fb53",
     "displayName": "Airline Delay Analysis Report",
-    "dependencies": [],
+    "dependencies": [
+        "airline_delay_2016_01_viz_1"
+    ],
     "options": {
         "data": null
     },
-    "timestamp": "2016-11-05T02:05:45.243Z",
+    "timestamp": "2016-11-05T02:05:50.243Z",
     "updatedBy": "",
     "publishType": "BLOG_ONLY",
     "blogURL": "",
