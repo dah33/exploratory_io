@@ -1,0 +1,34 @@
+{
+    "name": "airline_delay_2016-08_c835edece90d",
+    "displayName": "Mutate",
+    "type": "MUTATE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline_delay_2016-08_Source1"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline_delay_2016-08"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "mutate(FL_DATE = ymd(FL_DATE))",
+        "command": {
+            "name": "mutate",
+            "mutations": [
+                {
+                    "columnSelectorType": "overwrite",
+                    "column": {
+                        "name": "FL_DATE"
+                    },
+                    "expression": "ymd(FL_DATE)"
+                }
+            ]
+        }
+    },
+    "timestamp": "2017-02-28T23:27:05.282Z"
+}
