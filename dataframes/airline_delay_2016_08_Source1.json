@@ -1,0 +1,53 @@
+{
+    "name": "airline_delay_2016_08_Source1",
+    "displayName": "Source",
+    "type": "SOURCE",
+    "dependencies": [],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline_delay_2016_08"
+    },
+    "props": {},
+    "transform": {
+        "type": "local_csv",
+        "props": {
+            "data": "/Users/kannishida/Dropbox/Data/airline_delay_2016_08.csv",
+            "columnSelectState": {
+                "FL_DATE": true,
+                "UNIQUE_CARRIER": true,
+                "CARRIER": true,
+                "FL_NUM": true,
+                "ORIGIN": true,
+                "ORIGIN_CITY_NAME": true,
+                "ORIGIN_STATE_ABR": true,
+                "DEST": true,
+                "DEST_CITY_NAME": true,
+                "DEST_STATE_ABR": true,
+                "DEP_TIME": true,
+                "DEP_DELAY": true,
+                "ARR_TIME": true,
+                "ARR_DELAY": true,
+                "CANCELLED": true,
+                "CANCELLATION_CODE": true,
+                "AIR_TIME": true,
+                "DISTANCE": true,
+                "X19": true
+            },
+            "timestamp": "2017-02-28T22:53:15.388Z",
+            "heading": "TRUE",
+            "sep": ",",
+            "customSep": "",
+            "decimal": ".",
+            "group": "",
+            "quote": "\"",
+            "skipNrows": "0",
+            "comment": "",
+            "nastring": "NA",
+            "numOfPreviewRows": "50",
+            "encoding": "UTF-8",
+            "trimWs": "FALSE"
+        },
+        "script": "exploratory::read_delim_file(\"/Users/kannishida/Dropbox/Data/airline_delay_2016_08.csv\" , \",\", quote = \"\\\"\", skip = 0 , col_names = TRUE , na = c(\"\",\"NA\") , locale=locale(encoding = \"UTF-8\", decimal_mark = \".\"), trim_ws = FALSE , progress = FALSE)"
+    },
+    "timestamp": "2017-02-28T22:53:13.017Z"
+}
