@@ -6,7 +6,7 @@
     ],
     "transformName": "",
     "options": {
-        "marker": "",
+        "marker": "bar",
         "x": "",
         "y": "",
         "size": "",
@@ -25,134 +25,15 @@
         "includeOutlier": "off",
         "treatNAAsZero": "on",
         "mapmode": "USA-states",
-        "columns": [
-            {
-                "name": "FL_DATE",
-                "type": "Date",
-                "escapedName": "FL_DATE",
-                "_row": "FL_DATE",
-                "isNumeric": false,
-                "isDate": true
-            },
-            {
-                "name": "CARRIER",
-                "type": "character",
-                "escapedName": "CARRIER",
-                "_row": "CARRIER",
-                "isNumeric": false,
-                "isDate": false
-            },
-            {
-                "name": "FL_NUM",
-                "type": "integer",
-                "escapedName": "FL_NUM",
-                "_row": "FL_NUM",
-                "isNumeric": true,
-                "isDate": false
-            },
-            {
-                "name": "ORIGIN",
-                "type": "character",
-                "escapedName": "ORIGIN",
-                "_row": "ORIGIN",
-                "isNumeric": false,
-                "isDate": false
-            },
-            {
-                "name": "ORIGIN_CITY_NAME",
-                "type": "character",
-                "escapedName": "ORIGIN_CITY_NAME",
-                "_row": "ORIGIN_CITY_NAME",
-                "isNumeric": false,
-                "isDate": false
-            },
-            {
-                "name": "DEST",
-                "type": "character",
-                "escapedName": "DEST",
-                "_row": "DEST",
-                "isNumeric": false,
-                "isDate": false
-            },
-            {
-                "name": "DEST_CITY_NAME",
-                "type": "character",
-                "escapedName": "DEST_CITY_NAME",
-                "_row": "DEST_CITY_NAME",
-                "isNumeric": false,
-                "isDate": false
-            },
-            {
-                "name": "DEP_TIME",
-                "type": "character",
-                "escapedName": "DEP_TIME",
-                "_row": "DEP_TIME",
-                "isNumeric": false,
-                "isDate": false
-            },
-            {
-                "name": "DEP_DELAY",
-                "type": "numeric",
-                "escapedName": "DEP_DELAY",
-                "_row": "DEP_DELAY",
-                "isNumeric": true,
-                "isDate": false
-            },
-            {
-                "name": "ARR_TIME",
-                "type": "character",
-                "escapedName": "ARR_TIME",
-                "_row": "ARR_TIME",
-                "isNumeric": false,
-                "isDate": false
-            },
-            {
-                "name": "ARR_DELAY",
-                "type": "numeric",
-                "escapedName": "ARR_DELAY",
-                "_row": "ARR_DELAY",
-                "isNumeric": true,
-                "isDate": false
-            },
-            {
-                "name": "CANCELLED",
-                "type": "numeric",
-                "escapedName": "CANCELLED",
-                "_row": "CANCELLED",
-                "isNumeric": true,
-                "isDate": false
-            },
-            {
-                "name": "CANCELLATION_CODE",
-                "type": "character",
-                "escapedName": "CANCELLATION_CODE",
-                "_row": "CANCELLATION_CODE",
-                "isNumeric": false,
-                "isDate": false
-            },
-            {
-                "name": "AIR_TIME",
-                "type": "numeric",
-                "escapedName": "AIR_TIME",
-                "_row": "AIR_TIME",
-                "isNumeric": true,
-                "isDate": false
-            },
-            {
-                "name": "DISTANCE",
-                "type": "numeric",
-                "escapedName": "DISTANCE",
-                "_row": "DISTANCE",
-                "isNumeric": true,
-                "isDate": false
-            }
-        ],
+        "columns": [],
         "data": null,
-        "query": null
+        "query": null,
+        "sampleDataSize": 0,
+        "height": 619,
+        "width": 769
     },
-    "timestamp": "2017-03-01T03:33:37.212Z",
+    "timestamp": "2017-03-01T04:12:16.002Z",
     "updatedBy": "",
-    "thumbnail": null,
     "publicTitle": "",
     "publicDescription": "",
     "publicDataSourceURL": "",
