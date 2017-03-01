@@ -1,0 +1,35 @@
+{
+    "name": "airline_delay_2016-08_dfaddbbecd1a",
+    "displayName": "Separate",
+    "type": "SEPARATE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline_delay_2016-08_c835edece90d"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline_delay_2016-08"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "separate(ORIGIN_CITY_NAME, into = c(\"city\", \"state\"), sep = \"\\\\s*\\\\,\\\\s*\", convert = TRUE)",
+        "command": {
+            "name": "separate",
+            "column": {
+                "name": "ORIGIN_CITY_NAME",
+                "type": "character"
+            },
+            "newColumnNames": "city, state",
+            "separator": "comma",
+            "convert": "TRUE",
+            "remove": "",
+            "fill": "",
+            "extra": ""
+        }
+    },
+    "timestamp": "2017-03-01T04:40:06.758Z"
+}
