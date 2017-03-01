@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(FL_DATE = ymd(FL_DATE), FL_DATE_wday = wday(FL_DATE, label = TRUE), FL_DATE_wday = wday(FL_DATE, label = TRUE))",
+        "script": "mutate(FL_DATE = ymd(FL_DATE), FL_DATE_wday = wday(FL_DATE, label = TRUE))",
         "command": {
             "name": "mutate",
             "mutations": [
@@ -32,16 +32,10 @@
                     "newColumnName": "FL_DATE_wday",
                     "expression": "wday(FL_DATE, label = TRUE)",
                     "isTemp": true
-                },
-                {
-                    "columnSelectorType": "newColumn",
-                    "newColumnName": "FL_DATE_wday",
-                    "expression": "wday(FL_DATE, label = TRUE)",
-                    "isTemp": true
                 }
             ]
         }
     },
-    "timestamp": "2017-03-01T04:16:22.987Z",
+    "timestamp": "2017-03-01T04:16:25.788Z",
     "filename": "airline_delay_2016-08_c835edece90d.json"
 }
