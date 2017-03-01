@@ -16,17 +16,18 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(calculation_1 = ifelse(n() < 50, 999, as.numeric(FL_NUM)))",
+        "script": "mutate(calculation_1 = ifelse(n() < 200, 999, as.numeric(FL_NUM)))",
         "command": {
             "name": "mutate",
             "mutations": [
                 {
                     "columnSelectorType": "newColumn",
                     "newColumnName": "calculation_1",
-                    "expression": "ifelse(n() < 50, 999, as.numeric(FL_NUM))"
+                    "expression": "ifelse(n() < 200, 999, as.numeric(FL_NUM))"
                 }
             ]
         }
     },
-    "timestamp": "2017-03-01T08:31:19.323Z"
+    "timestamp": "2017-03-01T08:31:41.825Z",
+    "filename": "airline_delay_2016_01_5e42d9d927a7.json"
 }
