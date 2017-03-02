@@ -1,0 +1,32 @@
+{
+    "name": "correlation_54b96314d56a",
+    "displayName": "Mutate",
+    "type": "MUTATE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "correlation_387383a75076"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "correlation"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "mutate(calculation_1 = as.numeric(cluster))",
+        "command": {
+            "name": "mutate",
+            "mutations": [
+                {
+                    "columnSelectorType": "newColumn",
+                    "newColumnName": "calculation_1",
+                    "expression": "as.numeric(cluster)"
+                }
+            ]
+        }
+    },
+    "timestamp": "2017-03-02T16:14:35.805Z"
+}
