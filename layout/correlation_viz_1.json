@@ -195,14 +195,6 @@
                 "_row": "cluster",
                 "isNumeric": false,
                 "isDate": false
-            },
-            {
-                "name": "calculation_1",
-                "type": "numeric",
-                "escapedName": "calculation_1",
-                "_row": "calculation_1",
-                "isNumeric": true,
-                "isDate": false
             }
         ],
         "data": [
@@ -30207,7 +30199,7 @@
                 "c4": "WN"
             }
         ],
-        "query": "try(jsonlite::toJSON(`correlation_54b96314d56a` %>% \ndplyr::ungroup() %>% \ndplyr::mutate(c1=DEP_DELAY,c2=ARR_DELAY,c3=cluster,c4=CARRIER) %>% \ndplyr::select(c1,c2,c3,c4) %>% \ndplyr::filter(!is.na(c1)) %>% \n (function(df) {if (nrow(df)>5000) {set.seed(1); return (sample_n(df,5000)); } else {return (df);}}) %>% \narrange(c4,c3,c1), na=\"null\" ))",
+        "query": "try(jsonlite::toJSON(`correlation_387383a75076` %>% \ndplyr::ungroup() %>% \ndplyr::mutate(c1=DEP_DELAY,c2=ARR_DELAY,c3=cluster,c4=CARRIER) %>% \ndplyr::select(c1,c2,c3,c4) %>% \ndplyr::filter(!is.na(c1)) %>% \n (function(df) {if (nrow(df)>5000) {set.seed(1); return (sample_n(df,5000)); } else {return (df);}}) %>% \narrange(c4,c3,c1), na=\"null\" ))",
         "sampleDataSize": 5000,
         "height": 619,
         "width": 769,
@@ -30228,7 +30220,7 @@
         "facetEnableDataCompletion": "off",
         "yTrendLineLength": "each"
     },
-    "timestamp": "2017-03-02T16:26:04.629Z",
+    "timestamp": "2017-03-02T16:28:12.192Z",
     "updatedBy": "",
     "publicTitle": "k-means test",
     "publicDescription": "",
@@ -30240,5 +30232,6 @@
     "filename": "correlation_viz_1.json",
     "sharedFileTypes": [
         "edf"
-    ]
+    ],
+    "transformName": "correlation_387383a75076"
 }
