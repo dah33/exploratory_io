@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "build_kmeans(DEP_DELAY, ARR_DELAY, centers = 10)",
+        "script": "build_kmeans(DEP_DELAY, ARR_DELAY, centers = 5)",
         "command": {
             "name": "build_kmeans",
             "selectType": "selectColumns",
@@ -35,10 +35,10 @@
                 "DEP_DELAY",
                 "ARR_DELAY"
             ],
-            "centers": "10",
+            "centers": "5",
             "algorithm": ""
         }
     },
-    "timestamp": "2017-03-02T05:39:31.574Z",
+    "timestamp": "2017-03-02T05:45:11.557Z",
     "filename": "correlation_387383a75076.json"
 }
