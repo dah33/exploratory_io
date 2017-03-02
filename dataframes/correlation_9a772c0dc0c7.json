@@ -24,7 +24,9 @@
                     "columnName": "CARRIER"
                 }
             ]
-        }
+        },
+        "skip": true
     },
-    "timestamp": "2017-03-02T16:05:50.424Z"
+    "timestamp": "2017-03-02T16:24:32.802Z",
+    "filename": "correlation_9a772c0dc0c7.json"
 }
