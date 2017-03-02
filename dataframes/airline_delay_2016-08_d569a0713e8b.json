@@ -1,0 +1,31 @@
+{
+    "name": "airline_delay_2016-08_d569a0713e8b",
+    "displayName": "Top N / Bottom N",
+    "type": "TOP_N",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline_delay_2016-08_a04746b32812"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline_delay_2016-08"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "top_n(100, DEP_DELAY)",
+        "command": {
+            "name": "top_n",
+            "order": "Top",
+            "n": "100",
+            "column": {
+                "name": "DEP_DELAY",
+                "type": "numeric"
+            }
+        }
+    },
+    "timestamp": "2017-03-02T03:21:03.645Z"
+}
