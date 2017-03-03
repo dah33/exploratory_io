@@ -1,0 +1,41 @@
+{
+    "name": "us-air-port-code_Source1",
+    "displayName": "Source",
+    "type": "SOURCE",
+    "dependencies": [],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "us-air-port-code"
+    },
+    "props": {},
+    "transform": {
+        "type": "local_csv",
+        "props": {
+            "data": "/Users/kannishida/Dropbox/Data/demo/us-air-port-code.csv",
+            "columnSelectState": {
+                "Code": true,
+                "Name": true,
+                "City-State": true,
+                "Country": true,
+                "Country Code": true,
+                "Latitude": true,
+                "Longitude": true
+            },
+            "timestamp": "2017-03-03T04:28:25.849Z",
+            "heading": "TRUE",
+            "sep": ",",
+            "customSep": "",
+            "decimal": ".",
+            "group": "",
+            "quote": "\"",
+            "skipNrows": "0",
+            "comment": "",
+            "nastring": "NA",
+            "numOfPreviewRows": "50",
+            "encoding": "UTF-8",
+            "trimWs": "FALSE"
+        },
+        "script": "exploratory::read_delim_file(\"/Users/kannishida/Dropbox/Data/demo/us-air-port-code.csv\" , \",\", quote = \"\\\"\", skip = 0 , col_names = TRUE , na = c(\"\",\"NA\") , locale=locale(encoding = \"UTF-8\", decimal_mark = \".\"), trim_ws = FALSE , progress = FALSE)"
+    },
+    "timestamp": "2017-03-03T04:28:25.823Z"
+}
