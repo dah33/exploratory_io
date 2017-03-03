@@ -16,17 +16,18 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(calculation_1 = winsor(ARR_DELAY))",
+        "script": "mutate(winsorized = winsor(ARR_DELAY, .05))",
         "command": {
             "name": "mutate",
             "mutations": [
                 {
                     "columnSelectorType": "newColumn",
-                    "newColumnName": "calculation_1",
-                    "expression": "winsor(ARR_DELAY)"
+                    "newColumnName": "winsorized",
+                    "expression": "winsor(ARR_DELAY, .05)"
                 }
             ]
         }
     },
-    "timestamp": "2017-03-03T19:27:22.487Z"
+    "timestamp": "2017-03-03T19:28:18.269Z",
+    "filename": "winsorize_3ba7b3bbfd54.json"
 }
