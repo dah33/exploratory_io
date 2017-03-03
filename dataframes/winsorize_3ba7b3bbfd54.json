@@ -1,0 +1,32 @@
+{
+    "name": "winsorize_3ba7b3bbfd54",
+    "displayName": "Mutate",
+    "type": "MUTATE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "winsorize_09764c40d0b9"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "winsorize"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "mutate(calculation_1 = winsor(ARR_DELAY))",
+        "command": {
+            "name": "mutate",
+            "mutations": [
+                {
+                    "columnSelectorType": "newColumn",
+                    "newColumnName": "calculation_1",
+                    "expression": "winsor(ARR_DELAY)"
+                }
+            ]
+        }
+    },
+    "timestamp": "2017-03-03T19:27:22.487Z"
+}
