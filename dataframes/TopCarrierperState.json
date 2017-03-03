@@ -1,0 +1,18 @@
+{
+    "name": "TopCarrierperState",
+    "displayName": "TopCarrierperState",
+    "type": "BRANCH",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline_delay_2016-08_b89ac5c45707"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline_delay_2016-08"
+    },
+    "props": {},
+    "tabIndex": 1,
+    "timestamp": "2017-03-03T19:11:24.887Z"
+}
