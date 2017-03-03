@@ -5,7 +5,7 @@
     "dependencies": [
         {
             "type": "dataframe",
-            "id": "airline_delay_2016-08_a04746b32812"
+            "id": "airline_delay_2016-08_b89ac5c45707"
         }
     ],
     "belongsTo": {
@@ -26,5 +26,6 @@
             ]
         }
     },
-    "timestamp": "2017-03-02T03:31:41.274Z"
+    "timestamp": "2017-03-02T03:31:41.274Z",
+    "filename": "airline_delay_2016-08_8c94cc0aa440.json"
 }
