@@ -16,16 +16,17 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "summarize(new_column = n())",
+        "script": "summarize(counts = n())",
         "command": {
             "name": "summarize",
             "summaries": [
                 {
                     "formType": "column",
-                    "newColumnName": "new_column"
+                    "newColumnName": "counts"
                 }
             ]
         }
     },
-    "timestamp": "2017-03-03T19:12:04.890Z"
+    "timestamp": "2017-03-03T19:12:12.120Z",
+    "filename": "TopCarrierperState_16be78e639a9.json"
 }
