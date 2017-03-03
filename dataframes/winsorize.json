@@ -5,7 +5,7 @@
     "dependencies": [
         {
             "type": "dataframe",
-            "id": "airline_delay_2016_01_be501a3916c6"
+            "id": "winsorize_09764c40d0b9"
         }
     ],
     "belongsTo": {
@@ -14,5 +14,6 @@
     },
     "props": {},
     "tabIndex": 1,
-    "timestamp": "2017-03-03T19:26:10.845Z"
+    "timestamp": "2017-03-03T19:26:10.845Z",
+    "filename": "winsorize.json"
 }
