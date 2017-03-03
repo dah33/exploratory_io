@@ -1,0 +1,37 @@
+{
+    "name": "carrier_code_full_Source1",
+    "displayName": "Source",
+    "type": "SOURCE",
+    "dependencies": [],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "carrier_code_full"
+    },
+    "props": {},
+    "transform": {
+        "type": "local_csv",
+        "props": {
+            "data": "/Users/kannishida/Dropbox/Data/demo/carrier_code_full.csv",
+            "columnSelectState": {
+                "code_2": true,
+                "code_3": true,
+                "name": true
+            },
+            "timestamp": "2017-03-03T19:14:27.160Z",
+            "heading": "TRUE",
+            "sep": ",",
+            "customSep": "",
+            "decimal": ".",
+            "group": "",
+            "quote": "\"",
+            "skipNrows": "0",
+            "comment": "",
+            "nastring": "NA",
+            "numOfPreviewRows": "50",
+            "encoding": "UTF-8",
+            "trimWs": "FALSE"
+        },
+        "script": "exploratory::read_delim_file(\"/Users/kannishida/Dropbox/Data/demo/carrier_code_full.csv\" , \",\", quote = \"\\\"\", skip = 0 , col_names = TRUE , na = c(\"\",\"NA\") , locale=locale(encoding = \"UTF-8\", decimal_mark = \".\"), trim_ws = FALSE , progress = FALSE)"
+    },
+    "timestamp": "2017-03-03T19:14:27.143Z"
+}
