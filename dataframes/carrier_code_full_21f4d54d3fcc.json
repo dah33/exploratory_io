@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "filter(!is.na(country) & is.na(code))",
+        "script": "filter(!is.na(country) & !is.na(code))",
         "command": {
             "name": "filter",
             "conditions": [
@@ -34,12 +34,12 @@
                         "name": "code",
                         "type": "character"
                     },
-                    "operator": "isNA"
+                    "operator": "isNotNA"
                 }
             ],
             "logicalOperation": "and"
         }
     },
-    "timestamp": "2017-03-03T19:15:08.757Z",
+    "timestamp": "2017-03-03T19:15:19.038Z",
     "filename": "carrier_code_full_21f4d54d3fcc.json"
 }
