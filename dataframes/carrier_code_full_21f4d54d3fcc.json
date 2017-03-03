@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "filter(is.na(country))",
+        "script": "filter(!is.na(country))",
         "command": {
             "name": "filter",
             "conditions": [
@@ -26,10 +26,11 @@
                         "name": "country",
                         "type": "character"
                     },
-                    "operator": "isNA"
+                    "operator": "isNotNA"
                 }
             ]
         }
     },
-    "timestamp": "2017-03-03T19:14:51.058Z"
+    "timestamp": "2017-03-03T19:15:01.175Z",
+    "filename": "carrier_code_full_21f4d54d3fcc.json"
 }
