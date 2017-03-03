@@ -4,10 +4,12 @@
     "src": "8e48dd44df2c.R",
     "type": "user-defined-script",
     "dependencies": [],
-    "timestamp": "2017-03-03T19:26:44.799Z",
+    "timestamp": "2017-03-03T19:26:58.401Z",
     "updatedBy": "",
     "transform": {},
     "inputParameters": [],
-    "executionError": null,
-    "definedObjects": []
+    "executionError": "",
+    "definedObjects": [
+        "winsor"
+    ]
 }
