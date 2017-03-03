@@ -1,0 +1,31 @@
+{
+    "name": "TopCarrierperState_16be78e639a9",
+    "displayName": "Summarize",
+    "type": "SUMMARIZE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "TopCarrierperState_3ec7423f2d54"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "TopCarrierperState"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "summarize(new_column = n())",
+        "command": {
+            "name": "summarize",
+            "summaries": [
+                {
+                    "formType": "column",
+                    "newColumnName": "new_column"
+                }
+            ]
+        }
+    },
+    "timestamp": "2017-03-03T19:12:04.890Z"
+}
