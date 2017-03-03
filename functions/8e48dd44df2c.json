@@ -1,0 +1,13 @@
+{
+    "name": "8e48dd44df2c",
+    "displayName": "winsorize",
+    "src": "8e48dd44df2c.R",
+    "type": "user-defined-script",
+    "dependencies": [],
+    "timestamp": "2017-03-03T19:26:44.799Z",
+    "updatedBy": "",
+    "transform": {},
+    "inputParameters": [],
+    "executionError": null,
+    "definedObjects": []
+}
