@@ -1,0 +1,35 @@
+{
+    "name": "carrier_code_full_21f4d54d3fcc",
+    "displayName": "Filter",
+    "type": "FILTER",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "carrier_code_full_Source1"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "carrier_code_full"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "filter(is.na(country))",
+        "command": {
+            "name": "filter",
+            "conditions": [
+                {
+                    "formType": "column",
+                    "column": {
+                        "name": "country",
+                        "type": "character"
+                    },
+                    "operator": "isNA"
+                }
+            ]
+        }
+    },
+    "timestamp": "2017-03-03T19:14:51.058Z"
+}
