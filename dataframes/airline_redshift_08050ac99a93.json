@@ -2,12 +2,7 @@
     "name": "airline_redshift_08050ac99a93",
     "displayName": "Correlation",
     "type": "DO_COR",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "airline_redshift_bce75e944f90"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "airline_redshift"
