@@ -38,5 +38,15 @@
         }
     },
     "timestamp": "2016-09-25T05:56:37.222Z",
-    "filename": "carrier_lookup_1408d2eebbc6.json"
+    "filename": "carrier_lookup_1408d2eebbc6.json",
+    "publicTitle": "US Air Carrier Codes",
+    "publicDescription": "",
+    "publicDataSourceURL": "",
+    "privateShare": false,
+    "withSteps": true,
+    "sharedFileTypes": [
+        "edf",
+        "csv"
+    ],
+    "sharedURL": "https://exploratory.io/data/kanaugust/9876993836892339"
 }
