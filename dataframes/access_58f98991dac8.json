@@ -2,12 +2,7 @@
     "name": "access_58f98991dac8",
     "displayName": "Mutate",
     "type": "MUTATE",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "access_4d0f59702353"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "access"
@@ -32,5 +27,6 @@
             ]
         }
     },
-    "timestamp": "2016-09-26T03:22:53.832Z"
+    "timestamp": "2016-09-26T03:22:53.832Z",
+    "filename": "access_58f98991dac8.json"
 }
