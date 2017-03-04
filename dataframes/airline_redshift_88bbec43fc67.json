@@ -2,12 +2,7 @@
     "name": "airline_redshift_88bbec43fc67",
     "displayName": "Mutate",
     "type": "MUTATE",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "airline_redshift_9094d574979e"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "airline_redshift"
