@@ -1,12 +1,7 @@
 {
     "name": "Unicorns",
     "displayName": "Unicorns",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "Unicorns_7f3122b9a47c"
-        }
-    ],
+    "dependencies": [],
     "props": {},
     "columns": [],
     "rdata": {},
