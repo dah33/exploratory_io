@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(month_name = str_c(month, \".\"))",
+        "script": "mutate(month_name = str_c(month, \".\"), FL_DATE = str_c(year, month_name, day, sep=\" \"))",
         "command": {
             "name": "mutate",
             "mutations": [
@@ -28,10 +28,19 @@
                         "name": "FL_DATE",
                         "type": "Date"
                     }
+                },
+                {
+                    "columnSelectorType": "overwrite",
+                    "newColumnName": "new_column",
+                    "column": {
+                        "name": "FL_DATE",
+                        "type": "Date"
+                    },
+                    "expression": "str_c(year, month_name, day, sep=\" \")"
                 }
             ]
         }
     },
-    "timestamp": "2017-03-04T20:17:28.920Z",
+    "timestamp": "2017-03-04T20:17:50.490Z",
     "filename": "airline-delay-2016_09_7d21e203e11b.json"
 }
