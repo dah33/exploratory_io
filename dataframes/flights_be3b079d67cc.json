@@ -2,12 +2,7 @@
     "name": "flights_be3b079d67cc",
     "displayName": "Filter",
     "type": "FILTER",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "flights_Source1"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "flights"
