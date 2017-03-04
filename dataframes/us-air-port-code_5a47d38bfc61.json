@@ -1,0 +1,36 @@
+{
+    "name": "us-air-port-code_5a47d38bfc61",
+    "displayName": "Filter",
+    "type": "FILTER",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "us-air-port-code_Source1"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "us-air-port-code"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "filter(Country != \"Unites States\")",
+        "command": {
+            "name": "filter",
+            "conditions": [
+                {
+                    "formType": "column",
+                    "column": {
+                        "name": "Country",
+                        "type": "character"
+                    },
+                    "operator": "notEqualTo",
+                    "val": "Unites States"
+                }
+            ]
+        }
+    },
+    "timestamp": "2017-03-04T19:06:26.350Z"
+}
