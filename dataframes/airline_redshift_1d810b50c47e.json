@@ -2,12 +2,7 @@
     "name": "airline_redshift_1d810b50c47e",
     "displayName": "Filter",
     "type": "FILTER",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "airline_redshift_87b9fd2e831a"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "airline_redshift"
@@ -32,5 +27,6 @@
             ]
         }
     },
-    "timestamp": "2016-09-27T20:33:44.449Z"
+    "timestamp": "2016-09-27T20:33:44.449Z",
+    "filename": "airline_redshift_1d810b50c47e.json"
 }
