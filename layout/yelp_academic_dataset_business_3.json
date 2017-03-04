@@ -856,8 +856,8 @@
                 3
             ]
         ],
-        "height": 593,
-        "width": 975,
+        "height": 611,
+        "width": 769,
         "rowh0": {
             "name": "state",
             "validName": "state",
@@ -887,16 +887,21 @@
             "func": "none",
             "label": "c2",
             "validLabel": "c2"
-        }
+        },
+        "sampleDataSize": 0,
+        "query": "try(jsonlite::toJSON(`yelp_academic_dataset_business_51a002bf7e87` %>% \ndplyr::ungroup() %>% \ndplyr::mutate(r0=state,r1=categories,`m0`=`counts`) %>% \ndplyr::group_by(r0,r1) %>% \ndplyr::summarize(`m0`=sum(as.numeric(`m0`), na.rm =!all(is.na(`m0`)))) %>% \nungroup() %>% \narrange(r0,r1) %>% \ntidyr::unite(.pivot.measure.cell, m0, sep=\",\") %>% \n(function(df) { \n  .nrow <- nrow(df)\n  .ncol <- ncol(df)\n  .maxcell <- 3000\n  df <- df %>% select( 1: min(.ncol ,302))\n  if (.nrow * ncol(df) > .maxcell) {\n    .maxrows <- as.integer(.maxcell / ncol(df))\n    df <- slice(df, 1 : .maxrows)\n  }\n  return (list(df, colnames(df), .nrow, .ncol))\n}), na=\"null\" , dataframe=\"values\"))"
     },
-    "timestamp": "2016-09-25T19:14:27.603Z",
+    "timestamp": "2017-03-04T07:16:08.123Z",
     "updatedBy": "",
-    "snapshot": null,
+    "thumbnail": null,
     "publicTitle": "",
     "publicDescription": "",
     "publicDataSourceURL": "",
-    "publicWithData": true,
+    "withSteps": true,
     "privateShare": false,
     "sharedURL": "",
-    "publishSizeOption": null
+    "publishSizeOption": null,
+    "snapshot": null,
+    "publicWithData": true,
+    "filename": "yelp_academic_dataset_business_3.json"
 }
