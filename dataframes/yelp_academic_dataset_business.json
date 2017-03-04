@@ -1,12 +1,7 @@
 {
     "name": "yelp_academic_dataset_business",
     "displayName": "yelp_academic_dataset_business",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "yelp_academic_dataset_business_51a002bf7e87"
-        }
-    ],
+    "dependencies": [],
     "props": {},
     "columns": [],
     "rdata": {},
