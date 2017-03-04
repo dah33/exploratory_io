@@ -1,12 +1,7 @@
 {
     "name": "access",
     "displayName": "access",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "access_bd929bdac7d3"
-        }
-    ],
+    "dependencies": [],
     "props": {},
     "columns": [],
     "rdata": {},
