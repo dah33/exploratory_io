@@ -2,12 +2,7 @@
     "name": "Unicorns_6cca366d4ec4",
     "displayName": "Mutate",
     "type": "MUTATE",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "Unicorns_6324a697fa28"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "Unicorns"
@@ -32,5 +27,6 @@
             ]
         }
     },
-    "timestamp": "2016-09-25T21:04:36.405Z"
+    "timestamp": "2016-09-25T21:04:36.405Z",
+    "filename": "Unicorns_6cca366d4ec4.json"
 }
