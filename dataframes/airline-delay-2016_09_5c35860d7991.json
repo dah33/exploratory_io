@@ -1,0 +1,37 @@
+{
+    "name": "airline-delay-2016_09_5c35860d7991",
+    "displayName": "Select",
+    "type": "SELECT",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline-delay-2016_09_7d21e203e11b"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline-delay-2016_09"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "select(-ORIGIN_STATE_ABR, -DEST_STATE_ABR)",
+        "command": {
+            "name": "select",
+            "columnSelectors": [
+                {
+                    "name": "ORIGIN_STATE_ABR",
+                    "includeOrExclude": "Exclude",
+                    "columnSelectorType": "column"
+                },
+                {
+                    "name": "DEST_STATE_ABR",
+                    "includeOrExclude": "Exclude",
+                    "columnSelectorType": "column"
+                }
+            ]
+        }
+    },
+    "timestamp": "2017-03-04T20:18:10.542Z"
+}
