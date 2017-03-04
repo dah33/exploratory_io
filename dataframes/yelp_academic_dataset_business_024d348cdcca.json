@@ -2,12 +2,7 @@
     "name": "yelp_academic_dataset_business_024d348cdcca",
     "displayName": "Mutate",
     "type": "MUTATE",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "yelp_academic_dataset_business_53b84c369a3c"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "yelp_academic_dataset_business"
