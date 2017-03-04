@@ -2,12 +2,7 @@
     "name": "yelp_academic_dataset_business_02e91a9bd167",
     "displayName": "Filter",
     "type": "FILTER",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "yelp_academic_dataset_business_146eff0784a0"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "yelp_academic_dataset_business"
@@ -32,5 +27,6 @@
             ]
         }
     },
-    "timestamp": "2016-09-25T08:42:45.321Z"
+    "timestamp": "2016-09-25T08:42:45.321Z",
+    "filename": "yelp_academic_dataset_business_02e91a9bd167.json"
 }
