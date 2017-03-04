@@ -2,12 +2,7 @@
     "name": "Unicorns_d19a3523a0b4",
     "displayName": "Filter",
     "type": "FILTER",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "Unicorns_Source1"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "Unicorns"
@@ -31,5 +26,6 @@
             ]
         }
     },
-    "timestamp": "2016-09-25T20:44:22.821Z"
+    "timestamp": "2016-09-25T20:44:22.821Z",
+    "filename": "Unicorns_d19a3523a0b4.json"
 }
