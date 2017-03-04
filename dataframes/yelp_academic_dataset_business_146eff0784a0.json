@@ -2,12 +2,7 @@
     "name": "yelp_academic_dataset_business_146eff0784a0",
     "displayName": "Unnest",
     "type": "UNNEST",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "yelp_academic_dataset_business_d41e72dcbce3"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "yelp_academic_dataset_business"
@@ -25,5 +20,6 @@
             "drop": "FALSE"
         }
     },
-    "timestamp": "2016-09-25T08:41:02.814Z"
+    "timestamp": "2016-09-25T08:41:02.814Z",
+    "filename": "yelp_academic_dataset_business_146eff0784a0.json"
 }
