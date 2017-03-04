@@ -2,12 +2,7 @@
     "name": "yelp_academic_dataset_business_ee3a470bca44",
     "displayName": "Summarize",
     "type": "SUMMARIZE",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "yelp_academic_dataset_business_202d35778bfc"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "yelp_academic_dataset_business"
@@ -27,5 +22,6 @@
             ]
         }
     },
-    "timestamp": "2016-09-25T18:57:03.999Z"
+    "timestamp": "2016-09-25T18:57:03.999Z",
+    "filename": "yelp_academic_dataset_business_ee3a470bca44.json"
 }
