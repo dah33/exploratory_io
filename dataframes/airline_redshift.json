@@ -1,12 +1,7 @@
 {
     "name": "airline_redshift",
     "displayName": "airline_redshift",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "airline_redshift_00af2c5ec494"
-        }
-    ],
+    "dependencies": [],
     "props": {},
     "columns": [],
     "rdata": {},
