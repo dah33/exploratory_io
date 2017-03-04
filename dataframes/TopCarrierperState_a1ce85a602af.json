@@ -9,7 +9,7 @@
         },
         {
             "type": "dataframe",
-            "id": "carrier_code_full"
+            "id": "carrier_lookup"
         }
     ],
     "belongsTo": {
@@ -20,7 +20,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "left_join(carrier_code_full, by = c(\"CARRIER\" = \"code\"))",
+        "script": "left_join(carrier_lookup, by = c(\"CARRIER\" = \"code\"))",
         "command": {
             "name": "join",
             "joinType": "Left Join",
@@ -30,8 +30,9 @@
                     "targetColumn": "code"
                 }
             ],
-            "targetDataFrame": "carrier_code_full"
+            "targetDataFrame": "carrier_lookup"
         }
     },
-    "timestamp": "2017-03-03T19:16:53.796Z"
+    "timestamp": "2017-03-04T02:33:00.941Z",
+    "filename": "TopCarrierperState_a1ce85a602af.json"
 }
