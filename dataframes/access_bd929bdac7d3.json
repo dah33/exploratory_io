@@ -2,12 +2,7 @@
     "name": "access_bd929bdac7d3",
     "displayName": "Rename",
     "type": "RENAME",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "access_58f98991dac8"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "access"
@@ -30,5 +25,6 @@
             ]
         }
     },
-    "timestamp": "2016-09-26T21:01:36.795Z"
+    "timestamp": "2016-09-26T21:01:36.795Z",
+    "filename": "access_bd929bdac7d3.json"
 }
