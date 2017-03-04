@@ -1,0 +1,517 @@
+{
+    "name": "airline_delay_2016-08_15",
+    "displayName": "Chart 6",
+    "dependencies": [
+        "airline_delay_2016-08"
+    ],
+    "transformName": "",
+    "options": {
+        "marker": "geojson",
+        "x": {
+            "name": "state",
+            "validName": "state",
+            "type": "character",
+            "isNumeric": false,
+            "isDate": false,
+            "func": "none",
+            "label": "c1",
+            "validLabel": "c1"
+        },
+        "y": "",
+        "size": "",
+        "color": {
+            "name": ".dummy.column.name.for.count.column",
+            "validName": ".dummy.column.name.for.count.column",
+            "isNumeric": false,
+            "isDate": false,
+            "type": "numrows",
+            "func": "count",
+            "label": "c2",
+            "validLabel": "c2"
+        },
+        "text": "",
+        "shape": "",
+        "facetcolumn": "",
+        "facetrow": "",
+        "barstyle": "stack",
+        "barsort": "off",
+        "label": "",
+        "colh": "",
+        "rowh": "",
+        "meas": "",
+        "scatterText": "",
+        "includeOutlier": "off",
+        "treatNAAsZero": "on",
+        "mapmode": "USA-states",
+        "columns": [
+            {
+                "name": "FL_DATE",
+                "type": "Date",
+                "escapedName": "FL_DATE",
+                "_row": "FL_DATE",
+                "isNumeric": false,
+                "isDate": true
+            },
+            {
+                "name": "CARRIER",
+                "type": "character",
+                "escapedName": "CARRIER",
+                "_row": "CARRIER",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "FL_NUM",
+                "type": "integer",
+                "escapedName": "FL_NUM",
+                "_row": "FL_NUM",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "ORIGIN",
+                "type": "character",
+                "escapedName": "ORIGIN",
+                "_row": "ORIGIN",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "city",
+                "type": "character",
+                "escapedName": "city",
+                "_row": "city",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "state",
+                "type": "character",
+                "escapedName": "state",
+                "_row": "state",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "DEST",
+                "type": "character",
+                "escapedName": "DEST",
+                "_row": "DEST",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "DEST_CITY_NAME",
+                "type": "character",
+                "escapedName": "DEST_CITY_NAME",
+                "_row": "DEST_CITY_NAME",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "DEP_TIME",
+                "type": "character",
+                "escapedName": "DEP_TIME",
+                "_row": "DEP_TIME",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "DEP_DELAY",
+                "type": "numeric",
+                "escapedName": "DEP_DELAY",
+                "_row": "DEP_DELAY",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "ARR_TIME",
+                "type": "character",
+                "escapedName": "ARR_TIME",
+                "_row": "ARR_TIME",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "ARR_DELAY",
+                "type": "numeric",
+                "escapedName": "ARR_DELAY",
+                "_row": "ARR_DELAY",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "CANCELLED",
+                "type": "numeric",
+                "escapedName": "CANCELLED",
+                "_row": "CANCELLED",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "CANCELLATION_CODE",
+                "type": "character",
+                "escapedName": "CANCELLATION_CODE",
+                "_row": "CANCELLATION_CODE",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "AIR_TIME",
+                "type": "numeric",
+                "escapedName": "AIR_TIME",
+                "_row": "AIR_TIME",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "DISTANCE",
+                "type": "numeric",
+                "escapedName": "DISTANCE",
+                "_row": "DISTANCE",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "day_of_week",
+                "type": "ordered,factor",
+                "escapedName": "day_of_week",
+                "_row": "day_of_week",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "Name",
+                "type": "character",
+                "escapedName": "Name",
+                "_row": "Name",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "City-State",
+                "type": "character",
+                "escapedName": "`City-State`",
+                "_row": "City-State",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "Country",
+                "type": "character",
+                "escapedName": "Country",
+                "_row": "Country",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "Country Code",
+                "type": "character",
+                "escapedName": "`Country Code`",
+                "_row": "Country Code",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "Latitude",
+                "type": "numeric",
+                "escapedName": "Latitude",
+                "_row": "Latitude",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "Longitude",
+                "type": "numeric",
+                "escapedName": "Longitude",
+                "_row": "Longitude",
+                "isNumeric": true,
+                "isDate": false
+            }
+        ],
+        "data": [
+            {
+                "c1": "AK",
+                "c2": 37,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "AL",
+                "c2": 5,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "AR",
+                "c2": 4,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "AZ",
+                "c2": 14,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "CA",
+                "c2": 182,
+                "c3": "(145.80000000000001137,182.1810000000000116]"
+            },
+            {
+                "c1": "CO",
+                "c2": 34,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "CT",
+                "c2": 2,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "DC",
+                "c2": 26,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "FL",
+                "c2": 105,
+                "c3": "(73.400000000000005684,109.60000000000000853]"
+            },
+            {
+                "c1": "GA",
+                "c2": 46,
+                "c3": "(37.200000000000002842,73.400000000000005684]"
+            },
+            {
+                "c1": "HI",
+                "c2": 93,
+                "c3": "(73.400000000000005684,109.60000000000000853]"
+            },
+            {
+                "c1": "IA",
+                "c2": 4,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "ID",
+                "c2": 5,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "IL",
+                "c2": 50,
+                "c3": "(37.200000000000002842,73.400000000000005684]"
+            },
+            {
+                "c1": "IN",
+                "c2": 9,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "KS",
+                "c2": 5,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "KY",
+                "c2": 2,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "LA",
+                "c2": 9,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "MA",
+                "c2": 22,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "MD",
+                "c2": 19,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "ME",
+                "c2": 4,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "MI",
+                "c2": 35,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "MN",
+                "c2": 21,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "MO",
+                "c2": 13,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "MS",
+                "c2": 2,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "MT",
+                "c2": 5,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "NC",
+                "c2": 20,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "ND",
+                "c2": 6,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "NE",
+                "c2": 5,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "NJ",
+                "c2": 31,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "NM",
+                "c2": 2,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "NV",
+                "c2": 40,
+                "c3": "(37.200000000000002842,73.400000000000005684]"
+            },
+            {
+                "c1": "NY",
+                "c2": 79,
+                "c3": "(73.400000000000005684,109.60000000000000853]"
+            },
+            {
+                "c1": "OH",
+                "c2": 20,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "OK",
+                "c2": 10,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "OR",
+                "c2": 18,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "PA",
+                "c2": 11,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "PR",
+                "c2": 12,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "RI",
+                "c2": 1,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "SC",
+                "c2": 5,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "SD",
+                "c2": 2,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "TN",
+                "c2": 20,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "TX",
+                "c2": 104,
+                "c3": "(73.400000000000005684,109.60000000000000853]"
+            },
+            {
+                "c1": "UT",
+                "c2": 8,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "VA",
+                "c2": 11,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "VI",
+                "c2": 2,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "VT",
+                "c2": 1,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "WA",
+                "c2": 34,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "WI",
+                "c2": 10,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "WV",
+                "c2": 1,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            },
+            {
+                "c1": "WY",
+                "c2": 4,
+                "c3": "(0.81899999999999995026,37.200000000000002842]"
+            }
+        ],
+        "query": "try(jsonlite::toJSON(`airline_delay_2016-08_d569a0713e8b` %>% \nungroup() %>% \nmutate(`c1`=`state`,c2=1,c3=1) %>% \nfilter(!is.na(`c1`)) %>% \ngroup_by (`c1`) %>% \nsummarise(c2=n(),c3=n()) %>% \nungroup() %>% \ndplyr::mutate(c3 = `_tam_cut`(c2, breaks=5, dig.lab=20)) %>% \nungroup() %>% \narrange(`c1`), na=\"null\" ))",
+        "sampleDataSize": 0,
+        "height": 619,
+        "width": 769,
+        "mapZoomStatus": "3,-182.28515625,5.965753671065536,-47.109375,74.6367480410086",
+        "geojson": "af6a6b90c822",
+        "geojsonKeyProp": "STUSPS",
+        "colorbucket": {
+            "name": ".dummy.column.name.for.count.column",
+            "validName": ".dummy.column.name.for.count.column",
+            "isNumeric": false,
+            "isDate": false,
+            "type": "numrows",
+            "func": "count",
+            "label": "c3",
+            "validLabel": "c3"
+        }
+    },
+    "timestamp": "2017-03-04T18:23:15.793Z",
+    "updatedBy": "",
+    "thumbnail": null,
+    "publicTitle": "",
+    "publicDescription": "",
+    "publicDataSourceURL": "",
+    "withSteps": true,
+    "privateShare": false,
+    "sharedURL": "",
+    "publishSizeOption": null
+}
