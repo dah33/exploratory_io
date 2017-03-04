@@ -2,12 +2,7 @@
     "name": "Unicorns_7f3122b9a47c",
     "displayName": "Unnest",
     "type": "UNNEST",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "Unicorns_6cca366d4ec4"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "Unicorns"
@@ -25,5 +20,6 @@
             "drop": ""
         }
     },
-    "timestamp": "2016-09-25T21:06:27.028Z"
+    "timestamp": "2016-09-25T21:06:27.028Z",
+    "filename": "Unicorns_7f3122b9a47c.json"
 }
