@@ -2,12 +2,7 @@
     "name": "election_tv_ad_campaign_2fb378a64873",
     "displayName": "Mutate",
     "type": "MUTATE",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "election_tv_ad_campaign_521129488384"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "election_tv_ad_campaign"
