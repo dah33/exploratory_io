@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(year = year(FL_DATE))",
+        "script": "mutate(year = year(FL_DATE), FL_DATE_day = day(FL_DATE))",
         "command": {
             "name": "mutate",
             "mutations": [
@@ -24,9 +24,15 @@
                     "columnSelectorType": "newColumn",
                     "newColumnName": "year",
                     "expression": "year(FL_DATE)"
+                },
+                {
+                    "columnSelectorType": "newColumn",
+                    "newColumnName": "FL_DATE_day",
+                    "expression": "day(FL_DATE)"
                 }
             ]
         }
     },
-    "timestamp": "2017-03-04T20:06:17.861Z"
+    "timestamp": "2017-03-04T20:09:06.977Z",
+    "filename": "airline-delay-2016_09_7383d2a08e6d.json"
 }
