@@ -1,0 +1,99 @@
+{
+    "name": "us-air-port-code_viz_1",
+    "displayName": "Chart 1",
+    "dependencies": [
+        "us-air-port-code"
+    ],
+    "transformName": "",
+    "options": {
+        "marker": "",
+        "x": "",
+        "y": "",
+        "size": "",
+        "color": "",
+        "text": "",
+        "shape": "",
+        "facetcolumn": "",
+        "facetrow": "",
+        "barstyle": "stack",
+        "barsort": "off",
+        "label": "",
+        "colh": "",
+        "rowh": "",
+        "meas": "",
+        "scatterText": "",
+        "includeOutlier": "off",
+        "treatNAAsZero": "on",
+        "mapmode": "USA-states",
+        "columns": [
+            {
+                "name": "Code",
+                "type": "character",
+                "escapedName": "Code",
+                "_row": "Code",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "Name",
+                "type": "character",
+                "escapedName": "Name",
+                "_row": "Name",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "City-State",
+                "type": "character",
+                "escapedName": "`City-State`",
+                "_row": "City-State",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "Country",
+                "type": "character",
+                "escapedName": "Country",
+                "_row": "Country",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "Country Code",
+                "type": "character",
+                "escapedName": "`Country Code`",
+                "_row": "Country Code",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "Latitude",
+                "type": "numeric",
+                "escapedName": "Latitude",
+                "_row": "Latitude",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "Longitude",
+                "type": "numeric",
+                "escapedName": "Longitude",
+                "_row": "Longitude",
+                "isNumeric": true,
+                "isDate": false
+            }
+        ],
+        "data": null,
+        "query": null
+    },
+    "timestamp": "2017-03-04T18:21:54.249Z",
+    "updatedBy": "",
+    "thumbnail": null,
+    "publicTitle": "",
+    "publicDescription": "",
+    "publicDataSourceURL": "",
+    "withSteps": true,
+    "privateShare": false,
+    "sharedURL": "",
+    "publishSizeOption": null
+}
