@@ -2,12 +2,7 @@
     "name": "yelp_academic_dataset_business_53b84c369a3c",
     "displayName": "Select",
     "type": "SELECT",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "yelp_academic_dataset_business_Source1"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "yelp_academic_dataset_business"
