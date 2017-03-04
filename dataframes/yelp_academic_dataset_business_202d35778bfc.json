@@ -2,12 +2,7 @@
     "name": "yelp_academic_dataset_business_202d35778bfc",
     "displayName": "Grouping",
     "type": "GROUP_BY",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "yelp_academic_dataset_business_02e91a9bd167"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "yelp_academic_dataset_business"
