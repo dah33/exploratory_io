@@ -2,12 +2,7 @@
     "name": "airline_redshift_2e6e27fc230e",
     "displayName": "Arrange (Sort)",
     "type": "ARRANGE",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "airline_redshift_ef04d55c1749"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "airline_redshift"
