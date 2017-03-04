@@ -2,12 +2,7 @@
     "name": "Unicorns_823de9ae2098",
     "displayName": "Mutate",
     "type": "MUTATE",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "Unicorns_d19a3523a0b4"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "Unicorns"
