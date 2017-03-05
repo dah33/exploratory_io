@@ -5,7 +5,7 @@
     "dependencies": [
         {
             "type": "dataframe",
-            "id": "us-air-port-code_5a47d38bfc61"
+            "id": "us-air-port-code_44a12803b6fc"
         }
     ],
     "belongsTo": {
@@ -53,5 +53,6 @@
         "edf",
         "csv"
     ],
-    "sharedURL": "https://exploratory.io/data/kanaugust/0814311708280782"
+    "sharedURL": "https://exploratory.io/data/kanaugust/0814311708280782",
+    "filename": "us-air-port-code_11a154828816.json"
 }

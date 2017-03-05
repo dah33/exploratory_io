@@ -1,0 +1,37 @@
+{
+    "name": "us-air-port-code_44a12803b6fc",
+    "displayName": "Mutate",
+    "type": "MUTATE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "us-air-port-code_5a47d38bfc61"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "us-air-port-code"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "mutate(Longitude = if_else(Code  == \"PBG\", Longitude * -1, Longitude))",
+        "command": {
+            "name": "mutate",
+            "mutations": [
+                {
+                    "columnSelectorType": "overwrite",
+                    "newColumnName": "calculation_1",
+                    "expression": "if_else(Code  == \"PBG\", Longitude * -1, Longitude)",
+                    "column": {
+                        "name": "Longitude",
+                        "type": "numeric"
+                    }
+                }
+            ]
+        }
+    },
+    "timestamp": "2017-03-05T18:57:21.328Z",
+    "filename": "us-air-port-code_44a12803b6fc.json"
+}
