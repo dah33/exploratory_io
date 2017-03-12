@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "select(ARR_DELAY, everything())",
+        "script": "select(ARR_DELAY, everything(), CARRIER, everything())",
         "command": {
             "name": "select",
             "columnSelectors": [
@@ -29,9 +29,20 @@
                     "includeOrExclude": "Include",
                     "columnSelectorType": "function",
                     "functionType": "everything"
+                },
+                {
+                    "includeOrExclude": "Include",
+                    "columnSelectorType": "column",
+                    "name": "CARRIER"
+                },
+                {
+                    "includeOrExclude": "Include",
+                    "columnSelectorType": "function",
+                    "functionType": "everything"
                 }
             ]
         }
     },
-    "timestamp": "2017-03-12T06:16:13.265Z"
+    "timestamp": "2017-03-12T06:16:20.401Z",
+    "filename": "airline_delay_2016_01_c157981daebc.json"
 }
