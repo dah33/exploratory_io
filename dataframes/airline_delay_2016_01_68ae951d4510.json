@@ -16,16 +16,16 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "group_by(FL_NUM)",
+        "script": "group_by(CARRIER)",
         "command": {
             "name": "group_by",
             "columns": [
                 {
-                    "columnName": "FL_NUM"
+                    "columnName": "CARRIER"
                 }
             ]
         }
     },
-    "timestamp": "2017-03-01T08:30:09.033Z",
+    "timestamp": "2017-03-12T06:14:05.846Z",
     "filename": "airline_delay_2016_01_68ae951d4510.json"
 }
