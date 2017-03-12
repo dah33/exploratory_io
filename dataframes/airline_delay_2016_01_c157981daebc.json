@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "select(CARRIER, ARR_DELAY, average_arr_delay, everything(), new_column)",
+        "script": "select(CARRIER, ARR_DELAY, average_arr_delay, everything(), new_column, DEST_CITY_NAME)",
         "command": {
             "name": "select",
             "columnSelectors": [
@@ -44,10 +44,15 @@
                     "includeOrExclude": "Include",
                     "columnSelectorType": "column",
                     "name": "new_column"
+                },
+                {
+                    "includeOrExclude": "Include",
+                    "columnSelectorType": "column",
+                    "name": "DEST_CITY_NAME"
                 }
             ]
         }
     },
-    "timestamp": "2017-03-12T06:29:13.743Z",
+    "timestamp": "2017-03-12T06:29:17.985Z",
     "filename": "airline_delay_2016_01_c157981daebc.json"
 }
