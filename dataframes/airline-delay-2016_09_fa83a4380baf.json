@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(state = fct_lump(state))",
+        "script": "mutate(state = fct_lump(state, n=5))",
         "command": {
             "name": "mutate",
             "mutations": [
@@ -25,10 +25,11 @@
                     "column": {
                         "name": "state"
                     },
-                    "expression": "fct_lump(state)"
+                    "expression": "fct_lump(state, n=5)"
                 }
             ]
         }
     },
-    "timestamp": "2017-03-13T14:18:44.347Z"
+    "timestamp": "2017-03-13T14:20:13.863Z",
+    "filename": "airline-delay-2016_09_fa83a4380baf.json"
 }
