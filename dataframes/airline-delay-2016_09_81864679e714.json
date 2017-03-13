@@ -1,0 +1,32 @@
+{
+    "name": "airline-delay-2016_09_81864679e714",
+    "displayName": "Mutate",
+    "type": "MUTATE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline-delay-2016_09_15be240f0264"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline-delay-2016_09"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "mutate(calculation_1 = list_extract(str_split(name, pattern=\" \"), 1))",
+        "command": {
+            "name": "mutate",
+            "mutations": [
+                {
+                    "columnSelectorType": "newColumn",
+                    "newColumnName": "calculation_1",
+                    "expression": "list_extract(str_split(name, pattern=\" \"), 1)"
+                }
+            ]
+        }
+    },
+    "timestamp": "2017-03-13T14:27:59.737Z"
+}
