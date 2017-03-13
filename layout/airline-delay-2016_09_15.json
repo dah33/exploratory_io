@@ -4,7 +4,7 @@
     "dependencies": [
         "airline-delay-2016_09"
     ],
-    "transformName": "",
+    "transformName": "airline-delay-2016_09_fa83a4380baf",
     "options": {
         "marker": "bar",
         "x": {
@@ -200,445 +200,1601 @@
         ],
         "data": [
             {
+                "c3": "UT",
+                "c1": "Alaska",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "UT",
+                "c1": "American",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "UT",
+                "c1": "Atlantic",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "UT",
+                "c1": "Delta",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "UT",
+                "c1": "Frontier",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "UT",
+                "c1": "Hawaiian",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "UT",
+                "c1": "JetBlue",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "UT",
+                "c1": "SkyWest",
+                "c2": 8.349,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "UT",
+                "c1": "Southwest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "UT",
+                "c1": "Spirit",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "UT",
+                "c1": "United",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "UT",
+                "c1": "Virgin",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AZ",
+                "c1": "Alaska",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AZ",
+                "c1": "American",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AZ",
+                "c1": "Atlantic",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AZ",
+                "c1": "Delta",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AZ",
+                "c1": "Frontier",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AZ",
+                "c1": "Hawaiian",
+                "c2": 0.4856,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AZ",
+                "c1": "JetBlue",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AZ",
+                "c1": "SkyWest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AZ",
+                "c1": "Southwest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AZ",
+                "c1": "Spirit",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AZ",
+                "c1": "United",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AZ",
+                "c1": "Virgin",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OH",
+                "c1": "Alaska",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OH",
+                "c1": "American",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OH",
+                "c1": "Atlantic",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OH",
+                "c1": "Delta",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OH",
+                "c1": "Frontier",
+                "c2": 6.7893,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OH",
+                "c1": "Hawaiian",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OH",
+                "c1": "JetBlue",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OH",
+                "c1": "SkyWest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OH",
+                "c1": "Southwest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OH",
+                "c1": "Spirit",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OH",
+                "c1": "United",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OH",
+                "c1": "Virgin",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NV",
+                "c1": "Alaska",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NV",
+                "c1": "American",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NV",
+                "c1": "Atlantic",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NV",
+                "c1": "Delta",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NV",
+                "c1": "Frontier",
+                "c2": 7.0322,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NV",
+                "c1": "Hawaiian",
+                "c2": 1.1816,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NV",
+                "c1": "JetBlue",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NV",
+                "c1": "SkyWest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NV",
+                "c1": "Southwest",
+                "c2": 6.6581,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NV",
+                "c1": "Spirit",
+                "c2": 8.4925,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NV",
+                "c1": "United",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NV",
+                "c1": "Virgin",
+                "c2": 7.2651,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CO",
+                "c1": "Alaska",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CO",
+                "c1": "American",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CO",
+                "c1": "Atlantic",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CO",
+                "c1": "Delta",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CO",
+                "c1": "Frontier",
+                "c2": 24.5084,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CO",
+                "c1": "Hawaiian",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CO",
+                "c1": "JetBlue",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CO",
+                "c1": "SkyWest",
+                "c2": 11.1932,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CO",
+                "c1": "Southwest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CO",
+                "c1": "Spirit",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CO",
+                "c1": "United",
+                "c2": 10.8533,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CO",
+                "c1": "Virgin",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NJ",
+                "c1": "Alaska",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NJ",
+                "c1": "American",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NJ",
+                "c1": "Atlantic",
+                "c2": 7.655,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NJ",
+                "c1": "Delta",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NJ",
+                "c1": "Frontier",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NJ",
+                "c1": "Hawaiian",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NJ",
+                "c1": "JetBlue",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NJ",
+                "c1": "SkyWest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NJ",
+                "c1": "Southwest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NJ",
+                "c1": "Spirit",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NJ",
+                "c1": "United",
+                "c2": 9.0679,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NJ",
+                "c1": "Virgin",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MI",
+                "c1": "Alaska",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MI",
+                "c1": "American",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MI",
+                "c1": "Atlantic",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MI",
+                "c1": "Delta",
+                "c2": 6.8089,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MI",
+                "c1": "Frontier",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MI",
+                "c1": "Hawaiian",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MI",
+                "c1": "JetBlue",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MI",
+                "c1": "SkyWest",
+                "c2": 6.0581,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MI",
+                "c1": "Southwest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MI",
+                "c1": "Spirit",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MI",
+                "c1": "United",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MI",
+                "c1": "Virgin",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MN",
+                "c1": "Alaska",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MN",
+                "c1": "American",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MN",
+                "c1": "Atlantic",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MN",
+                "c1": "Delta",
+                "c2": 7.205,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MN",
+                "c1": "Frontier",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MN",
+                "c1": "Hawaiian",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MN",
+                "c1": "JetBlue",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MN",
+                "c1": "SkyWest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MN",
+                "c1": "Southwest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MN",
+                "c1": "Spirit",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MN",
+                "c1": "United",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MN",
+                "c1": "Virgin",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "GA",
+                "c1": "Alaska",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "GA",
+                "c1": "American",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "GA",
+                "c1": "Atlantic",
+                "c2": 13.6662,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "GA",
+                "c1": "Delta",
+                "c2": 27.3919,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "GA",
+                "c1": "Frontier",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "GA",
+                "c1": "Hawaiian",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "GA",
+                "c1": "JetBlue",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "GA",
+                "c1": "SkyWest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "GA",
+                "c1": "Southwest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "GA",
+                "c1": "Spirit",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "GA",
+                "c1": "United",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "GA",
+                "c1": "Virgin",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "DC",
+                "c1": "Alaska",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "DC",
+                "c1": "American",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "DC",
+                "c1": "Atlantic",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "DC",
+                "c1": "Delta",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "DC",
+                "c1": "Frontier",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "DC",
+                "c1": "Hawaiian",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "DC",
+                "c1": "JetBlue",
+                "c2": 4.6749,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "DC",
+                "c1": "SkyWest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "DC",
+                "c1": "Southwest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "DC",
+                "c1": "Spirit",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "DC",
+                "c1": "United",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "DC",
+                "c1": "Virgin",
+                "c2": 4.366,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MA",
+                "c1": "Alaska",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MA",
+                "c1": "American",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MA",
+                "c1": "Atlantic",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MA",
+                "c1": "Delta",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MA",
+                "c1": "Frontier",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MA",
+                "c1": "Hawaiian",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MA",
+                "c1": "JetBlue",
+                "c2": 16.7575,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MA",
+                "c1": "SkyWest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MA",
+                "c1": "Southwest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MA",
+                "c1": "Spirit",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MA",
+                "c1": "United",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "MA",
+                "c1": "Virgin",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NY",
+                "c1": "Alaska",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NY",
+                "c1": "American",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NY",
+                "c1": "Atlantic",
+                "c2": 5.3829,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NY",
+                "c1": "Delta",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NY",
+                "c1": "Frontier",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NY",
+                "c1": "Hawaiian",
+                "c2": 0.4856,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NY",
+                "c1": "JetBlue",
+                "c2": 22.5397,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NY",
+                "c1": "SkyWest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NY",
+                "c1": "Southwest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NY",
+                "c1": "Spirit",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NY",
+                "c1": "United",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NY",
+                "c1": "Virgin",
+                "c2": 7.9462,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "HI",
+                "c1": "Alaska",
+                "c2": 3.7596,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "HI",
+                "c1": "American",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "HI",
+                "c1": "Atlantic",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "HI",
+                "c1": "Delta",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "HI",
+                "c1": "Frontier",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "HI",
+                "c1": "Hawaiian",
+                "c2": 90.2234,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "HI",
+                "c1": "JetBlue",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "HI",
+                "c1": "SkyWest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "HI",
+                "c1": "Southwest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "HI",
+                "c1": "Spirit",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "HI",
+                "c1": "United",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "HI",
+                "c1": "Virgin",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OR",
+                "c1": "Alaska",
+                "c2": 7.548,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OR",
+                "c1": "American",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OR",
+                "c1": "Atlantic",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OR",
+                "c1": "Delta",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OR",
+                "c1": "Frontier",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OR",
+                "c1": "Hawaiian",
+                "c2": 0.4856,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OR",
+                "c1": "JetBlue",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OR",
+                "c1": "SkyWest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OR",
+                "c1": "Southwest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OR",
+                "c1": "Spirit",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OR",
+                "c1": "United",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "OR",
+                "c1": "Virgin",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AK",
+                "c1": "Alaska",
+                "c2": 18.1411,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AK",
+                "c1": "American",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AK",
+                "c1": "Atlantic",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AK",
+                "c1": "Delta",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AK",
+                "c1": "Frontier",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AK",
+                "c1": "Hawaiian",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AK",
+                "c1": "JetBlue",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AK",
+                "c1": "SkyWest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AK",
+                "c1": "Southwest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AK",
+                "c1": "Spirit",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AK",
+                "c1": "United",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "AK",
+                "c1": "Virgin",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "WA",
+                "c1": "Alaska",
+                "c2": 33.5691,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "WA",
+                "c1": "American",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "WA",
+                "c1": "Atlantic",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "WA",
+                "c1": "Delta",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "WA",
+                "c1": "Frontier",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "WA",
+                "c1": "Hawaiian",
+                "c2": 0.9712,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "WA",
+                "c1": "JetBlue",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "WA",
+                "c1": "SkyWest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "WA",
+                "c1": "Southwest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "WA",
+                "c1": "Spirit",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "WA",
+                "c1": "United",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "WA",
+                "c1": "Virgin",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
                 "c3": "Other",
                 "c1": "Alaska",
-                "c2": 10432,
-                "c2.gbysum": 13858
+                "c2": 16.467,
+                "c2.gbysum": 100
             },
             {
                 "c3": "Other",
                 "c1": "American",
-                "c2": 38204,
-                "c2.gbysum": 72460
+                "c2": 42.0453,
+                "c2.gbysum": 100
             },
             {
                 "c3": "Other",
                 "c1": "Atlantic",
-                "c2": 22011,
-                "c2.gbysum": 38994
+                "c2": 45.2941,
+                "c2.gbysum": 100
             },
             {
                 "c3": "Other",
                 "c1": "Delta",
-                "c2": 40975,
-                "c2.gbysum": 75475
+                "c2": 43.7509,
+                "c2.gbysum": 100
             },
             {
                 "c3": "Other",
                 "c1": "Frontier",
-                "c2": 5862,
-                "c2.gbysum": 8646
+                "c2": 43.9857,
+                "c2.gbysum": 100
             },
             {
                 "c3": "Other",
                 "c1": "Hawaiian",
-                "c2": 5806,
-                "c2.gbysum": 6178
+                "c2": 0.1457,
+                "c2.gbysum": 100
             },
             {
                 "c3": "Other",
                 "c1": "JetBlue",
-                "c2": 14903,
-                "c2.gbysum": 22396
+                "c2": 25.1875,
+                "c2.gbysum": 100
             },
             {
                 "c3": "Other",
                 "c1": "SkyWest",
-                "c2": 32386,
-                "c2.gbysum": 48976
+                "c2": 45.7979,
+                "c2.gbysum": 100
             },
             {
                 "c3": "Other",
                 "c1": "Southwest",
-                "c2": 54579,
-                "c2.gbysum": 104083
+                "c2": 49.1627,
+                "c2.gbysum": 100
             },
             {
                 "c3": "Other",
                 "c1": "Spirit",
-                "c2": 5483,
-                "c2.gbysum": 11151
+                "c2": 46.0048,
+                "c2.gbysum": 100
             },
             {
                 "c3": "Other",
                 "c1": "United",
-                "c2": 23254,
-                "c2.gbysum": 46935
+                "c2": 35.1017,
+                "c2.gbysum": 100
             },
             {
                 "c3": "Other",
                 "c1": "Virgin",
-                "c2": 1941,
-                "c2.gbysum": 5726
+                "c2": 18.7915,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "IL",
+                "c1": "Alaska",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "IL",
+                "c1": "American",
+                "c2": 6.9528,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "IL",
+                "c1": "Atlantic",
+                "c2": 8.4936,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "IL",
+                "c1": "Delta",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "IL",
+                "c1": "Frontier",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "IL",
+                "c1": "Hawaiian",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "IL",
+                "c1": "JetBlue",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "IL",
+                "c1": "SkyWest",
+                "c2": 7.4322,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "IL",
+                "c1": "Southwest",
+                "c2": 6.6802,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "IL",
+                "c1": "Spirit",
+                "c2": 7.4971,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "IL",
+                "c1": "United",
+                "c2": 14.3645,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "IL",
+                "c1": "Virgin",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CA",
+                "c1": "Alaska",
+                "c2": 20.5152,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CA",
+                "c1": "American",
+                "c2": 9.2768,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CA",
+                "c1": "Atlantic",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CA",
+                "c1": "Delta",
+                "c2": 7.0407,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CA",
+                "c1": "Frontier",
+                "c2": 6.2225,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CA",
+                "c1": "Hawaiian",
+                "c2": 6.0214,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CA",
+                "c1": "JetBlue",
+                "c2": 9.5642,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CA",
+                "c1": "SkyWest",
+                "c2": 21.1696,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CA",
+                "c1": "Southwest",
+                "c2": 18.1989,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CA",
+                "c1": "Spirit",
+                "c2": 10.6448,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CA",
+                "c1": "United",
+                "c2": 18.6833,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "CA",
+                "c1": "Virgin",
+                "c2": 53.3531,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "FL",
+                "c1": "Alaska",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "FL",
+                "c1": "American",
+                "c2": 10.6059,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "FL",
+                "c1": "Atlantic",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "FL",
+                "c1": "Delta",
+                "c2": 7.8026,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "FL",
+                "c1": "Frontier",
+                "c2": 11.4619,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "FL",
+                "c1": "Hawaiian",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "FL",
+                "c1": "JetBlue",
+                "c2": 21.2761,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "FL",
+                "c1": "SkyWest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "FL",
+                "c1": "Southwest",
+                "c2": 6.3574,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "FL",
+                "c1": "Spirit",
+                "c2": 15.7295,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "FL",
+                "c1": "United",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "FL",
+                "c1": "Virgin",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NC",
+                "c1": "Alaska",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NC",
+                "c1": "American",
+                "c2": 12.135,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NC",
+                "c1": "Atlantic",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NC",
+                "c1": "Delta",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NC",
+                "c1": "Frontier",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NC",
+                "c1": "Hawaiian",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NC",
+                "c1": "JetBlue",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NC",
+                "c1": "SkyWest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NC",
+                "c1": "Southwest",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NC",
+                "c1": "Spirit",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NC",
+                "c1": "United",
+                "c2": 0,
+                "c2.gbysum": 100
+            },
+            {
+                "c3": "NC",
+                "c1": "Virgin",
+                "c2": 0,
+                "c2.gbysum": 100
             },
             {
                 "c3": "TX",
                 "c1": "Alaska",
-                "c2": 232,
-                "c2.gbysum": 13858
+                "c2": 0,
+                "c2.gbysum": 100
             },
             {
                 "c3": "TX",
                 "c1": "American",
-                "c2": 13756,
-                "c2.gbysum": 72460
+                "c2": 18.9843,
+                "c2.gbysum": 100
             },
             {
                 "c3": "TX",
                 "c1": "Atlantic",
-                "c2": 7607,
-                "c2.gbysum": 38994
+                "c2": 19.5081,
+                "c2.gbysum": 100
             },
             {
                 "c3": "TX",
                 "c1": "Delta",
-                "c2": 1739,
-                "c2.gbysum": 75475
+                "c2": 0,
+                "c2.gbysum": 100
             },
             {
                 "c3": "TX",
                 "c1": "Frontier",
-                "c2": 448,
-                "c2.gbysum": 8646
+                "c2": 0,
+                "c2.gbysum": 100
             },
             {
                 "c3": "TX",
                 "c1": "Hawaiian",
                 "c2": 0,
-                "c2.gbysum": 6178
+                "c2.gbysum": 100
             },
             {
                 "c3": "TX",
                 "c1": "JetBlue",
-                "c2": 284,
-                "c2.gbysum": 22396
+                "c2": 0,
+                "c2.gbysum": 100
             },
             {
                 "c3": "TX",
                 "c1": "SkyWest",
-                "c2": 2092,
-                "c2.gbysum": 48976
+                "c2": 0,
+                "c2.gbysum": 100
             },
             {
                 "c3": "TX",
                 "c1": "Southwest",
-                "c2": 13471,
-                "c2.gbysum": 104083
+                "c2": 12.9426,
+                "c2.gbysum": 100
             },
             {
                 "c3": "TX",
                 "c1": "Spirit",
-                "c2": 1297,
-                "c2.gbysum": 11151
+                "c2": 11.6312,
+                "c2.gbysum": 100
             },
             {
                 "c3": "TX",
                 "c1": "United",
-                "c2": 5599,
-                "c2.gbysum": 46935
+                "c2": 11.9293,
+                "c2.gbysum": 100
             },
             {
                 "c3": "TX",
                 "c1": "Virgin",
-                "c2": 474,
-                "c2.gbysum": 5726
-            },
-            {
-                "c3": "IL",
-                "c1": "Alaska",
-                "c2": 179,
-                "c2.gbysum": 13858
-            },
-            {
-                "c3": "IL",
-                "c1": "American",
-                "c2": 5038,
-                "c2.gbysum": 72460
-            },
-            {
-                "c3": "IL",
-                "c1": "Atlantic",
-                "c2": 3312,
-                "c2.gbysum": 38994
-            },
-            {
-                "c3": "IL",
-                "c1": "Delta",
-                "c2": 884,
-                "c2.gbysum": 75475
-            },
-            {
-                "c3": "IL",
-                "c1": "Frontier",
-                "c2": 385,
-                "c2.gbysum": 8646
-            },
-            {
-                "c3": "IL",
-                "c1": "Hawaiian",
-                "c2": 0,
-                "c2.gbysum": 6178
-            },
-            {
-                "c3": "IL",
-                "c1": "JetBlue",
-                "c2": 210,
-                "c2.gbysum": 22396
-            },
-            {
-                "c3": "IL",
-                "c1": "SkyWest",
-                "c2": 3640,
-                "c2.gbysum": 48976
-            },
-            {
-                "c3": "IL",
-                "c1": "Southwest",
-                "c2": 6953,
-                "c2.gbysum": 104083
-            },
-            {
-                "c3": "IL",
-                "c1": "Spirit",
-                "c2": 836,
-                "c2.gbysum": 11151
-            },
-            {
-                "c3": "IL",
-                "c1": "United",
-                "c2": 6742,
-                "c2.gbysum": 46935
-            },
-            {
-                "c3": "IL",
-                "c1": "Virgin",
-                "c2": 141,
-                "c2.gbysum": 5726
-            },
-            {
-                "c3": "GA",
-                "c1": "Alaska",
-                "c2": 52,
-                "c2.gbysum": 13858
-            },
-            {
-                "c3": "GA",
-                "c1": "American",
-                "c2": 1055,
-                "c2.gbysum": 72460
-            },
-            {
-                "c3": "GA",
-                "c1": "Atlantic",
-                "c2": 5329,
-                "c2.gbysum": 38994
-            },
-            {
-                "c3": "GA",
-                "c1": "Delta",
-                "c2": 20674,
-                "c2.gbysum": 75475
-            },
-            {
-                "c3": "GA",
-                "c1": "Frontier",
-                "c2": 422,
-                "c2.gbysum": 8646
-            },
-            {
-                "c3": "GA",
-                "c1": "Hawaiian",
-                "c2": 0,
-                "c2.gbysum": 6178
-            },
-            {
-                "c3": "GA",
-                "c1": "JetBlue",
-                "c2": 92,
-                "c2.gbysum": 22396
-            },
-            {
-                "c3": "GA",
-                "c1": "SkyWest",
-                "c2": 433,
-                "c2.gbysum": 48976
-            },
-            {
-                "c3": "GA",
-                "c1": "Southwest",
-                "c2": 3521,
-                "c2.gbysum": 104083
-            },
-            {
-                "c3": "GA",
-                "c1": "Spirit",
-                "c2": 594,
-                "c2.gbysum": 11151
-            },
-            {
-                "c3": "GA",
-                "c1": "United",
-                "c2": 576,
-                "c2.gbysum": 46935
-            },
-            {
-                "c3": "GA",
-                "c1": "Virgin",
-                "c2": 0,
-                "c2.gbysum": 5726
-            },
-            {
-                "c3": "FL",
-                "c1": "Alaska",
-                "c2": 120,
-                "c2.gbysum": 13858
-            },
-            {
-                "c3": "FL",
-                "c1": "American",
-                "c2": 7685,
-                "c2.gbysum": 72460
-            },
-            {
-                "c3": "FL",
-                "c1": "Atlantic",
-                "c2": 735,
-                "c2.gbysum": 38994
-            },
-            {
-                "c3": "FL",
-                "c1": "Delta",
-                "c2": 5889,
-                "c2.gbysum": 75475
-            },
-            {
-                "c3": "FL",
-                "c1": "Frontier",
-                "c2": 991,
-                "c2.gbysum": 8646
-            },
-            {
-                "c3": "FL",
-                "c1": "Hawaiian",
-                "c2": 0,
-                "c2.gbysum": 6178
-            },
-            {
-                "c3": "FL",
-                "c1": "JetBlue",
-                "c2": 4765,
-                "c2.gbysum": 22396
-            },
-            {
-                "c3": "FL",
-                "c1": "SkyWest",
-                "c2": 57,
-                "c2.gbysum": 48976
-            },
-            {
-                "c3": "FL",
-                "c1": "Southwest",
-                "c2": 6617,
-                "c2.gbysum": 104083
-            },
-            {
-                "c3": "FL",
-                "c1": "Spirit",
-                "c2": 1754,
-                "c2.gbysum": 11151
-            },
-            {
-                "c3": "FL",
-                "c1": "United",
-                "c2": 1995,
-                "c2.gbysum": 46935
-            },
-            {
-                "c3": "FL",
-                "c1": "Virgin",
-                "c2": 115,
-                "c2.gbysum": 5726
-            },
-            {
-                "c3": "CA",
-                "c1": "Alaska",
-                "c2": 2843,
-                "c2.gbysum": 13858
-            },
-            {
-                "c3": "CA",
-                "c1": "American",
-                "c2": 6722,
-                "c2.gbysum": 72460
-            },
-            {
-                "c3": "CA",
-                "c1": "Atlantic",
-                "c2": 0,
-                "c2.gbysum": 38994
-            },
-            {
-                "c3": "CA",
-                "c1": "Delta",
-                "c2": 5314,
-                "c2.gbysum": 75475
-            },
-            {
-                "c3": "CA",
-                "c1": "Frontier",
-                "c2": 538,
-                "c2.gbysum": 8646
-            },
-            {
-                "c3": "CA",
-                "c1": "Hawaiian",
-                "c2": 372,
-                "c2.gbysum": 6178
-            },
-            {
-                "c3": "CA",
-                "c1": "JetBlue",
-                "c2": 2142,
-                "c2.gbysum": 22396
-            },
-            {
-                "c3": "CA",
-                "c1": "SkyWest",
-                "c2": 10368,
-                "c2.gbysum": 48976
-            },
-            {
-                "c3": "CA",
-                "c1": "Southwest",
-                "c2": 18942,
-                "c2.gbysum": 104083
-            },
-            {
-                "c3": "CA",
-                "c1": "Spirit",
-                "c2": 1187,
-                "c2.gbysum": 11151
-            },
-            {
-                "c3": "CA",
-                "c1": "United",
-                "c2": 8769,
-                "c2.gbysum": 46935
-            },
-            {
-                "c3": "CA",
-                "c1": "Virgin",
-                "c2": 3055,
-                "c2.gbysum": 5726
+                "c2": 8.278,
+                "c2.gbysum": 100
             }
         ],
-        "query": "try(jsonlite::toJSON(`airline-delay-2016_09_fa83a4380baf` %>% \nungroup() %>% \nmutate(c3=state,c1=name,c2=1) %>% \nfilter(!is.na(c3) & !is.na(c1)) %>% \ngroup_by (c3,c1) %>% \nsummarise(c2=n()) %>% \nungroup() %>% \ncomplete(c3,c1) %>% \nungroup() %>% \ncomplete(c3, c1, fill = list(`c2` = 0))  %>% \ngroup_by(c1) %>% \nmutate(`c2.gbysum`=sum(as.numeric(`c2`), na.rm =!all(is.na(`c2`)))) %>% \nungroup() %>% \narrange(desc(c3),c1), na=\"null\" ))",
+        "query": "try(jsonlite::toJSON(`airline-delay-2016_09_fa83a4380baf` %>% \nungroup() %>% \nmutate(c3=state,c1=name,c2=1) %>% \nfilter(!is.na(c3) & !is.na(c1)) %>% \ngroup_by (c1,c3) %>% \nsummarise(c2=n()) %>% \nmutate(c2=(c2 / sum(c2)) * 100) %>% \nungroup() %>% \ncomplete(c1,c3) %>% \nungroup() %>% \ncomplete(c3, c1, fill = list(`c2` = 0))  %>% \ngroup_by(c1) %>% \nmutate(`c2.gbysum`=sum(as.numeric(`c2`), na.rm =!all(is.na(`c2`)))) %>% \nungroup() %>% \narrange(desc(c3),c1), na=\"null\" ))",
         "sampleDataSize": 0,
         "height": 619,
         "width": 975,
-        "sortTarget": "y"
+        "sortTarget": "y",
+        "yWindowFuncGroup": "total",
+        "yWindowFunc": "ptotal",
+        "errHighLowEnabled": "off",
+        "yWindowFuncDirection": "color"
     },
-    "timestamp": "2017-03-13T14:31:19.250Z",
+    "timestamp": "2017-03-13T15:00:19.811Z",
     "updatedBy": "",
     "publicTitle": "",
     "publicDescription": "",
