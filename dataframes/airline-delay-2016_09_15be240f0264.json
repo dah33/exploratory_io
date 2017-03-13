@@ -1,0 +1,37 @@
+{
+    "name": "airline-delay-2016_09_15be240f0264",
+    "displayName": "Left Join",
+    "type": "LEFT_JOIN",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline-delay-2016_09_5c35860d7991"
+        },
+        {
+            "type": "dataframe",
+            "id": "carrier_code_full"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline-delay-2016_09"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "left_join(carrier_code_full, by = c(\"CARRIER\" = \"code\"))",
+        "command": {
+            "name": "join",
+            "joinType": "Left Join",
+            "columnPairs": [
+                {
+                    "currentColumn": "CARRIER",
+                    "targetColumn": "code"
+                }
+            ],
+            "targetDataFrame": "carrier_code_full"
+        }
+    },
+    "timestamp": "2017-03-13T14:26:01.043Z"
+}
