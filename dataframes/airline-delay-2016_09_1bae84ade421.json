@@ -24,7 +24,9 @@
                     "columnName": "CARRIER"
                 }
             ]
-        }
+        },
+        "skip": true
     },
-    "timestamp": "2017-03-13T14:59:29.142Z"
+    "timestamp": "2017-03-13T17:55:12.775Z",
+    "filename": "airline-delay-2016_09_1bae84ade421.json"
 }
