@@ -16,17 +16,22 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(calculation_1 = list_extract(str_split(name, pattern=\" \"), 1))",
+        "script": "mutate(CARRIER = list_extract(str_split(name, pattern=\" \"), 1))",
         "command": {
             "name": "mutate",
             "mutations": [
                 {
-                    "columnSelectorType": "newColumn",
+                    "columnSelectorType": "overwrite",
                     "newColumnName": "calculation_1",
-                    "expression": "list_extract(str_split(name, pattern=\" \"), 1)"
+                    "expression": "list_extract(str_split(name, pattern=\" \"), 1)",
+                    "column": {
+                        "name": "CARRIER",
+                        "type": "character"
+                    }
                 }
             ]
         }
     },
-    "timestamp": "2017-03-13T14:27:59.737Z"
+    "timestamp": "2017-03-13T14:28:16.840Z",
+    "filename": "airline-delay-2016_09_81864679e714.json"
 }
