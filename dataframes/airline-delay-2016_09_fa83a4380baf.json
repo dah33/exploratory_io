@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(state = fct_lump(fct_infreq(state), n=5), name = fct_relevel(name, \"JetBlue\", \"Southwest\", \"Virgin\"))",
+        "script": "mutate(state = fct_lump(fct_infreq(state), n=5))",
         "command": {
             "name": "mutate",
             "mutations": [
@@ -26,19 +26,10 @@
                         "name": "state"
                     },
                     "expression": "fct_lump(fct_infreq(state), n=5)"
-                },
-                {
-                    "columnSelectorType": "overwrite",
-                    "newColumnName": "new_column",
-                    "column": {
-                        "name": "name",
-                        "type": "character"
-                    },
-                    "expression": "fct_relevel(name, \"JetBlue\", \"Southwest\", \"Virgin\")"
                 }
             ]
         }
     },
-    "timestamp": "2017-03-14T06:33:58.261Z",
+    "timestamp": "2017-03-14T06:36:24.563Z",
     "filename": "airline-delay-2016_09_fa83a4380baf.json"
 }
