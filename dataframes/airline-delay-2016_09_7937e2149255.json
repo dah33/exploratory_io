@@ -1,0 +1,36 @@
+{
+    "name": "airline-delay-2016_09_7937e2149255",
+    "displayName": "Mutate",
+    "type": "MUTATE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline-delay-2016_09_b474f17c0392"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline-delay-2016_09"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "mutate(name = fct_relevel(name, \"JetBlue\", \"Southwest\", \"Virgin\"))",
+        "command": {
+            "name": "mutate",
+            "mutations": [
+                {
+                    "columnSelectorType": "overwrite",
+                    "newColumnName": "calculation_1",
+                    "expression": "fct_relevel(name, \"JetBlue\", \"Southwest\", \"Virgin\")",
+                    "column": {
+                        "name": "name",
+                        "type": "character"
+                    }
+                }
+            ]
+        }
+    },
+    "timestamp": "2017-03-14T06:36:09.275Z"
+}
