@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "mutate(date_1 = as.numeric(ymd(FL_DATE)), date_2 = date_1/(60*60*24), new_column = second(ymd(FL_DATE)))",
+        "script": "mutate(date_1 = as.numeric(ymd(FL_DATE)), date_2 = date_1/(60*60*24), new_column = seconds(ymd(FL_DATE)))",
         "command": {
             "name": "mutate",
             "mutations": [
@@ -33,11 +33,11 @@
                 {
                     "columnSelectorType": "newColumn",
                     "newColumnName": "new_column",
-                    "expression": "second(ymd(FL_DATE))"
+                    "expression": "seconds(ymd(FL_DATE))"
                 }
             ]
         }
     },
-    "timestamp": "2017-03-14T02:24:41.621Z",
+    "timestamp": "2017-03-14T02:31:32.134Z",
     "filename": "airline_delay_2016-08_9b0667bd58d2.json"
 }
