@@ -1,7 +1,7 @@
 {
     "name": "Getting Started Project",
     "description": "",
-    "timestamp": "2017-03-16T00:35:35.970Z",
+    "timestamp": "2017-03-16T00:37:35.437Z",
     "createdBy": "kanaugust",
     "creatorName": "",
     "readme": {
@@ -15,7 +15,6 @@
     "dataframeNames": [
         "airline-delay-2016_09",
         "airline_delay_2016-08",
-        "airline_delay_2016_01",
         "carrier_code_full",
         "carrier_lookup",
         "us-air-port-code"
