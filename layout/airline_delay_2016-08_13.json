@@ -6,8 +6,17 @@
     ],
     "transformName": "",
     "options": {
-        "marker": "pivot",
-        "x": "",
+        "marker": "boxplot",
+        "x": {
+            "name": "CARRIER",
+            "validName": "CARRIER",
+            "type": "character",
+            "isNumeric": false,
+            "isDate": false,
+            "func": "none",
+            "label": "c1",
+            "validLabel": "c1"
+        },
         "y": "",
         "size": "",
         "color": "",
@@ -29,10 +38,10 @@
         "data": null,
         "query": null,
         "sampleDataSize": 0,
-        "height": 611,
+        "height": 619,
         "width": 769
     },
-    "timestamp": "2017-03-04T18:29:22.740Z",
+    "timestamp": "2017-03-16T00:21:56.237Z",
     "updatedBy": "",
     "thumbnail": null,
     "publicTitle": "",
