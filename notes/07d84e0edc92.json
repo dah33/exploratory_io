@@ -3,13 +3,12 @@
     "displayName": "Analysis Report for August Flight Delay",
     "dependencies": [
         "airline_delay_2016-08_13",
-        "airline_delay_2016-08_12",
-        "correlation_viz_1"
+        "airline_delay_2016-08_12"
     ],
     "options": {
         "data": null
     },
-    "timestamp": "2017-03-16T00:53:30.298Z",
+    "timestamp": "2017-03-16T01:00:40.296Z",
     "updatedBy": "",
     "publishType": "BLOG_ONLY",
     "blogURL": "",
