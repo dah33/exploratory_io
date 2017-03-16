@@ -1,12 +1,7 @@
 {
     "name": "airline_delay_2016_01",
     "displayName": "airline_delay_2016_01",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "airline_delay_2016_01_8fedeb0b2852"
-        }
-    ],
+    "dependencies": [],
     "props": {},
     "columns": [],
     "rdata": {},
