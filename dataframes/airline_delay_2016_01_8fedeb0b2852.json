@@ -2,12 +2,7 @@
     "name": "airline_delay_2016_01_8fedeb0b2852",
     "displayName": "K-means",
     "type": "BUILD_KMEANS",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "airline_delay_2016_01_0c2956c0872b"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "airline_delay_2016_01"
