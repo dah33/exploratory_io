@@ -2,12 +2,7 @@
     "name": "airline_delay_2016_01_0c2956c0872b",
     "displayName": "Keep Only Duplicated Rows",
     "type": "GET_DUPES",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "airline_delay_2016_01_c157981daebc"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "airline_delay_2016_01"
