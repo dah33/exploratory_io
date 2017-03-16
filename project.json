@@ -1,7 +1,7 @@
 {
     "name": "My 1st Project",
     "description": "",
-    "timestamp": "2017-03-16T00:14:07.792Z",
+    "timestamp": "2017-03-16T00:14:17.343Z",
     "createdBy": "kanaugust",
     "creatorName": "",
     "readme": {
@@ -11,5 +11,20 @@
     },
     "updatedBy": null,
     "scripts": [],
-    "packages": []
+    "packages": [],
+    "dataframeNames": [
+        "airline-delay-2016_09",
+        "airline_delay_2016-08",
+        "airline_delay_2016_01",
+        "carrier_code_full",
+        "carrier_lookup",
+        "us-air-port-code"
+    ],
+    "noteNames": [
+        "Analysis Report for August Flight Delay",
+        "Airline Delay Analysis Report"
+    ],
+    "scriptNames": [
+        "winsorize"
+    ]
 }
