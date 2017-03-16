@@ -3,12 +3,13 @@
     "displayName": "Analysis Report for August Flight Delay",
     "dependencies": [
         "airline_delay_2016-08_13",
-        "airline_delay_2016-08_12"
+        "airline_delay_2016-08_12",
+        "correlation_viz_1"
     ],
     "options": {
         "data": null
     },
-    "timestamp": "2017-03-16T00:53:15.297Z",
+    "timestamp": "2017-03-16T00:53:20.303Z",
     "updatedBy": "",
     "publishType": "BLOG_ONLY",
     "blogURL": "",
@@ -27,7 +28,7 @@
             "dataFrameName": "airline_delay_2016_01"
         },
         "correlation_viz_1": {
-            "vizDisplayName": "Chart 1",
+            "vizDisplayName": "Scatter with Trend Line",
             "dataFrameName": "correlation"
         },
         "airline_delay_2016-08_viz_1": {
