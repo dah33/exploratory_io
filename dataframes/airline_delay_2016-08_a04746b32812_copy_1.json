@@ -2,12 +2,7 @@
     "name": "airline_delay_2016-08_a04746b32812_copy_1",
     "displayName": "Filter",
     "type": "FILTER",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "airline_delay_2016-08_dfaddbbecd1a_copy_1"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "airline_delay_2016-08"
