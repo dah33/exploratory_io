@@ -4,7 +4,7 @@
     "dependencies": [
         {
             "type": "dataframe",
-            "id": "airline-delay-2016_09_fa83a4380baf"
+            "id": "carrier_code_full"
         }
     ],
     "props": {},
