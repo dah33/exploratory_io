@@ -5,10 +5,6 @@
     "dependencies": [
         {
             "type": "dataframe",
-            "id": "airline_delay_2016-08_a04746b32812_copy_1"
-        },
-        {
-            "type": "dataframe",
             "id": "us-air-port-code"
         }
     ],
