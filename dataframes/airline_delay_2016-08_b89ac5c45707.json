@@ -5,10 +5,6 @@
     "dependencies": [
         {
             "type": "dataframe",
-            "id": "airline_delay_2016-08_a04746b32812"
-        },
-        {
-            "type": "dataframe",
             "id": "us-air-port-code"
         }
     ],
@@ -33,5 +29,6 @@
             "targetDataFrame": "`us-air-port-code`"
         }
     },
-    "timestamp": "2017-03-03T04:43:57.476Z"
+    "timestamp": "2017-03-03T04:43:57.476Z",
+    "filename": "airline_delay_2016-08_b89ac5c45707.json"
 }
