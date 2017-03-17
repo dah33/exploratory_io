@@ -1,7 +1,7 @@
 {
     "name": "Getting Started Project",
     "description": "",
-    "timestamp": "2017-03-17T05:58:14.227Z",
+    "timestamp": "2017-03-17T15:21:24.085Z",
     "createdBy": "kanaugust",
     "creatorName": "",
     "readme": {
@@ -13,11 +13,11 @@
     "scripts": [],
     "packages": [],
     "dataframeNames": [
+        "airline-delay-2016-09",
+        "airline_delay_2016-08",
         "carrier_code_full",
         "carrier_lookup",
-        "us-air-port-code",
-        "airline_delay_2016-08",
-        "airline-delay-2016-09"
+        "us-air-port-code"
     ],
     "noteNames": [
         "Analysis Report for August Flight Delay"
