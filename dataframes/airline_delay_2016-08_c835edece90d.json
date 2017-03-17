@@ -2,12 +2,7 @@
     "name": "airline_delay_2016-08_c835edece90d",
     "displayName": "Mutate",
     "type": "MUTATE",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "airline_delay_2016-08_Source1"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "airline_delay_2016-08"
