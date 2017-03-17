@@ -1,0 +1,44 @@
+{
+    "name": "correlation_387383a75076_copy_1",
+    "displayName": "K-means",
+    "type": "BUILD_KMEANS",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "correlation_2108866f1dd8_copy_1"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "correlation"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "build_kmeans(DEP_DELAY, ARR_DELAY, centers = 5)",
+        "command": {
+            "name": "build_kmeans",
+            "selectType": "selectColumns",
+            "trace": "",
+            "columnSelectionType": "Select",
+            "subjectColumn": {
+                "name": "FL_DATE",
+                "type": "Date"
+            },
+            "keyColumn": {
+                "name": "FL_DATE",
+                "type": "Date"
+            },
+            "aggregateFunction": "",
+            "columns": [
+                "DEP_DELAY",
+                "ARR_DELAY"
+            ],
+            "centers": "5",
+            "algorithm": ""
+        }
+    },
+    "timestamp": "2017-03-02T05:45:11.557Z",
+    "filename": "correlation_387383a75076_copy_1.json"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "correlation",
+    "displayName": "correlation",
+    "type": "BRANCH",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "correlation_387383a75076_copy_1"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline_delay_2016-08"
+    },
+    "props": {},
+    "tabIndex": 1,
+    "timestamp": "2017-03-02T03:51:24.867Z",
+    "filename": "correlation.json"
+}

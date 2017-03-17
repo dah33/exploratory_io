@@ -1,0 +1,342 @@
+{
+    "name": "airline_delay_2016-08_13_copy_1",
+    "displayName": "Boxplot",
+    "dependencies": [
+        "airline_delay_2016-08"
+    ],
+    "transformName": "airline_delay_2016-08_d569a0713e8b_copy_1",
+    "options": {
+        "marker": "boxplot",
+        "x": {
+            "name": "CARRIER",
+            "validName": "CARRIER",
+            "type": "character",
+            "isNumeric": false,
+            "isDate": false,
+            "func": "none",
+            "label": "c1",
+            "validLabel": "c1"
+        },
+        "y": {
+            "name": "DEP_DELAY",
+            "validName": "DEP_DELAY",
+            "type": "numeric",
+            "isNumeric": true,
+            "isDate": false,
+            "func": "none",
+            "label": "c2",
+            "validLabel": "c2"
+        },
+        "size": "",
+        "color": {
+            "name": "CARRIER",
+            "validName": "CARRIER",
+            "type": "character",
+            "isNumeric": false,
+            "isDate": false,
+            "func": "none",
+            "label": "c3",
+            "validLabel": "c3"
+        },
+        "text": "",
+        "shape": "",
+        "facetcolumn": "",
+        "facetrow": "",
+        "barstyle": "stack",
+        "barsort": "off",
+        "label": "",
+        "colh": "",
+        "rowh": "",
+        "meas": "",
+        "scatterText": "",
+        "includeOutlier": "on",
+        "treatNAAsZero": "on",
+        "mapmode": "USA-states",
+        "columns": [
+            {
+                "name": "FL_DATE",
+                "type": "Date",
+                "escapedName": "FL_DATE",
+                "_row": "FL_DATE",
+                "isNumeric": false,
+                "isDate": true
+            },
+            {
+                "name": "CARRIER",
+                "type": "character",
+                "escapedName": "CARRIER",
+                "_row": "CARRIER",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "FL_NUM",
+                "type": "integer",
+                "escapedName": "FL_NUM",
+                "_row": "FL_NUM",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "ORIGIN",
+                "type": "character",
+                "escapedName": "ORIGIN",
+                "_row": "ORIGIN",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "city",
+                "type": "character",
+                "escapedName": "city",
+                "_row": "city",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "state",
+                "type": "character",
+                "escapedName": "state",
+                "_row": "state",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "DEST",
+                "type": "character",
+                "escapedName": "DEST",
+                "_row": "DEST",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "DEST_CITY_NAME",
+                "type": "character",
+                "escapedName": "DEST_CITY_NAME",
+                "_row": "DEST_CITY_NAME",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "DEP_TIME",
+                "type": "character",
+                "escapedName": "DEP_TIME",
+                "_row": "DEP_TIME",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "DEP_DELAY",
+                "type": "numeric",
+                "escapedName": "DEP_DELAY",
+                "_row": "DEP_DELAY",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "ARR_TIME",
+                "type": "character",
+                "escapedName": "ARR_TIME",
+                "_row": "ARR_TIME",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "ARR_DELAY",
+                "type": "numeric",
+                "escapedName": "ARR_DELAY",
+                "_row": "ARR_DELAY",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "CANCELLED",
+                "type": "numeric",
+                "escapedName": "CANCELLED",
+                "_row": "CANCELLED",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "CANCELLATION_CODE",
+                "type": "character",
+                "escapedName": "CANCELLATION_CODE",
+                "_row": "CANCELLATION_CODE",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "AIR_TIME",
+                "type": "numeric",
+                "escapedName": "AIR_TIME",
+                "_row": "AIR_TIME",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "DISTANCE",
+                "type": "numeric",
+                "escapedName": "DISTANCE",
+                "_row": "DISTANCE",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "day_of_week",
+                "type": "ordered,factor",
+                "escapedName": "day_of_week",
+                "_row": "day_of_week",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "Name",
+                "type": "character",
+                "escapedName": "Name",
+                "_row": "Name",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "Latitude",
+                "type": "numeric",
+                "escapedName": "Latitude",
+                "_row": "Latitude",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "Longitude",
+                "type": "numeric",
+                "escapedName": "Longitude",
+                "_row": "Longitude",
+                "isNumeric": true,
+                "isDate": false
+            }
+        ],
+        "data": [
+            {
+                "1": 516,
+                "2": 650.5,
+                "3": 790,
+                "4": 960.5,
+                "5": 1964,
+                "c1": "AA",
+                "c3": "AA"
+            },
+            {
+                "1": 115,
+                "2": 129,
+                "3": 162.5,
+                "4": 191,
+                "5": 461,
+                "c1": "AS",
+                "c3": "AS"
+            },
+            {
+                "1": 282,
+                "2": 294.5,
+                "3": 326,
+                "4": 372.5,
+                "5": 600,
+                "c1": "B6",
+                "c3": "B6"
+            },
+            {
+                "1": 555,
+                "2": 656,
+                "3": 782,
+                "4": 978,
+                "5": 1249,
+                "c1": "DL",
+                "c3": "DL"
+            },
+            {
+                "1": 414,
+                "2": 458,
+                "3": 668.5,
+                "4": 867,
+                "5": 1246,
+                "c1": "EV",
+                "c3": "EV"
+            },
+            {
+                "1": 226,
+                "2": 261,
+                "3": 303,
+                "4": 355,
+                "5": 745,
+                "c1": "F9",
+                "c3": "F9"
+            },
+            {
+                "1": 42,
+                "2": 50,
+                "3": 73,
+                "4": 111,
+                "5": 836,
+                "c1": "HA",
+                "c3": "HA"
+            },
+            {
+                "1": 251,
+                "2": 277,
+                "3": 320,
+                "4": 406.5,
+                "5": 1501,
+                "c1": "NK",
+                "c3": "NK"
+            },
+            {
+                "1": 354,
+                "2": 450.5,
+                "3": 546,
+                "4": 740.5,
+                "5": 1220,
+                "c1": "OO",
+                "c3": "OO"
+            },
+            {
+                "1": 320,
+                "2": 341,
+                "3": 377,
+                "4": 431.5,
+                "5": 996,
+                "c1": "UA",
+                "c3": "UA"
+            },
+            {
+                "1": 112,
+                "2": 126,
+                "3": 146,
+                "4": 189,
+                "5": 343,
+                "c1": "VX",
+                "c3": "VX"
+            },
+            {
+                "1": 286,
+                "2": 301.5,
+                "3": 321.5,
+                "4": 347.5,
+                "5": 447,
+                "c1": "WN",
+                "c3": "WN"
+            }
+        ],
+        "query": "try(jsonlite::toJSON(`airline_delay_2016-08_d569a0713e8b` %>% \nungroup() %>% \nmutate(c1=CARRIER,c3=CARRIER,c2=DEP_DELAY ) %>% \ngroup_by (c1,c3) %>% \nsummarise(`.stats` = list(boxplot.stats(c2, coef=0)$stats))  %>% \nungroup()  %>% \nunnest(`.stats`) %>% \ngroup_by (c1,c3) %>% \nmutate(`.idx` = row_number()) %>% spread(`.idx`, `.stats`) %>% \nungroup() %>% \narrange(c3,c1) %>% \nungroup() %>% \nmutate(c1=str_replace_na(c1),c3=str_replace_na(c3)), na=\"null\" ))",
+        "sampleDataSize": 0,
+        "height": 619,
+        "width": 769
+    },
+    "timestamp": "2017-03-16T00:25:16.504Z",
+    "updatedBy": "",
+    "thumbnail": null,
+    "publicTitle": "",
+    "publicDescription": "",
+    "publicDataSourceURL": "",
+    "withSteps": true,
+    "privateShare": false,
+    "publishSizeOption": null,
+    "filename": "airline_delay_2016-08_13_copy_1.json"
+}

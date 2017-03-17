@@ -1,0 +1,31 @@
+{
+    "name": "TopCarrierperState_cc65dcc642d7_copy_1",
+    "displayName": "Top N / Bottom N",
+    "type": "TOP_N",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "TopCarrierperState_16be78e639a9_copy_1"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "Top_Carrier_by_State"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "top_n(1, counts)",
+        "command": {
+            "name": "top_n",
+            "order": "Top",
+            "column": {
+                "name": "counts"
+            },
+            "n": "1"
+        }
+    },
+    "timestamp": "2017-03-03T19:12:45.104Z",
+    "filename": "TopCarrierperState_cc65dcc642d7_copy_1.json"
+}

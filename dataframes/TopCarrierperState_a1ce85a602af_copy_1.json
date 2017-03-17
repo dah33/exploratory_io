@@ -1,0 +1,38 @@
+{
+    "name": "TopCarrierperState_a1ce85a602af_copy_1",
+    "displayName": "Left Join",
+    "type": "LEFT_JOIN",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "TopCarrierperState_cc65dcc642d7_copy_1"
+        },
+        {
+            "type": "dataframe",
+            "id": "carrier_lookup"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "Top_Carrier_by_State"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "left_join(carrier_lookup, by = c(\"CARRIER\" = \"code\"))",
+        "command": {
+            "name": "join",
+            "joinType": "Left Join",
+            "columnPairs": [
+                {
+                    "currentColumn": "CARRIER",
+                    "targetColumn": "code"
+                }
+            ],
+            "targetDataFrame": "carrier_lookup"
+        }
+    },
+    "timestamp": "2017-03-04T02:33:00.941Z",
+    "filename": "TopCarrierperState_a1ce85a602af_copy_1.json"
+}
