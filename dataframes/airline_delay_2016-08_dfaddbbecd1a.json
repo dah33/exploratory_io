@@ -2,12 +2,7 @@
     "name": "airline_delay_2016-08_dfaddbbecd1a",
     "displayName": "Separate",
     "type": "SEPARATE",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "airline_delay_2016-08_c835edece90d"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "airline_delay_2016-08"
@@ -31,5 +26,6 @@
             "extra": ""
         }
     },
-    "timestamp": "2017-03-01T04:40:06.758Z"
+    "timestamp": "2017-03-01T04:40:06.758Z",
+    "filename": "airline_delay_2016-08_dfaddbbecd1a.json"
 }
