@@ -1,0 +1,38 @@
+{
+    "name": "airline_delay_2016-08_b89ac5c45707_copy_1_copy_1",
+    "displayName": "Left Join",
+    "type": "LEFT_JOIN",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline_delay_2016-08_a04746b32812_copy_1_copy_1"
+        },
+        {
+            "type": "dataframe",
+            "id": "us-air-port-code"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline_delay_2016-08"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "left_join(`us-air-port-code`, by = c(\"ORIGIN\" = \"Code\"))",
+        "command": {
+            "name": "join",
+            "joinType": "Left Join",
+            "columnPairs": [
+                {
+                    "currentColumn": "ORIGIN",
+                    "targetColumn": "Code"
+                }
+            ],
+            "targetDataFrame": "`us-air-port-code`"
+        }
+    },
+    "timestamp": "2017-03-03T04:43:57.476Z",
+    "filename": "airline_delay_2016-08_b89ac5c45707_copy_1_copy_1.json"
+}

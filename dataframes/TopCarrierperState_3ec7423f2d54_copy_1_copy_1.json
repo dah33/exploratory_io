@@ -1,0 +1,34 @@
+{
+    "name": "TopCarrierperState_3ec7423f2d54_copy_1_copy_1",
+    "displayName": "Group by",
+    "type": "GROUP_BY",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "airline_delay_2016-08_b89ac5c45707_copy_1_copy_1"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "Top_Carrier_by_State"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "group_by(state, CARRIER)",
+        "command": {
+            "name": "group_by",
+            "columns": [
+                {
+                    "columnName": "state"
+                },
+                {
+                    "columnName": "CARRIER"
+                }
+            ]
+        }
+    },
+    "timestamp": "2017-03-03T19:12:25.666Z",
+    "filename": "TopCarrierperState_3ec7423f2d54_copy_1_copy_1.json"
+}

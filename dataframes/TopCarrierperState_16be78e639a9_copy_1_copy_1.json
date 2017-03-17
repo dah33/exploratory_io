@@ -1,0 +1,32 @@
+{
+    "name": "TopCarrierperState_16be78e639a9_copy_1_copy_1",
+    "displayName": "Summarize",
+    "type": "SUMMARIZE",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "TopCarrierperState_3ec7423f2d54_copy_1_copy_1"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "Top_Carrier_by_State"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "summarize(counts = n())",
+        "command": {
+            "name": "summarize",
+            "summaries": [
+                {
+                    "formType": "column",
+                    "newColumnName": "counts"
+                }
+            ]
+        }
+    },
+    "timestamp": "2017-03-03T19:12:12.120Z",
+    "filename": "TopCarrierperState_16be78e639a9_copy_1_copy_1.json"
+}
