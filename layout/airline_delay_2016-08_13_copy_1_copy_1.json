@@ -326,8 +326,8 @@
         ],
         "query": "try(jsonlite::toJSON(`airline_delay_2016-08_d569a0713e8b_copy_1_copy_1` %>% \nungroup() %>% \nmutate(c1=CARRIER,c3=CARRIER,c2=DEP_DELAY ) %>% \ngroup_by (c1,c3) %>% \nsummarise(`.stats` = list(boxplot.stats(c2, coef=0)$stats))  %>% \nungroup()  %>% \nunnest(`.stats`) %>% \ngroup_by (c1,c3) %>% \nmutate(`.idx` = row_number()) %>% spread(`.idx`, `.stats`) %>% \nungroup() %>% \narrange(c3,c1) %>% \nungroup() %>% \nmutate(c1=str_replace_na(c1),c3=str_replace_na(c3)), na=\"null\" ))",
         "sampleDataSize": 0,
-        "height": 619,
-        "width": 769
+        "height": 402,
+        "width": 750
     },
     "timestamp": "2017-03-17T05:34:00.433Z",
     "updatedBy": "",
