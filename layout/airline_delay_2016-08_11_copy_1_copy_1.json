@@ -2054,8 +2054,8 @@
         ],
         "query": "try(jsonlite::toJSON(`airline_delay_2016-08_a04746b32812_copy_1_copy_1` %>% \nungroup() %>% \nmutate(c3=CARRIER,c1=floor_date(FL_DATE, unit=\"day\"),c2=DEP_DELAY) %>% \nfilter(!is.na(c3) & !is.na(c1)) %>% \ngroup_by (c3,c1) %>% \nsummarise(c2=mean(as.numeric(c2), na.rm =!all(is.na(c2)))) %>% \nmutate(c2=cumsum(c2)) %>% \nungroup() %>% \narrange(c3,c1), na=\"null\" ))",
         "sampleDataSize": 0,
-        "height": 619,
-        "width": 769,
+        "height": 402,
+        "width": 750,
         "yWindowFuncGroup": "cum",
         "yWindowFunc": "cumsum",
         "errHighLowEnabled": "off"
