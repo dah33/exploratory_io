@@ -1,7 +1,7 @@
 {
     "name": "Getting Started Project",
     "description": "",
-    "timestamp": "2017-03-29T18:54:17.695Z",
+    "timestamp": "2017-04-09T00:47:56.553Z",
     "createdBy": "kanaugust",
     "creatorName": "",
     "readme": {
@@ -22,5 +22,17 @@
     "noteNames": [
         "Analysis Report for August Flight Delay"
     ],
-    "scriptNames": []
+    "scriptNames": [],
+    "vizNames": [
+        "TopCarrierperState_viz_1_copy_1_copy_1",
+        "airline-delay-2016-09_viz_1",
+        "airline_delay_2016-08_11_copy_1_copy_1",
+        "airline_delay_2016-08_12_copy_1_copy_1",
+        "airline_delay_2016-08_13_copy_1_copy_1",
+        "airline_delay_2016-08_viz_1_copy_1_copy_1",
+        "carrier_lookup_viz_1",
+        "correlation_10_copy_1_copy_1",
+        "correlation_viz_1_copy_1_copy_1",
+        "us-air-port-code_viz_1"
+    ]
 }
