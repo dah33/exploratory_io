@@ -18,7 +18,7 @@
     "options": {
         "data": null
     },
-    "timestamp": "2017-08-27T09:09:26.648Z",
+    "timestamp": "2017-08-27T09:09:29.426Z",
     "refreshedTimestamp": "2017-08-27T09:06:02.862Z",
     "updatedBy": "2017-08-27T09:06:02.862Z",
     "title": "",
@@ -26,5 +26,6 @@
     "publishSizeOption": null,
     "privateShare": true,
     "vizMetadataCache": {},
-    "filename": "f2562abc12c0.json"
+    "filename": "f2562abc12c0.json",
+    "blogURL": "https://exploratory.io/note/2ac8ae888097/0029912886648847"
 }
