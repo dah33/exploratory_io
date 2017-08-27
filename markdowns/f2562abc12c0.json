@@ -1,7 +1,20 @@
 {
     "name": "f2562abc12c0",
     "displayName": "Analysis Report for August Flight Delay",
-    "dependencies": [],
+    "dependencies": [
+        {
+            "type": "viz",
+            "id": "airline_delay_2016-08_13_copy_1_copy_1"
+        },
+        {
+            "type": "viz",
+            "id": "airline_delay_2016-08_12_copy_1_copy_1"
+        },
+        {
+            "type": "viz",
+            "id": "airline_delay_2016-08_11_copy_1_copy_1"
+        }
+    ],
     "options": {
         "data": null
     },
