@@ -1,7 +1,7 @@
 {
     "name": "Getting Started Project",
     "description": "",
-    "timestamp": "2017-08-27T09:06:26.316Z",
+    "timestamp": "2017-08-27T09:07:30.393Z",
     "createdBy": "kanaugust",
     "creatorName": "",
     "readme": {
@@ -19,20 +19,41 @@
         "carrier_lookup",
         "us-air-port-code"
     ],
-    "noteNames": [
-        "Analysis Report for August Flight Delay"
-    ],
+    "noteNames": [],
     "scriptNames": [],
     "vizNames": [
-        "TopCarrierperState_viz_1_copy_1_copy_1",
-        "airline-delay-2016-09_viz_1",
-        "airline_delay_2016-08_11_copy_1_copy_1",
-        "airline_delay_2016-08_12_copy_1_copy_1",
-        "airline_delay_2016-08_13_copy_1_copy_1",
-        "airline_delay_2016-08_viz_1_copy_1_copy_1",
-        "carrier_lookup_viz_1",
-        "correlation_10_copy_1_copy_1",
-        "correlation_viz_1_copy_1_copy_1",
-        "us-air-port-code_viz_1"
-    ]
+        "Top Carrier by State",
+        "Chart 1",
+        "Time Series with Line",
+        "Pivot",
+        "Boxplot",
+        "Map",
+        "Chart 1",
+        "Stacked Bar Chart by Clusters",
+        "Scatter with Trend Line",
+        "Chart 1"
+    ],
+    "dataFrameViewMode": {
+        "airline-delay-2016-09": {
+            "mode": 1
+        },
+        "airline_delay_2016-08": {
+            "mode": 1
+        },
+        "Correlation_and_Clustering": {
+            "mode": 1
+        },
+        "Top_Carrier_by_State": {
+            "mode": 1
+        },
+        "carrier_code_full": {
+            "mode": 1
+        },
+        "carrier_lookup": {
+            "mode": 1
+        },
+        "us-air-port-code": {
+            "mode": 1
+        }
+    }
 }
