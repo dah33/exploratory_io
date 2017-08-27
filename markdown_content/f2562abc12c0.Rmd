@@ -1,1 +1,35 @@
- 
+# My August Flight Delay Report
+
+I have analyzed the airline delay data based on the latest August data from the feaderal transportantion office. 
+
+* How late the worst 100 flights for each Carrier?
+* Which days of the week are there most of the flights are?
+* How do the flight delay times get accumulated?
+
+## Worst 100 Flights for each Carrier
+
+We can see that most of the worst 100 flights from the airline carriers like American, Delta, Southwest, etc. are between 500 minutes and 1500 minutes range. On the other hand, the carriers like Alaska (AS), Virgin (VX), etc. are showing their worst flights being less than 500 minutes range.
+
+```{exploratory}
+/airline_delay_2016-08/viz/3
+```
+
+## Which days of the week are there most of the flights are?
+
+We can see that most of the states have more flights between Monday and Wednesday. And Saturday is the lowest for most of the states.
+
+
+```{exploratory}
+/airline_delay_2016-08/viz/2
+```
+
+## How have Departure Delay Times been accumulated?
+
+We can see that Delta Airline (DL) has accumulated large amount of the departure delay times. It looks that something must have happened in that particular week. Well, it turned out that there was a global computer system outage for Delta on August 8th, 2016, which caused large-scale cancellations and took a few days before getting back to normal schedule. [News from CNN.](http://money.cnn.com/2016/08/08/news/companies/delta-system-outage-flights/)
+
+```{exploratory}
+/airline_delay_2016-08/viz/1
+```
+
+Also, we can see that some airlines like Hawaiian (HA) and Alaska (AS) are consistently very low departure delay times, which means that their flights got sometimes delayed but those were rather exceptions, unlike the other carriers where the delays are observed as normal trends.
+
