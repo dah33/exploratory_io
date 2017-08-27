@@ -735,6 +735,9 @@
             ],
             [
                 8
+            ],
+            [
+                null
             ]
         ],
         "query": "try(jsonlite::toJSON(`airline_delay_2016-08_b89ac5c45707_copy_1_copy_1` %>% \ndplyr::ungroup() %>% \ndplyr::mutate(c0=day_of_week,`r0`=`state`,`m0`=1,`m1`=1) %>% \ndplyr::group_by(c0,r0) %>% \ndplyr::summarize(`m0`=n()) %>% \ndplyr::ungroup() %>% \ndplyr::group_by(r0) %>% \ndplyr::mutate(`m0`=(`m0` / sum(`m0`)) * 100) %>% \ndplyr::mutate(m1=`_tam_cut`(m0, breaks=5, labels=F)) %>% \ndplyr::ungroup() %>% \ndplyr::arrange(c0) %>% \ntidyr::unite(.pivot.measure.cell, m0,m1, sep=\",\") %>% \ntidyr::spread(c0, .pivot.measure.cell) %>% \ndplyr::ungroup() %>% \ndplyr::arrange(r0) %>% \n(function(df) { \n  .nrow <- nrow(df)\n  .ncol <- ncol(df)\n  .maxcell <- 3000\n  df <- df %>% select( 1: min(.ncol ,301))\n  if (.nrow * ncol(df) > .maxcell) {\n    .maxrows <- as.integer(.maxcell / ncol(df))\n    df <- slice(df, 1 : .maxrows)\n  }\n  return (list(df, colnames(df), .nrow, .ncol))\n}), na=\"null\" , dataframe=\"values\"))",
@@ -781,6 +784,7 @@
     "timestamp": "2017-03-29T18:49:51.556Z",
     "updatedBy": "",
     "thumbnail": null,
+    "snapshot": null,
     "publicTitle": "",
     "publicDescription": "",
     "publicDataSourceURL": "",
@@ -788,5 +792,21 @@
     "privateShare": false,
     "sharedURL": "",
     "publishSizeOption": null,
+    "insightMetaInfo": {
+        "version": 1,
+        "url": null,
+        "isPrivate": false,
+        "thumbnail": null,
+        "title": "",
+        "description": "",
+        "learnMoreUrl": null,
+        "exampleUrl": null,
+        "sharedFileTypes": [
+            "edf"
+        ],
+        "withSteps": false,
+        "dataSourceURL": ""
+    },
+    "preprocessor": null,
     "filename": "airline_delay_2016-08_12_copy_1_copy_1.json"
 }
