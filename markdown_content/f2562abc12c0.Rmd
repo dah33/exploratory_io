@@ -1,6 +1,6 @@
 # My August Flight Delay Report
 
-I have analyzed the airline delay data based on the latest August data from the feaderal transportantion office. 
+I have analyzed the airline delay data based on the latest **August** data from the feaderal transportantion office. 
 
 * How late the worst 100 flights for each Carrier?
 * Which days of the week are there most of the flights are?
