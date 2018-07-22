@@ -724,9 +724,9 @@
                 "r0",
                 "Sun",
                 "Mon",
-                "Tues",
+                "Tue",
                 "Wed",
-                "Thurs",
+                "Thu",
                 "Fri",
                 "Sat"
             ],
@@ -738,9 +738,12 @@
             ],
             [
                 null
+            ],
+            [
+                null
             ]
         ],
-        "query": "try(jsonlite::toJSON(`airline_delay_2016-08_b89ac5c45707_copy_1_copy_1` %>% \ndplyr::ungroup() %>% \ndplyr::mutate(c0=day_of_week,`r0`=`state`,`m0`=1,`m1`=1) %>% \ndplyr::group_by(c0,r0) %>% \ndplyr::summarize(`m0`=n()) %>% \ndplyr::ungroup() %>% \ndplyr::group_by(r0) %>% \ndplyr::mutate(`m0`=(`m0` / sum(`m0`)) * 100) %>% \ndplyr::mutate(m1=`_tam_cut`(m0, breaks=5, labels=F)) %>% \ndplyr::ungroup() %>% \ndplyr::arrange(c0) %>% \ntidyr::unite(.pivot.measure.cell, m0,m1, sep=\",\") %>% \ntidyr::spread(c0, .pivot.measure.cell) %>% \ndplyr::ungroup() %>% \ndplyr::arrange(r0) %>% \n(function(df) { \n  .nrow <- nrow(df)\n  .ncol <- ncol(df)\n  .maxcell <- 3000\n  df <- df %>% select( 1: min(.ncol ,301))\n  if (.nrow * ncol(df) > .maxcell) {\n    .maxrows <- as.integer(.maxcell / ncol(df))\n    df <- slice(df, 1 : .maxrows)\n  }\n  return (list(df, colnames(df), .nrow, .ncol))\n}), na=\"null\" , dataframe=\"values\"))",
+        "query": "try(jsonlite::toJSON({.dqdf <- `airline_delay_2016-08_b89ac5c45707_copy_1_copy_1`;\n.dqdf %>% \ndplyr::ungroup() %>% \nmutate_if(lubridate::is.period, lubridate::as.difftime) %>% \nmutate_if(lubridate::is.interval, lubridate::as.difftime) %>% \ndplyr::mutate(`c0`=`day_of_week`,`r0`=`state`,`m0`=1,`m1`=1) %>% \ndplyr::group_by(c0,r0) %>% \ndplyr::summarize(`m0`=n()) %>% \ndplyr::ungroup() %>% \ndplyr::group_by(r0) %>% \ndplyr::mutate(`m0`=(`m0` / sum(`m0`, na.rm =!all(is.na(`m0`)))) * 100) %>% \ndplyr::ungroup() %>% \ndplyr::group_by(r0) %>% \ndplyr::mutate(m1=`_tam_cut`(m0, breaks=5, labels=F, zero.to.center=FALSE)) %>% \ndplyr::ungroup() %>% \ndplyr::arrange(c0) %>% \ndplyr::mutate(c0 = fct_inorder(fct_explicit_na(factor(c0), na_level = \"NA\"))) %>% \ntidyr::unite(.pivot.measure.cell, m0,m1, sep=\",\") %>% \n(function(x) { if(nrow(x) > 0) { return (tidyr::spread(x, c0, .pivot.measure.cell)); } else { return (  dplyr::select(x, -c0, -.pivot.measure.cell)) }})  %>% \ndplyr::ungroup() %>% \ndplyr::arrange(r0) %>% \n(function(df) { \n  .nrow <- nrow(df)\n  .ncol.org <- ncol(df)\n  .ncol <- min(.ncol.org, 301)\n  `_tam_setCurrentVizDataCache`(df, type=\"pivot\", colnames=c(\"state\"), nrowh=1, nmeas=1, colorbucket=TRUE)\n  .maxcell <- 10000\n  .gtotals <- NA\n  .rowgtotals <- NA\n  df <- df %>% dplyr::select(1:.ncol)\n  if (.nrow * .ncol > .maxcell) {\n    .maxrows <- as.integer(.maxcell/.ncol)\n    df <- dplyr::slice(df, 1:.maxrows)\n  }\n  df <- df %>% `_tam_convertLogicalToCharacter`()\n  return (list(df, colnames(df), .nrow, .ncol.org, .gtotals, .rowgtotals))\n})\n}\n, na=\"null\" , dataframe=\"values\", digits=10))",
         "sampleDataSize": 0,
         "height": 200,
         "width": 300,
@@ -808,5 +811,11 @@
         "dataSourceURL": ""
     },
     "preprocessor": null,
+    "_tags": null,
+    "filterCommand": {
+        "name": "filter",
+        "conditions": []
+    },
+    "tabIndex": -1,
     "filename": "airline_delay_2016-08_12_copy_1_copy_1.json"
 }
