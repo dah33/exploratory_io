@@ -1,12 +1,7 @@
 {
     "name": "carrier_lookup",
     "displayName": "carrier_lookup",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "carrier_lookup_1408d2eebbc6"
-        }
-    ],
+    "dependencies": [],
     "props": {},
     "columns": [],
     "rdata": {},
