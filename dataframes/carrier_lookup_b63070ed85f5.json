@@ -2,12 +2,7 @@
     "name": "carrier_lookup_b63070ed85f5",
     "displayName": "Rename",
     "type": "RENAME",
-    "dependencies": [
-        {
-            "type": "dataframe",
-            "id": "carrier_lookup_Source1"
-        }
-    ],
+    "dependencies": [],
     "belongsTo": {
         "type": "dataframe",
         "id": "carrier_lookup"
