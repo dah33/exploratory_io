@@ -33,8 +33,9 @@
                     "expression": "wday(FL_DATE, label = TRUE)"
                 }
             ]
-        }
+        },
+        "cache": true
     },
-    "timestamp": "2017-04-09T00:57:22.334Z",
+    "timestamp": "2018-08-07T21:45:13.836Z",
     "filename": "airline_delay_2016-08_c835edece90d_copy_1_copy_1.json"
 }
