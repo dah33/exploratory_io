@@ -34,8 +34,8 @@
                 }
             ]
         },
-        "cache": true
+        "cache": false
     },
-    "timestamp": "2018-08-07T21:45:13.836Z",
+    "timestamp": "2018-08-07T21:45:21.893Z",
     "filename": "airline_delay_2016-08_c835edece90d_copy_1_copy_1.json"
 }
