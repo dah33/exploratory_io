@@ -4,10 +4,10 @@
     "src": "a0c5b0d0f5e8.R",
     "type": "user-defined-script",
     "dependencies": [],
-    "timestamp": "2018-08-07T21:42:06.452Z",
+    "timestamp": "2018-08-07T21:42:17.579Z",
     "updatedBy": "",
     "transform": {},
     "inputParameters": [],
-    "executionError": null,
+    "executionError": "",
     "definedObjects": []
 }
