@@ -34,5 +34,16 @@
         }
     },
     "timestamp": "2017-03-03T04:43:57.476Z",
-    "filename": "airline_delay_2016-08_b89ac5c45707_copy_1_copy_1.json"
+    "filename": "airline_delay_2016-08_b89ac5c45707_copy_1_copy_1.json",
+    "publicTitle": "airline_delay_2016-08",
+    "publicDescription": "",
+    "tags": "",
+    "publicDataSourceURL": "",
+    "privateShare": true,
+    "withSteps": false,
+    "sharedFileTypes": [
+        "csv"
+    ],
+    "cryptoKey": "240cf0de3d4e",
+    "sharedURL": "https://exploratory.io/data/8125436532776230/airline-delay-2016-08-3361298098542621"
 }
