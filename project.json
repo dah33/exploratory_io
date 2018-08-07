@@ -1,7 +1,7 @@
 {
     "name": "Getting Started Project",
     "description": "",
-    "timestamp": "2018-07-22T02:51:54.082Z",
+    "timestamp": "2018-08-07T21:42:07.171Z",
     "createdBy": "kanaugust",
     "creatorName": "",
     "readme": {
@@ -56,5 +56,6 @@
     },
     "markdownNoteNames": [
         "Analysis Report for August Flight Delay"
-    ]
+    ],
+    "version": "4.4.0.4"
 }
