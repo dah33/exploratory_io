@@ -4,6 +4,7 @@
     "dependencies": [
         "airline_delay_2016-08"
     ],
+    "transformName": "airline_delay_2016-08_b89ac5c45707_copy_1_copy_1",
     "pinMode": false,
     "analysisType": null,
     "options": {
@@ -191,7 +192,7 @@
         "data": null,
         "query": null
     },
-    "timestamp": "2018-08-07T21:50:35.857Z",
+    "timestamp": "2018-08-08T16:20:27.978Z",
     "updatedBy": "",
     "thumbnail": null,
     "publicTitle": "",
@@ -201,7 +202,9 @@
     "privateShare": true,
     "sharedURL": "",
     "publishSizeOption": null,
-    "command": {},
+    "command": {
+        "name": null
+    },
     "vizs": {},
     "vizOptions": {
         "options": {}
@@ -231,5 +234,7 @@
         "conditions": []
     },
     "tabIndex": 0,
-    "query": null
+    "query": null,
+    "escapedCommand": {},
+    "preprocessor": ""
 }
