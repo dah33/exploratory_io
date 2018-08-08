@@ -1,7 +1,7 @@
 {
     "name": "Getting Started Project",
     "description": "",
-    "timestamp": "2018-08-07T21:52:44.740Z",
+    "timestamp": "2018-08-08T16:20:18.773Z",
     "createdBy": "kanaugust",
     "creatorName": "",
     "readme": {
@@ -19,9 +19,10 @@
         "us-air-port-code"
     ],
     "noteNames": [],
-    "scriptNames": [],
+    "scriptNames": [
+        "hh"
+    ],
     "vizNames": [
-        "Top Carrier by State",
         "Chart 1",
         "Time Series with Line",
         "Pivot",
@@ -29,6 +30,7 @@
         "Map",
         "Stacked Bar Chart by Clusters",
         "Scatter with Trend Line",
+        "Top Carrier by State",
         "Chart 1"
     ],
     "dataFrameViewMode": {
@@ -36,7 +38,8 @@
             "mode": 1
         },
         "airline_delay_2016-08": {
-            "mode": 1
+            "mode": 3,
+            "vizTabIndex": 2
         },
         "Correlation_and_Clustering": {
             "mode": 1
@@ -57,5 +60,8 @@
     "markdownNoteNames": [
         "Analysis Report for August Flight Delay"
     ],
-    "version": "4.4.0.4"
+    "version": "4.4.0.4",
+    "analyticsNames": [
+        "Analytics 1"
+    ]
 }
